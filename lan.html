@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cổng Truy Cập Mạng Nội Bộ (LAN / Wi-Fi) - TOEIC Master B1</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #4f46e5;
+      --primary-hover: #4338ca;
+      --primary-light: rgba(79, 70, 229, 0.12);
+      --success: #10b981;
+      --success-light: rgba(16, 185, 129, 0.12);
+      --bg-base: #0f172a;
+      --bg-card: #1e293b;
+      --border: #334155;
+      --text: #f8fafc;
+      --text-muted: #94a3b8;
+      --radius: 14px;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: var(--bg-base);
+      color: var(--text);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 24px 16px;
+    }
+    .container { width: 100%; max-width: 680px; }
+    .card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 32px 28px;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+      text-align: center;
+    }
+    .header-icon {
+      font-size: 48px;
+      margin-bottom: 12px;
+      display: inline-block;
+      animation: pulse 2s infinite ease-in-out;
+    }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.08); }
+    }
+    h1 {
+      font-size: 24px;
+      font-weight: 800;
+      margin-bottom: 8px;
+      letter-spacing: -0.02em;
+    }
+    .subtitle {
+      color: var(--text-muted);
+      font-size: 14.5px;
+      margin-bottom: 24px;
+      line-height: 1.5;
+    }
+    .status-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 6px 14px;
+      background: var(--success-light);
+      color: var(--success);
+      border: 1px solid rgba(16, 185, 129, 0.3);
+      border-radius: 20px;
+      font-size: 13px;
+      font-weight: 600;
+      margin-bottom: 24px;
+    }
+    .status-dot {
+      width: 8px;
+      height: 8px;
+      background: var(--success);
+      border-radius: 50%;
+      box-shadow: 0 0 8px var(--success);
+    }
+    .qr-wrapper {
+      background: #ffffff;
+      padding: 16px;
+      border-radius: 16px;
+      display: inline-block;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+      margin-bottom: 20px;
+    }
+    .qr-img {
+      display: block;
+      width: 200px;
+      height: 200px;
+    }
+    .qr-hint {
+      font-size: 13px;
+      color: var(--text-muted);
+      margin-bottom: 22px;
+    }
+    .url-box {
+      background: #090e17;
+      border: 1.5px solid var(--border);
+      border-radius: 12px;
+      padding: 12px 16px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      margin-bottom: 24px;
+    }
+    .url-text {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 16px;
+      font-weight: 700;
+      color: #38bdf8;
+      word-break: break-all;
+      text-align: left;
+    }
+    .btn-copy {
+      background: var(--primary);
+      color: #fff;
+      border: none;
+      padding: 8px 16px;
+      border-radius: 8px;
+      font-weight: 600;
+      font-size: 13px;
+      cursor: pointer;
+      white-space: nowrap;
+      transition: all 0.15s ease;
+    }
+    .btn-copy:hover {
+      background: var(--primary-hover);
+    }
+    .actions-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+      margin-bottom: 28px;
+    }
+    .btn-action {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      padding: 14px 20px;
+      border-radius: 10px;
+      font-size: 15px;
+      font-weight: 700;
+      text-decoration: none;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+    .btn-open-app {
+      background: var(--success);
+      color: #fff;
+    }
+    .btn-open-app:hover {
+      background: #059669;
+      transform: translateY(-2px);
+    }
+    .btn-back-home {
+      background: transparent;
+      border: 1.5px solid var(--border);
+      color: var(--text);
+    }
+    .btn-back-home:hover {
+      border-color: var(--text-muted);
+      background: rgba(255,255,255,0.05);
+    }
+    .steps-section {
+      text-align: left;
+      border-top: 1px solid var(--border);
+      padding-top: 24px;
+    }
+    .steps-title {
+      font-size: 15px;
+      font-weight: 700;
+      margin-bottom: 16px;
+      color: #cbd5e1;
+    }
+    .steps-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    .step-item {
+      display: flex;
+      gap: 12px;
+      font-size: 13.5px;
+      color: var(--text-muted);
+      line-height: 1.5;
+    }
+    .step-num {
+      width: 24px;
+      height: 24px;
+      background: var(--primary-light);
+      color: #818cf8;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      font-size: 12px;
+      flex-shrink: 0;
+    }
+    .step-item strong { color: #f1f5f9; }
+    .toast-msg {
+      position: fixed;
+      bottom: 24px;
+      left: 50%;
+      transform: translateX(-50%) translateY(100px);
+      background: #10b981;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 30px;
+      font-weight: 600;
+      font-size: 14px;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+      transition: transform 0.3s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+      z-index: 1000;
+    }
+    .toast-msg.show { transform: translateX(-50%) translateY(0); }
+    @media (max-width: 540px) {
+      .card { padding: 24px 18px; }
+      .actions-grid { grid-template-columns: 1fr; }
+      .url-box { flex-direction: column; align-items: stretch; text-align: center; }
+      .url-text { text-align: center; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <div class="header-icon">📱</div>
+      <h1>Cổng Truy Cập Mạng Nội Bộ (LAN / Wi-Fi)</h1>
+      <p class="subtitle">Mở và làm bài kiểm tra TOEIC trên điện thoại, máy tính bảng (iPad) hoặc máy tính khác khi kết nối cùng mạng Wi-Fi.</p>
+      <div class="status-badge">
+        <span class="status-dot"></span>
+        <span id="serverStatusText">Máy chủ đang chạy trực tuyến</span>
+      </div>
+      <div class="qr-container">
+        <div class="qr-wrapper">
+          <img id="qrImage" class="qr-img" src="" alt="Mã QR mở ứng dụng trên điện thoại">
+        </div>
+        <div class="qr-hint">📷 Dùng Camera điện thoại (iPhone hoặc Android) quét mã để mở ngay</div>
+      </div>
+      <div class="url-box">
+        <span class="url-text" id="lanUrlText">http://192.168.2.6:8000/index.html</span>
+        <button class="btn-copy" id="btnCopyUrl" title="Sao chép link">📋 Sao Chép</button>
+      </div>
+      <div class="actions-grid">
+        <a href="index.html" class="btn-action btn-open-app" id="btnDirectOpen">🚀 Mở Ứng Dụng Ngay</a>
+        <a href="index.html" class="btn-action btn-back-home">🏠 Trang Chủ Đề Thi</a>
+      </div>
+      <div class="steps-section">
+        <div class="steps-title">📖 Hướng Dẫn Kết Nối Từng Bước:</div>
+        <ul class="steps-list">
+          <li class="step-item">
+            <span class="step-num">1</span>
+            <div><strong>Kết nối chung Wi-Fi:</strong> Đảm bảo điện thoại hoặc máy tính khác đang kết nối cùng tên mạng Wi-Fi với máy tính này.</div>
+          </li>
+          <li class="step-item">
+            <span class="step-num">2</span>
+            <div><strong>Quét mã QR hoặc nhập URL:</strong> Mở ứng dụng Máy ảnh trên điện thoại để quét mã QR ở trên, hoặc gõ trực tiếp địa chỉ vào trình duyệt Safari/Chrome.</div>
+          </li>
+          <li class="step-item">
+            <span class="step-num">3</span>
+            <div><strong>Học mọi lúc mọi nơi:</strong> Giờ đây bạn có thể thoải mái nằm trên giường luyện nghe audio, đọc bài, hoặc ghi âm luyện nói ngay trên điện thoại!</div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="toast-msg" id="toastMsg">✅ Đã sao chép liên kết vào bộ nhớ tạm!</div>
+  <script>
+    const elLanUrl = document.getElementById('lanUrlText');
+    const elQrImg = document.getElementById('qrImage');
+    const elBtnCopy = document.getElementById('btnCopyUrl');
+    const elBtnOpen = document.getElementById('btnDirectOpen');
+    const elToast = document.getElementById('toastMsg');
+    const elStatus = document.getElementById('serverStatusText');
+    let currentLanUrl = 'http://192.168.2.6:8000/index.html';
+
+    function updateUiUrl(url) {
+      currentLanUrl = url;
+      elLanUrl.textContent = url;
+      elBtnOpen.href = url;
+      const encoded = encodeURIComponent(url);
+      elQrImg.src = `https://api.qrserver.com/v1/create-qr-code/?size=200x200&margin=4&data=${encoded}`;
+    }
+
+    async function fetchServerInfo() {
+      try {
+        const res = await fetch('/api/server_info');
+        if (res.ok) {
+          const data = await res.json();
+          if (data && data.lan_url) {
+            updateUiUrl(data.lan_url);
+            elStatus.textContent = `Máy chủ hoạt động tại ${data.local_ip}:${data.port}`;
+          }
+        }
+      } catch (e) {
+        const port = window.location.port || '8000';
+        const hostname = (window.location.hostname !== 'localhost' && window.location.hostname !== '127.0.0.1')
+          ? window.location.hostname
+          : '192.168.2.6';
+        updateUiUrl(`http://${hostname}:${port}/index.html`);
+      }
+    }
+
+    elBtnCopy.addEventListener('click', async () => {
+      try {
+        await navigator.clipboard.writeText(currentLanUrl);
+        showToast('✅ Đã sao chép liên kết vào bộ nhớ tạm!');
+      } catch (err) {
+        const input = document.createElement('input');
+        input.value = currentLanUrl;
+        document.body.appendChild(input);
+        input.select();
+        document.execCommand('copy');
+        document.body.removeChild(input);
+        showToast('✅ Đã sao chép liên kết!');
+      }
+    });
+
+    function showToast(msg) {
+      elToast.textContent = msg;
+      elToast.classList.add('show');
+      setTimeout(() => elToast.classList.remove('show'), 2500);
+    }
+    fetchServerInfo();
+  </script>
+</body>
+</html>

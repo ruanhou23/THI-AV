@@ -1,0 +1,6402 @@
+[
+  {
+    "id": "r_t1_q1",
+    "skill": "reading",
+    "test": 1,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 1,
+    "passage": "",
+    "prompt": "The document that you requested _______ on your desk.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "is"
+      },
+      {
+        "key": "B",
+        "text": "am"
+      },
+      {
+        "key": "C",
+        "text": "are"
+      },
+      {
+        "key": "D",
+        "text": "were"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "<b>Đáp án đúng: A</b> (is)<br><br><i>Câu hoàn chỉnh:</i><br>The document that you requested <u><b>is</b></u> on your desk."
+  },
+  {
+    "id": "r_t1_q2",
+    "skill": "reading",
+    "test": 1,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 2,
+    "passage": "",
+    "prompt": "The _______ businessperson always dresses appropriately.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "success"
+      },
+      {
+        "key": "B",
+        "text": "succeed"
+      },
+      {
+        "key": "C",
+        "text": "successful"
+      },
+      {
+        "key": "D",
+        "text": "succession"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "<b>Đáp án đúng: C</b> (successful)<br><br><i>Câu hoàn chỉnh:</i><br>The <u><b>successful</b></u> businessperson always dresses appropriately."
+  },
+  {
+    "id": "r_t1_q3",
+    "skill": "reading",
+    "test": 1,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 3,
+    "passage": "",
+    "prompt": "You will find all the pencils you need _______ that drawer.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "through"
+      },
+      {
+        "key": "B",
+        "text": "under"
+      },
+      {
+        "key": "C",
+        "text": "on"
+      },
+      {
+        "key": "D",
+        "text": "in"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "<b>Đáp án đúng: D</b> (in)<br><br><i>Câu hoàn chỉnh:</i><br>You will find all the pencils you need <u><b>in</b></u> that drawer."
+  },
+  {
+    "id": "r_t1_q4",
+    "skill": "reading",
+    "test": 1,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 4,
+    "passage": "",
+    "prompt": "Several important pieces of information were _______ from the report.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "omit"
+      },
+      {
+        "key": "B",
+        "text": "omitted"
+      },
+      {
+        "key": "C",
+        "text": "omitting"
+      },
+      {
+        "key": "D",
+        "text": "omission"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "<b>Đáp án đúng: B</b> (omitted)<br><br><i>Câu hoàn chỉnh:</i><br>Several important pieces of information were <u><b>omitted</b></u> from the report."
+  },
+  {
+    "id": "r_t1_q5",
+    "skill": "reading",
+    "test": 1,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 5,
+    "passage": "",
+    "prompt": "If the weather is bad, we _______ the trip.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "will cancel"
+      },
+      {
+        "key": "B",
+        "text": "have canceled"
+      },
+      {
+        "key": "C",
+        "text": "canceled"
+      },
+      {
+        "key": "D",
+        "text": "are canceling"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "<b>Đáp án đúng: A</b> (will cancel)<br><br><i>Câu hoàn chỉnh:</i><br>If the weather is bad, we <u><b>will cancel</b></u> the trip."
+  },
+  {
+    "id": "r_t1_q6",
+    "skill": "reading",
+    "test": 1,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 6,
+    "passage": "",
+    "prompt": "You can always count on Ms. Cho, as she is one of our most _______ employees.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "depend"
+      },
+      {
+        "key": "B",
+        "text": "depending"
+      },
+      {
+        "key": "C",
+        "text": "dependable"
+      },
+      {
+        "key": "D",
+        "text": "dependence"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "<b>Đáp án đúng: C</b> (dependable)<br><br><i>Câu hoàn chỉnh:</i><br>You can always count on Ms. Cho, as she is one of our most <u><b>dependable</b></u> employees."
+  },
+  {
+    "id": "r_t1_q7",
+    "skill": "reading",
+    "test": 1,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 7,
+    "passage": "",
+    "prompt": "Mr. Jones finally _______ a promotion, and he was very happy to get it.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "deceived"
+      },
+      {
+        "key": "B",
+        "text": "conceived"
+      },
+      {
+        "key": "C",
+        "text": "perceived"
+      },
+      {
+        "key": "D",
+        "text": "received"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "<b>Đáp án đúng: D</b> (received)<br><br><i>Câu hoàn chỉnh:</i><br>Mr. Jones finally <u><b>received</b></u> a promotion, and he was very happy to get it."
+  },
+  {
+    "id": "r_t1_q8",
+    "skill": "reading",
+    "test": 1,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 8,
+    "passage": "",
+    "prompt": "The office was in excellent condition when we moved in because the former _______ was very tidy.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "occupy"
+      },
+      {
+        "key": "B",
+        "text": "occupied"
+      },
+      {
+        "key": "C",
+        "text": "occupant"
+      },
+      {
+        "key": "D",
+        "text": "occupancy"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "<b>Đáp án đúng: C</b> (occupant)<br><br><i>Câu hoàn chỉnh:</i><br>The office was in excellent condition when we moved in because the former <u><b>occupant</b></u> was very tidy."
+  },
+  {
+    "id": "r_t1_q9",
+    "skill": "reading",
+    "test": 1,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 9,
+    "passage": "",
+    "prompt": "No one can go home _______ the work is finished.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "if"
+      },
+      {
+        "key": "B",
+        "text": "until"
+      },
+      {
+        "key": "C",
+        "text": "since"
+      },
+      {
+        "key": "D",
+        "text": "because"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "<b>Đáp án đúng: B</b> (until)<br><br><i>Câu hoàn chỉnh:</i><br>No one can go home <u><b>until</b></u> the work is finished."
+  },
+  {
+    "id": "r_t1_q10",
+    "skill": "reading",
+    "test": 1,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 10,
+    "passage": "",
+    "prompt": "Just walk _______ that door and you will see the copy machine on the other side.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "under"
+      },
+      {
+        "key": "B",
+        "text": "around"
+      },
+      {
+        "key": "C",
+        "text": "between"
+      },
+      {
+        "key": "D",
+        "text": "through"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "<b>Đáp án đúng: D</b> (through)<br><br><i>Câu hoàn chỉnh:</i><br>Just walk <u><b>through</b></u> that door and you will see the copy machine on the other side."
+  },
+  {
+    "id": "r_t1_q11",
+    "skill": "reading",
+    "test": 1,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 11,
+    "passage": "",
+    "prompt": "There were several qualified candidates for the job, but we could _______ only one.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "chose"
+      },
+      {
+        "key": "B",
+        "text": "chosen"
+      },
+      {
+        "key": "C",
+        "text": "choose"
+      },
+      {
+        "key": "D",
+        "text": "choice"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "<b>Đáp án đúng: C</b> (choose)<br><br><i>Câu hoàn chỉnh:</i><br>There were several qualified candidates for the job, but we could <u><b>choose</b></u> only one."
+  },
+  {
+    "id": "r_t1_q12",
+    "skill": "reading",
+    "test": 1,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 12,
+    "passage": "",
+    "prompt": "In order to be _______ to the building, you must show proper identification.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "admitted"
+      },
+      {
+        "key": "B",
+        "text": "emitted"
+      },
+      {
+        "key": "C",
+        "text": "remitted"
+      },
+      {
+        "key": "D",
+        "text": "submitted"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "<b>Đáp án đúng: A</b> (admitted)<br><br><i>Câu hoàn chỉnh:</i><br>In order to be <u><b>admitted</b></u> to the building, you must show proper identification."
+  },
+  {
+    "id": "r_t1_q13",
+    "skill": "reading",
+    "test": 1,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 13,
+    "passage": "",
+    "prompt": "There's a phone on the table _______ my desk.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "inside"
+      },
+      {
+        "key": "B",
+        "text": "outside"
+      },
+      {
+        "key": "C",
+        "text": "beside"
+      },
+      {
+        "key": "D",
+        "text": "reside"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "<b>Đáp án đúng: C</b> (beside)<br><br><i>Câu hoàn chỉnh:</i><br>There's a phone on the table <u><b>beside</b></u> my desk."
+  },
+  {
+    "id": "r_t1_q14",
+    "skill": "reading",
+    "test": 1,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 14,
+    "passage": "",
+    "prompt": "It is a bit scary riding this elevator because it _______ at such a rapid rate.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "decreases"
+      },
+      {
+        "key": "B",
+        "text": "descends"
+      },
+      {
+        "key": "C",
+        "text": "devalues"
+      },
+      {
+        "key": "D",
+        "text": "diminishes"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "<b>Đáp án đúng: B</b> (descends)<br><br><i>Câu hoàn chỉnh:</i><br>It is a bit scary riding this elevator because it <u><b>descends</b></u> at such a rapid rate."
+  },
+  {
+    "id": "r_t1_q15",
+    "skill": "reading",
+    "test": 1,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 15,
+    "passage": "",
+    "prompt": "_______ your time card whenever you enter or leave the building.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "Punch"
+      },
+      {
+        "key": "B",
+        "text": "Punches"
+      },
+      {
+        "key": "C",
+        "text": "Punched"
+      },
+      {
+        "key": "D",
+        "text": "Punching"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "<b>Đáp án đúng: A</b> (Punch)<br><br><i>Câu hoàn chỉnh:</i><br><u><b>Punch</b></u> your time card whenever you enter or leave the building."
+  },
+  {
+    "id": "r_t1_q16",
+    "skill": "reading",
+    "test": 1,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 16,
+    "passage": "",
+    "prompt": "When payday _______ all employees will receive their checks in the mail.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "arrived"
+      },
+      {
+        "key": "B",
+        "text": "arrives"
+      },
+      {
+        "key": "C",
+        "text": "arriving"
+      },
+      {
+        "key": "D",
+        "text": "will arrive"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "<b>Đáp án đúng: B</b> (arrives)<br><br><i>Câu hoàn chỉnh:</i><br>When payday <u><b>arrives</b></u> all employees will receive their checks in the mail."
+  },
+  {
+    "id": "r_t1_q17",
+    "skill": "reading",
+    "test": 1,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 17,
+    "passage": "",
+    "prompt": "Ms. Wilson was fired _______ she always arrived late and never finished her work on time.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "unless"
+      },
+      {
+        "key": "B",
+        "text": "though"
+      },
+      {
+        "key": "C",
+        "text": "because"
+      },
+      {
+        "key": "D",
+        "text": "however"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "<b>Đáp án đúng: C</b> (because)<br><br><i>Câu hoàn chỉnh:</i><br>Ms. Wilson was fired <u><b>because</b></u> she always arrived late and never finished her work on time."
+  },
+  {
+    "id": "r_t1_q18",
+    "skill": "reading",
+    "test": 1,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 18,
+    "passage": "",
+    "prompt": "Our boss is very organized and tidy and _______ that we keep the office neat.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "consists"
+      },
+      {
+        "key": "B",
+        "text": "persists"
+      },
+      {
+        "key": "C",
+        "text": "resists"
+      },
+      {
+        "key": "D",
+        "text": "insists"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "<b>Đáp án đúng: D</b> (insists)<br><br><i>Câu hoàn chỉnh:</i><br>Our boss is very organized and tidy and <u><b>insists</b></u> that we keep the office neat."
+  },
+  {
+    "id": "r_t1_q19",
+    "skill": "reading",
+    "test": 1,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 19,
+    "passage": "",
+    "prompt": "_______ Mr. Lee works very hard and always meets his deadlines, he still hasn't been given a promotion.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "Since"
+      },
+      {
+        "key": "B",
+        "text": "Even"
+      },
+      {
+        "key": "C",
+        "text": "Despite"
+      },
+      {
+        "key": "D",
+        "text": "Although"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "<b>Đáp án đúng: D</b> (Although)<br><br><i>Câu hoàn chỉnh:</i><br><u><b>Although</b></u> Mr. Lee works very hard and always meets his deadlines, he still hasn't been given a promotion."
+  },
+  {
+    "id": "r_t1_q20",
+    "skill": "reading",
+    "test": 1,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 20,
+    "passage": "",
+    "prompt": "He _______ an employee of this company ever since he first started working.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "is"
+      },
+      {
+        "key": "B",
+        "text": "was"
+      },
+      {
+        "key": "C",
+        "text": "has been"
+      },
+      {
+        "key": "D",
+        "text": "will be"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "<b>Đáp án đúng: C</b> (has been)<br><br><i>Câu hoàn chỉnh:</i><br>He <u><b>has been</b></u> an employee of this company ever since he first started working."
+  },
+  {
+    "id": "r_t1_q21",
+    "skill": "reading",
+    "test": 1,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 21,
+    "passage": "",
+    "prompt": "The walls are in bad shape and will require _______ before we can begin painting them.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "preparation"
+      },
+      {
+        "key": "B",
+        "text": "preparatory"
+      },
+      {
+        "key": "C",
+        "text": "preparer"
+      },
+      {
+        "key": "D",
+        "text": "prepare"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "<b>Đáp án đúng: A</b> (preparation)<br><br><i>Câu hoàn chỉnh:</i><br>The walls are in bad shape and will require <u><b>preparation</b></u> before we can begin painting them."
+  },
+  {
+    "id": "r_t1_q22",
+    "skill": "reading",
+    "test": 1,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 22,
+    "passage": "",
+    "prompt": "If we _______ all night, we might have finished the report on time.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "worked"
+      },
+      {
+        "key": "B",
+        "text": "had worked"
+      },
+      {
+        "key": "C",
+        "text": "have worked"
+      },
+      {
+        "key": "D",
+        "text": "would have worked"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "<b>Đáp án đúng: B</b> (had worked)<br><br><i>Câu hoàn chỉnh:</i><br>If we <u><b>had worked</b></u> all night, we might have finished the report on time."
+  },
+  {
+    "id": "r_t1_q23",
+    "skill": "reading",
+    "test": 1,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 23,
+    "passage": "",
+    "prompt": "It is necessary to have at least one advanced degree in order to _______ in today's job market.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "compete"
+      },
+      {
+        "key": "B",
+        "text": "competent"
+      },
+      {
+        "key": "C",
+        "text": "competitive"
+      },
+      {
+        "key": "D",
+        "text": "competition"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "<b>Đáp án đúng: A</b> (compete)<br><br><i>Câu hoàn chỉnh:</i><br>It is necessary to have at least one advanced degree in order to <u><b>compete</b></u> in today's job market."
+  },
+  {
+    "id": "r_t1_q24",
+    "skill": "reading",
+    "test": 1,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 24,
+    "passage": "",
+    "prompt": "Because so few people showed _______ for the meeting, we decided to postpone it to a later date.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "through"
+      },
+      {
+        "key": "B",
+        "text": "down"
+      },
+      {
+        "key": "C",
+        "text": "off"
+      },
+      {
+        "key": "D",
+        "text": "up"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "<b>Đáp án đúng: D</b> (up)<br><br><i>Câu hoàn chỉnh:</i><br>Because so few people showed <u><b>up</b></u> for the meeting, we decided to postpone it to a later date."
+  },
+  {
+    "id": "r_t1_q25",
+    "skill": "reading",
+    "test": 1,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 25,
+    "passage": "",
+    "prompt": "The office is right _______ the street from the subway station.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "next"
+      },
+      {
+        "key": "B",
+        "text": "across"
+      },
+      {
+        "key": "C",
+        "text": "under"
+      },
+      {
+        "key": "D",
+        "text": "between"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "<b>Đáp án đúng: B</b> (across)<br><br><i>Câu hoàn chỉnh:</i><br>The office is right <u><b>across</b></u> the street from the subway station."
+  },
+  {
+    "id": "r_t1_q26",
+    "skill": "reading",
+    "test": 1,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 26,
+    "passage": "",
+    "prompt": "If you wish to speak with the director, you should _______ an appointment first.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "will make"
+      },
+      {
+        "key": "B",
+        "text": "making"
+      },
+      {
+        "key": "C",
+        "text": "make"
+      },
+      {
+        "key": "D",
+        "text": "made"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "<b>Đáp án đúng: C</b> (make)<br><br><i>Câu hoàn chỉnh:</i><br>If you wish to speak with the director, you should <u><b>make</b></u> an appointment first."
+  },
+  {
+    "id": "r_t1_q27",
+    "skill": "reading",
+    "test": 1,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 27,
+    "passage": "",
+    "prompt": "The _______ of our products is well known throughout the world.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "quality"
+      },
+      {
+        "key": "B",
+        "text": "quantity"
+      },
+      {
+        "key": "C",
+        "text": "quantify"
+      },
+      {
+        "key": "D",
+        "text": "qualify"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "<b>Đáp án đúng: A</b> (quality)<br><br><i>Câu hoàn chỉnh:</i><br>The <u><b>quality</b></u> of our products is well known throughout the world."
+  },
+  {
+    "id": "r_t1_q28",
+    "skill": "reading",
+    "test": 1,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 28,
+    "passage": "",
+    "prompt": "All employees are expected _______ at the office on time every day.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "arrive"
+      },
+      {
+        "key": "B",
+        "text": "arrived"
+      },
+      {
+        "key": "C",
+        "text": "arriving"
+      },
+      {
+        "key": "D",
+        "text": "to arrive"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "<b>Đáp án đúng: D</b> (to arrive)<br><br><i>Câu hoàn chỉnh:</i><br>All employees are expected <u><b>to arrive</b></u> at the office on time every day."
+  },
+  {
+    "id": "r_t1_q29",
+    "skill": "reading",
+    "test": 1,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 29,
+    "passage": "",
+    "prompt": "All expenses must be approved _______ the department head at the beginning of each month.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "by"
+      },
+      {
+        "key": "B",
+        "text": "to"
+      },
+      {
+        "key": "C",
+        "text": "for"
+      },
+      {
+        "key": "D",
+        "text": "from"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "<b>Đáp án đúng: A</b> (by)<br><br><i>Câu hoàn chỉnh:</i><br>All expenses must be approved <u><b>by</b></u> the department head at the beginning of each month."
+  },
+  {
+    "id": "r_t1_q30",
+    "skill": "reading",
+    "test": 1,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 30,
+    "passage": "",
+    "prompt": "The meeting will take place tomorrow from 10:00 _______ 11:00.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "at"
+      },
+      {
+        "key": "B",
+        "text": "to"
+      },
+      {
+        "key": "C",
+        "text": "on"
+      },
+      {
+        "key": "D",
+        "text": "in"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "<b>Đáp án đúng: B</b> (to)<br><br><i>Câu hoàn chỉnh:</i><br>The meeting will take place tomorrow from 10:00 <u><b>to</b></u> 11:00."
+  },
+  {
+    "id": "r_t1_q31",
+    "skill": "reading",
+    "test": 1,
+    "part": 2,
+    "partName": "Part 6 (Reading Part 2) - Text Completion (Điền đoạn văn)",
+    "questionNum": 31,
+    "passage": "",
+    "prompt": "Save all packaging until the bookshelf is complete to avoid (31) _______ discarding smaller parts.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "mistake"
+      },
+      {
+        "key": "B",
+        "text": "mistaken"
+      },
+      {
+        "key": "C",
+        "text": "mistaking"
+      },
+      {
+        "key": "D",
+        "text": "mistakenly"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "<b>Đáp án đúng: D</b> (mistakenly)<br><br><b>Giải thích:</b> Ngữ cảnh: Hướng dẫn lắp ráp kệ sách Mercroft 6-Shelf Bookcase. Cần trạng từ bổ nghĩa cho V-ing 'discarding'."
+  },
+  {
+    "id": "r_t1_q32",
+    "skill": "reading",
+    "test": 1,
+    "part": 2,
+    "partName": "Part 6 (Reading Part 2) - Text Completion (Điền đoạn văn)",
+    "questionNum": 32,
+    "passage": "",
+    "prompt": "Prior to (32) _______ use the parts and hardware lists to identify and separate each of the pieces included.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "delivery"
+      },
+      {
+        "key": "B",
+        "text": "repair"
+      },
+      {
+        "key": "C",
+        "text": "assembly"
+      },
+      {
+        "key": "D",
+        "text": "manufacture"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "<b>Đáp án đúng: C</b> (assembly)<br><br><b>Giải thích:</b> Ngữ cảnh: Trước khi lắp ráp (assembly), hãy kiểm tra danh sách linh kiện."
+  },
+  {
+    "id": "r_t1_q33",
+    "skill": "reading",
+    "test": 1,
+    "part": 2,
+    "partName": "Part 6 (Reading Part 2) - Text Completion (Điền đoạn văn)",
+    "questionNum": 33,
+    "passage": "",
+    "prompt": "Do not fully tighten all bolts until all parts are in place. Failure to follow these instructions may (33) _______ the bolts to become misaligned.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "expose"
+      },
+      {
+        "key": "B",
+        "text": "cause"
+      },
+      {
+        "key": "C",
+        "text": "risk"
+      },
+      {
+        "key": "D",
+        "text": "hinder"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "<b>Đáp án đúng: B</b> (cause)<br><br><b>Giải thích:</b> Cấu trúc: cause something to do something (khiến cho các bu lông bị lệch)."
+  },
+  {
+    "id": "r_t1_q34",
+    "skill": "reading",
+    "test": 1,
+    "part": 2,
+    "partName": "Part 6 (Reading Part 2) - Text Completion (Điền đoạn văn)",
+    "questionNum": 34,
+    "passage": "",
+    "prompt": "If using power tools while putting the product together, please take caution. (34) _______",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "They can damage the wood when used without care."
+      },
+      {
+        "key": "B",
+        "text": "They have been recommended by technicians."
+      },
+      {
+        "key": "C",
+        "text": "They are too large to be easily misplaced."
+      },
+      {
+        "key": "D",
+        "text": "They should be disposed of in the appropriate bins."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "<b>Đáp án đúng: A</b> (They can damage the wood when used without care.)<br><br><b>Giải thích:</b> Câu tiếp nối lời cảnh báo khi dùng dụng cụ điện."
+  },
+  {
+    "id": "r_t1_q35",
+    "skill": "reading",
+    "test": 1,
+    "part": 2,
+    "partName": "Part 6 (Reading Part 2) - Text Completion (Điền đoạn văn)",
+    "questionNum": 35,
+    "passage": "",
+    "prompt": "After several weeks of preparation, the city (35) _______ new murals under Mosser Bridge on Saturday.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "was unveiling"
+      },
+      {
+        "key": "B",
+        "text": "had unveiled"
+      },
+      {
+        "key": "C",
+        "text": "unveiled"
+      },
+      {
+        "key": "D",
+        "text": "will unveil"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "<b>Đáp án đúng: D</b> (will unveil)<br><br><b>Giải thích:</b> Sự kiện sắp diễn ra vào thứ Bảy tới (thì tương lai: will unveil)."
+  },
+  {
+    "id": "r_t1_q36",
+    "skill": "reading",
+    "test": 1,
+    "part": 2,
+    "partName": "Part 6 (Reading Part 2) - Text Completion (Điền đoạn văn)",
+    "questionNum": 36,
+    "passage": "",
+    "prompt": "The north side features images of animals, while the south presents famous works of art. (36) _______ are designed to provide onlookers with fun photo opportunities.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "Each"
+      },
+      {
+        "key": "B",
+        "text": "Both"
+      },
+      {
+        "key": "C",
+        "text": "Much"
+      },
+      {
+        "key": "D",
+        "text": "Another"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "<b>Đáp án đúng: B</b> (Both)<br><br><b>Giải thích:</b> Đề cập đến cả 2 bức bích họa ở 2 phía (Both)."
+  },
+  {
+    "id": "r_t1_q37",
+    "skill": "reading",
+    "test": 1,
+    "part": 2,
+    "partName": "Part 6 (Reading Part 2) - Text Completion (Điền đoạn văn)",
+    "questionNum": 37,
+    "passage": "",
+    "prompt": "(37) _______, on the north side, visitors will be able to take a picture in which it appears they are shaking hands with a friendly gorilla.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "Nonetheless"
+      },
+      {
+        "key": "B",
+        "text": "Additionally"
+      },
+      {
+        "key": "C",
+        "text": "Instead"
+      },
+      {
+        "key": "D",
+        "text": "For instance"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "<b>Đáp án đúng: D</b> (For instance)<br><br><b>Giải thích:</b> Đưa ra ví dụ cụ thể cho cơ hội chụp ảnh thú vị (For instance)."
+  },
+  {
+    "id": "r_t1_q38",
+    "skill": "reading",
+    "test": 1,
+    "part": 2,
+    "partName": "Part 6 (Reading Part 2) - Text Completion (Điền đoạn văn)",
+    "questionNum": 38,
+    "passage": "",
+    "prompt": "Kết bài bài báo Pelletier Arts Update: (38) _______",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "For details about the event, visit www.pelletiercanal.com."
+      },
+      {
+        "key": "B",
+        "text": "The bridge is also expected to ease traffic along the waterway."
+      },
+      {
+        "key": "C",
+        "text": "Finally, Mr. Gilbert gave a short speech about the murals."
+      },
+      {
+        "key": "D",
+        "text": "Those interested can call 555-0147 to submit a suggestion."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "<b>Đáp án đúng: A</b> (For details about the event, visit www.pelletiercanal.com.)<br><br><b>Giải thích:</b> Thông tin hướng dẫn người đọc tìm hiểu thêm chi tiết sự kiện."
+  },
+  {
+    "id": "r_t1_q39",
+    "skill": "reading",
+    "test": 1,
+    "part": 2,
+    "partName": "Part 6 (Reading Part 2) - Text Completion (Điền đoạn văn)",
+    "questionNum": 39,
+    "passage": "",
+    "prompt": "Unfortunately, when you (39) _______ your order, our Web site was being updated.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "place"
+      },
+      {
+        "key": "B",
+        "text": "placed"
+      },
+      {
+        "key": "C",
+        "text": "will place"
+      },
+      {
+        "key": "D",
+        "text": "are placing"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "<b>Đáp án đúng: B</b> (placed)<br><br><b>Giải thích:</b> Hành động đặt hàng đã xảy ra trong quá khứ (when you placed your order)."
+  },
+  {
+    "id": "r_t1_q40",
+    "skill": "reading",
+    "test": 1,
+    "part": 2,
+    "partName": "Part 6 (Reading Part 2) - Text Completion (Điền đoạn văn)",
+    "questionNum": 40,
+    "passage": "",
+    "prompt": "Unfortunately, when you placed your order, our Web site was being updated. (40) _______ In particular, the cushions that you wish to purchase are actually not currently in stock.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "Such routine maintenance ensures your data security."
+      },
+      {
+        "key": "B",
+        "text": "Please check back in a few hours to register your account."
+      },
+      {
+        "key": "C",
+        "text": "Because of this, some of the information on it was incorrect."
+      },
+      {
+        "key": "D",
+        "text": "Fortunately, all of our offline stores are operating normally."
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "<b>Đáp án đúng: C</b> (Because of this, some of the information on it was incorrect.)<br><br><b>Giải thích:</b> Vì website đang cập nhật nên thông tin hiển thị bị sai."
+  },
+  {
+    "id": "r_t1_q41",
+    "skill": "reading",
+    "test": 1,
+    "part": 2,
+    "partName": "Part 6 (Reading Part 2) - Text Completion (Điền đoạn văn)",
+    "questionNum": 41,
+    "passage": "",
+    "prompt": "In particular, the cushions that you wish to purchase are actually not currently in stock. (41) _______, we do have a similar set of cushions available.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "Therefore"
+      },
+      {
+        "key": "B",
+        "text": "Besides"
+      },
+      {
+        "key": "C",
+        "text": "Occasionally"
+      },
+      {
+        "key": "D",
+        "text": "However"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "<b>Đáp án đúng: D</b> (However)<br><br><b>Giải thích:</b> Mối quan hệ tương phản (Hàng hết, tuy nhiên lại có mẫu tương tự)."
+  },
+  {
+    "id": "r_t1_q42",
+    "skill": "reading",
+    "test": 1,
+    "part": 2,
+    "partName": "Part 6 (Reading Part 2) - Text Completion (Điền đoạn văn)",
+    "questionNum": 42,
+    "passage": "",
+    "prompt": "I have attached a picture of these items. If you are happy with their (42) _______, they can be shipped to you immediately.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "appearance"
+      },
+      {
+        "key": "B",
+        "text": "dimensions"
+      },
+      {
+        "key": "C",
+        "text": "appraisals"
+      },
+      {
+        "key": "D",
+        "text": "texture"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "<b>Đáp án đúng: A</b> (appearance)<br><br><b>Giải thích:</b> Đính kèm hình ảnh nên hỏi về diện mạo/hình thức (appearance)."
+  },
+  {
+    "id": "r_t1_q43",
+    "skill": "reading",
+    "test": 1,
+    "part": 2,
+    "partName": "Part 6 (Reading Part 2) - Text Completion (Điền đoạn văn)",
+    "questionNum": 43,
+    "passage": "",
+    "prompt": "Because our Introduction to Spanish for Professionals class at 10:00 A.M. on Saturday mornings has grown so (43) _______ we have decided to add a second section...",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "popular"
+      },
+      {
+        "key": "B",
+        "text": "popularity"
+      },
+      {
+        "key": "C",
+        "text": "popularize"
+      },
+      {
+        "key": "D",
+        "text": "popularly"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "<b>Đáp án đúng: A</b> (popular)<br><br><b>Giải thích:</b> Cấu trúc grow + adj (trở nên phổ biến)."
+  },
+  {
+    "id": "r_t1_q44",
+    "skill": "reading",
+    "test": 1,
+    "part": 2,
+    "partName": "Part 6 (Reading Part 2) - Text Completion (Điền đoạn văn)",
+    "questionNum": 44,
+    "passage": "",
+    "prompt": "The new class (44) _______ on the same day and time, but across the hall in room 224.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "will be meeting"
+      },
+      {
+        "key": "B",
+        "text": "was meeting"
+      },
+      {
+        "key": "C",
+        "text": "has met"
+      },
+      {
+        "key": "D",
+        "text": "met"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "<b>Đáp án đúng: A</b> (will be meeting)<br><br><b>Giải thích:</b> Lớp học trong học kỳ sắp tới diễn ra (thì tương lai tiếp diễn)."
+  },
+  {
+    "id": "r_t1_q45",
+    "skill": "reading",
+    "test": 1,
+    "part": 2,
+    "partName": "Part 6 (Reading Part 2) - Text Completion (Điền đoạn văn)",
+    "questionNum": 45,
+    "passage": "",
+    "prompt": "Professor Jorge Casilla... has agreed to teach it. (45) _______",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "Intermediate French has also been cancelled."
+      },
+      {
+        "key": "B",
+        "text": "Please turn in late assignments before this date."
+      },
+      {
+        "key": "C",
+        "text": "Log in to the student portal to sign up."
+      },
+      {
+        "key": "D",
+        "text": "The cafeteria is a short walk away."
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "<b>Đáp án đúng: C</b> (Log in to the student portal to sign up.)<br><br><b>Giải thích:</b> Hướng dẫn đăng ký vào lớp học mới mở."
+  },
+  {
+    "id": "r_t1_q46",
+    "skill": "reading",
+    "test": 1,
+    "part": 2,
+    "partName": "Part 6 (Reading Part 2) - Text Completion (Điền đoạn văn)",
+    "questionNum": 46,
+    "passage": "",
+    "prompt": "If you later become unable to attend, please cancel your (46) _______ at least 12 hours in advance to make room for other interested students.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "development"
+      },
+      {
+        "key": "B",
+        "text": "withdrawal"
+      },
+      {
+        "key": "C",
+        "text": "appointment"
+      },
+      {
+        "key": "D",
+        "text": "enrollment"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "<b>Đáp án đúng: D</b> (enrollment)<br><br><b>Giải thích:</b> Hủy đăng ký lớp học (cancel your enrollment)."
+  },
+  {
+    "id": "r_t1_q47",
+    "skill": "reading",
+    "test": 1,
+    "part": 3,
+    "partName": "Part 7 (Reading Part 3) - Reading Comprehension (Đọc hiểu đoạn văn / hội thoại)",
+    "questionNum": 47,
+    "passage": "<b>Đoạn văn (Advertisement - Especially For You):</b><br>Is your company planning a large corporate banquet or retirement dinner? Perhaps you are hosting a small-scale gathering such as a shareholders' meeting or product launch?<br>Especially For You has more than a decade of experience in providing the finest foods and beverages for such corporate events...",
+    "prompt": "47. What kind of business is being advertised?",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "A furniture store"
+      },
+      {
+        "key": "B",
+        "text": "A recruitment agency"
+      },
+      {
+        "key": "C",
+        "text": "A catering company"
+      },
+      {
+        "key": "D",
+        "text": "A public relations firm"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "<b>Đáp án đúng: C. A catering company</b><br><br>Đoạn văn giới thiệu dịch vụ cung cấp đồ ăn thức uống (foods and beverages) cho các sự kiện, tiệc tùng -> công ty tiệc/dịch vụ ăn uống (catering company)."
+  },
+  {
+    "id": "r_t1_q48",
+    "skill": "reading",
+    "test": 1,
+    "part": 3,
+    "partName": "Part 7 (Reading Part 3) - Reading Comprehension (Đọc hiểu đoạn văn / hội thoại)",
+    "questionNum": 48,
+    "passage": "<b>Đoạn văn (Advertisement - Especially For You):</b><br>...Hospitality & Service Association (HSA) certification held in the states of California, Nevada, Arizona, and Utah.",
+    "prompt": "48. What is mentioned about the business?",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "It operates in many countries."
+      },
+      {
+        "key": "B",
+        "text": "It charges a small fee for estimates."
+      },
+      {
+        "key": "C",
+        "text": "It has recently enlarged its workforce."
+      },
+      {
+        "key": "D",
+        "text": "It is certified in several states."
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "<b>Đáp án đúng: D. It is certified in several states.</b><br><br>Bài viết nêu rõ: 'certification held in the states of California, Nevada, Arizona, and Utah'."
+  },
+  {
+    "id": "r_t1_q49",
+    "skill": "reading",
+    "test": 1,
+    "part": 3,
+    "partName": "Part 7 (Reading Part 3) - Reading Comprehension (Đọc hiểu đoạn văn / hội thoại)",
+    "questionNum": 49,
+    "passage": "<b>Đoạn chat (Keiji Yamashita & Brittany Jansson):</b><br>Keiji: 'Could you get me plane tickets departing... plus a hotel near the venue?'<br>Brittany: 'I'm sure that can be arranged. But you'll need to make a formal request via e-mail...'",
+    "prompt": "49. What is most likely true about Ms. Jansson?",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "She handles a company's travel planning."
+      },
+      {
+        "key": "B",
+        "text": "She recently asked Mr. Yamashita for a progress report."
+      },
+      {
+        "key": "C",
+        "text": "She is in charge of lending out exhibition equipment."
+      },
+      {
+        "key": "D",
+        "text": "She went to a trade show last year."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "<b>Đáp án đúng: A. She handles a company's travel planning.</b><br><br>Cô ấy chịu trách nhiệm đặt vé máy bay và khách sạn cho nhân viên công ty."
+  },
+  {
+    "id": "r_t1_q50",
+    "skill": "reading",
+    "test": 1,
+    "part": 3,
+    "partName": "Part 7 (Reading Part 3) - Reading Comprehension (Đọc hiểu đoạn văn / hội thoại)",
+    "questionNum": 50,
+    "passage": "<b>Đoạn chat:</b><br>Brittany: 'We want to use e-mail specifically, so that there's an easily accessible record of requests.'<br>Keiji [3:03 P.M.]: 'Got it. I'll take care of that now.'",
+    "prompt": "50. At 3:03 P.M., what does Mr. Yamashita most likely mean when he writes, 'Got it'?",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "He was able to make a reservation."
+      },
+      {
+        "key": "B",
+        "text": "He understands the purpose of a policy."
+      },
+      {
+        "key": "C",
+        "text": "He feels sufficiently prepared for an event."
+      },
+      {
+        "key": "D",
+        "text": "He has received an e-mail."
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "<b>Đáp án đúng: B. He understands the purpose of a policy.</b><br><br>'Got it' nghĩa là anh ấy đã hiểu lý do/mục đích của quy định phải gửi yêu cầu qua email."
+  },
+  {
+    "id": "r_t2_q1",
+    "skill": "reading",
+    "test": 2,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 1,
+    "passage": "",
+    "prompt": "Mr. Jones _______ investing in that company, but he finally decided against it.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "considered"
+      },
+      {
+        "key": "B",
+        "text": "considerate"
+      },
+      {
+        "key": "C",
+        "text": "considerable"
+      },
+      {
+        "key": "D",
+        "text": "considerably"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "<b>Đáp án đúng: A</b> (considered)<br><br><i>Câu hoàn chỉnh:</i><br>Mr. Jones <u><b>considered</b></u> investing in that company, but he finally decided against it."
+  },
+  {
+    "id": "r_t2_q2",
+    "skill": "reading",
+    "test": 2,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 2,
+    "passage": "",
+    "prompt": "If we hadn't left the house so late, we _______ the plane.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "wouldn't have missed"
+      },
+      {
+        "key": "B",
+        "text": "wouldn't miss"
+      },
+      {
+        "key": "C",
+        "text": "won't have missed"
+      },
+      {
+        "key": "D",
+        "text": "won't miss"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "<b>Đáp án đúng: A</b> (wouldn't have missed)<br><br><i>Câu hoàn chỉnh:</i><br>If we hadn't left the house so late, we <u><b>wouldn't have missed</b></u> the plane."
+  },
+  {
+    "id": "r_t2_q3",
+    "skill": "reading",
+    "test": 2,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 3,
+    "passage": "",
+    "prompt": "These reports must be turned _______ before the end of the week.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "off"
+      },
+      {
+        "key": "B",
+        "text": "on"
+      },
+      {
+        "key": "C",
+        "text": "up"
+      },
+      {
+        "key": "D",
+        "text": "in"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "<b>Đáp án đúng: D</b> (in)<br><br><i>Câu hoàn chỉnh:</i><br>These reports must be turned <u><b>in</b></u> before the end of the week."
+  },
+  {
+    "id": "r_t2_q4",
+    "skill": "reading",
+    "test": 2,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 4,
+    "passage": "",
+    "prompt": "Samantha worked very hard and put in a lot of overtime hours because she hoped for an _______ in her salary.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "incursion"
+      },
+      {
+        "key": "B",
+        "text": "inquiry"
+      },
+      {
+        "key": "C",
+        "text": "increase"
+      },
+      {
+        "key": "D",
+        "text": "inquest"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "<b>Đáp án đúng: C</b> (increase)<br><br><i>Câu hoàn chỉnh:</i><br>Samantha worked very hard and put in a lot of overtime hours because she hoped for an <u><b>increase</b></u> in her salary."
+  },
+  {
+    "id": "r_t2_q5",
+    "skill": "reading",
+    "test": 2,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 5,
+    "passage": "",
+    "prompt": "They brought extra chairs into the room _______ they expected a large number of people to attend the meeting.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "although"
+      },
+      {
+        "key": "B",
+        "text": "since"
+      },
+      {
+        "key": "C",
+        "text": "however"
+      },
+      {
+        "key": "D",
+        "text": "nevertheless"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "<b>Đáp án đúng: B</b> (since)<br><br><i>Câu hoàn chỉnh:</i><br>They brought extra chairs into the room <u><b>since</b></u> they expected a large number of people to attend the meeting."
+  },
+  {
+    "id": "r_t2_q6",
+    "skill": "reading",
+    "test": 2,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 6,
+    "passage": "",
+    "prompt": "We have been asked not to walk _______ the lobby today because it's being painted.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "beside"
+      },
+      {
+        "key": "B",
+        "text": "between"
+      },
+      {
+        "key": "C",
+        "text": "around"
+      },
+      {
+        "key": "D",
+        "text": "through"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "<b>Đáp án đúng: D</b> (through)<br><br><i>Câu hoàn chỉnh:</i><br>We have been asked not to walk <u><b>through</b></u> the lobby today because it's being painted."
+  },
+  {
+    "id": "r_t2_q7",
+    "skill": "reading",
+    "test": 2,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 7,
+    "passage": "",
+    "prompt": "By the time we got to the train station, the train _______",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "had already left"
+      },
+      {
+        "key": "B",
+        "text": "had already been left"
+      },
+      {
+        "key": "C",
+        "text": "has already left"
+      },
+      {
+        "key": "D",
+        "text": "will have already left"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "<b>Đáp án đúng: A</b> (had already left)<br><br><i>Câu hoàn chỉnh:</i><br>By the time we got to the train station, the train <u><b>had already left</b></u>"
+  },
+  {
+    "id": "r_t2_q8",
+    "skill": "reading",
+    "test": 2,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 8,
+    "passage": "",
+    "prompt": "Dr. Smith is a well-respected expert and has _______ experience in her field.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "extend"
+      },
+      {
+        "key": "B",
+        "text": "extends"
+      },
+      {
+        "key": "C",
+        "text": "extensive"
+      },
+      {
+        "key": "D",
+        "text": "extension"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "<b>Đáp án đúng: C</b> (extensive)<br><br><i>Câu hoàn chỉnh:</i><br>Dr. Smith is a well-respected expert and has <u><b>extensive</b></u> experience in her field."
+  },
+  {
+    "id": "r_t2_q9",
+    "skill": "reading",
+    "test": 2,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 9,
+    "passage": "",
+    "prompt": "_______ he graduated from the university, he got a job at a good company.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "Following"
+      },
+      {
+        "key": "B",
+        "text": "Later"
+      },
+      {
+        "key": "C",
+        "text": "After"
+      },
+      {
+        "key": "D",
+        "text": "Next"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "<b>Đáp án đúng: C</b> (After)<br><br><i>Câu hoàn chỉnh:</i><br><u><b>After</b></u> he graduated from the university, he got a job at a good company."
+  },
+  {
+    "id": "r_t2_q10",
+    "skill": "reading",
+    "test": 2,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 10,
+    "passage": "",
+    "prompt": "If you don't want to get stuck in a traffic jam, you should avoid _______ during rush hour.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "drive"
+      },
+      {
+        "key": "B",
+        "text": "driving"
+      },
+      {
+        "key": "C",
+        "text": "to drive"
+      },
+      {
+        "key": "D",
+        "text": "driven"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "<b>Đáp án đúng: B</b> (driving)<br><br><i>Câu hoàn chỉnh:</i><br>If you don't want to get stuck in a traffic jam, you should avoid <u><b>driving</b></u> during rush hour."
+  },
+  {
+    "id": "r_t2_q11",
+    "skill": "reading",
+    "test": 2,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 11,
+    "passage": "",
+    "prompt": "Once you start using the new software, you will be able to do your work much more _______",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "ease"
+      },
+      {
+        "key": "B",
+        "text": "easily"
+      },
+      {
+        "key": "C",
+        "text": "easier"
+      },
+      {
+        "key": "D",
+        "text": "easement"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "<b>Đáp án đúng: B</b> (easily)<br><br><i>Câu hoàn chỉnh:</i><br>Once you start using the new software, you will be able to do your work much more <u><b>easily</b></u>"
+  },
+  {
+    "id": "r_t2_q12",
+    "skill": "reading",
+    "test": 2,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 12,
+    "passage": "",
+    "prompt": "This report has to be completed _______ 5:00 today at the latest.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "until"
+      },
+      {
+        "key": "B",
+        "text": "after"
+      },
+      {
+        "key": "C",
+        "text": "to"
+      },
+      {
+        "key": "D",
+        "text": "by"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "<b>Đáp án đúng: D</b> (by)<br><br><i>Câu hoàn chỉnh:</i><br>This report has to be completed <u><b>by</b></u> 5:00 today at the latest."
+  },
+  {
+    "id": "r_t2_q13",
+    "skill": "reading",
+    "test": 2,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 13,
+    "passage": "",
+    "prompt": "They made a very _______ offer, so we signed the contract.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "attract"
+      },
+      {
+        "key": "B",
+        "text": "attracted"
+      },
+      {
+        "key": "C",
+        "text": "attraction"
+      },
+      {
+        "key": "D",
+        "text": "attractive"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "<b>Đáp án đúng: D</b> (attractive)<br><br><i>Câu hoàn chỉnh:</i><br>They made a very <u><b>attractive</b></u> offer, so we signed the contract."
+  },
+  {
+    "id": "r_t2_q14",
+    "skill": "reading",
+    "test": 2,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 14,
+    "passage": "",
+    "prompt": "Currently they _______ lower prices than any of their competitors.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "are offering"
+      },
+      {
+        "key": "B",
+        "text": "to offer"
+      },
+      {
+        "key": "C",
+        "text": "did offer"
+      },
+      {
+        "key": "D",
+        "text": "offered"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "<b>Đáp án đúng: A</b> (are offering)<br><br><i>Câu hoàn chỉnh:</i><br>Currently they <u><b>are offering</b></u> lower prices than any of their competitors."
+  },
+  {
+    "id": "r_t2_q15",
+    "skill": "reading",
+    "test": 2,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 15,
+    "passage": "",
+    "prompt": "The government will _______ new price controls on the industry next year.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "impose"
+      },
+      {
+        "key": "B",
+        "text": "compose"
+      },
+      {
+        "key": "C",
+        "text": "repose"
+      },
+      {
+        "key": "D",
+        "text": "suppose"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "<b>Đáp án đúng: A</b> (impose)<br><br><i>Câu hoàn chỉnh:</i><br>The government will <u><b>impose</b></u> new price controls on the industry next year."
+  },
+  {
+    "id": "r_t2_q16",
+    "skill": "reading",
+    "test": 2,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 16,
+    "passage": "",
+    "prompt": "They will interview each candidate before they _______ who to hire.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "decide"
+      },
+      {
+        "key": "B",
+        "text": "are deciding"
+      },
+      {
+        "key": "C",
+        "text": "will decide"
+      },
+      {
+        "key": "D",
+        "text": "decided"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "<b>Đáp án đúng: A</b> (decide)<br><br><i>Câu hoàn chỉnh:</i><br>They will interview each candidate before they <u><b>decide</b></u> who to hire."
+  },
+  {
+    "id": "r_t2_q17",
+    "skill": "reading",
+    "test": 2,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 17,
+    "passage": "",
+    "prompt": "These rooms _______ before the conference next week.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "paint"
+      },
+      {
+        "key": "B",
+        "text": "will paint"
+      },
+      {
+        "key": "C",
+        "text": "are going to paint"
+      },
+      {
+        "key": "D",
+        "text": "will be painted"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "<b>Đáp án đúng: D</b> (will be painted)<br><br><i>Câu hoàn chỉnh:</i><br>These rooms <u><b>will be painted</b></u> before the conference next week."
+  },
+  {
+    "id": "r_t2_q18",
+    "skill": "reading",
+    "test": 2,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 18,
+    "passage": "",
+    "prompt": "The new chairs that he bought for the office _______ not very comfortable.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "is"
+      },
+      {
+        "key": "B",
+        "text": "are"
+      },
+      {
+        "key": "C",
+        "text": "do"
+      },
+      {
+        "key": "D",
+        "text": "was"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "<b>Đáp án đúng: B</b> (are)<br><br><i>Câu hoàn chỉnh:</i><br>The new chairs that he bought for the office <u><b>are</b></u> not very comfortable."
+  },
+  {
+    "id": "r_t2_q19",
+    "skill": "reading",
+    "test": 2,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 19,
+    "passage": "",
+    "prompt": "Everyone is expected to arrive at the meeting _______",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "promptness"
+      },
+      {
+        "key": "B",
+        "text": "promote"
+      },
+      {
+        "key": "C",
+        "text": "promptly"
+      },
+      {
+        "key": "D",
+        "text": "prompt"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "<b>Đáp án đúng: C</b> (promptly)<br><br><i>Câu hoàn chỉnh:</i><br>Everyone is expected to arrive at the meeting <u><b>promptly</b></u>"
+  },
+  {
+    "id": "r_t2_q20",
+    "skill": "reading",
+    "test": 2,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 20,
+    "passage": "",
+    "prompt": "We will have to come to an agreement _______ the end of this month.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "during"
+      },
+      {
+        "key": "B",
+        "text": "before"
+      },
+      {
+        "key": "C",
+        "text": "when"
+      },
+      {
+        "key": "D",
+        "text": "until"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "<b>Đáp án đúng: B</b> (before)<br><br><i>Câu hoàn chỉnh:</i><br>We will have to come to an agreement <u><b>before</b></u> the end of this month."
+  },
+  {
+    "id": "r_t2_q21",
+    "skill": "reading",
+    "test": 2,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 21,
+    "passage": "",
+    "prompt": "_______ we paid the painters a lot of money, they did a terrible job.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "Because"
+      },
+      {
+        "key": "B",
+        "text": "Since"
+      },
+      {
+        "key": "C",
+        "text": "Although"
+      },
+      {
+        "key": "D",
+        "text": "Despite"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "<b>Đáp án đúng: C</b> (Although)<br><br><i>Câu hoàn chỉnh:</i><br><u><b>Although</b></u> we paid the painters a lot of money, they did a terrible job."
+  },
+  {
+    "id": "r_t2_q22",
+    "skill": "reading",
+    "test": 2,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 22,
+    "passage": "",
+    "prompt": "After his contract _______ he will have to look for a new job.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "expires"
+      },
+      {
+        "key": "B",
+        "text": "expects"
+      },
+      {
+        "key": "C",
+        "text": "exposes"
+      },
+      {
+        "key": "D",
+        "text": "expands"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "<b>Đáp án đúng: A</b> (expires)<br><br><i>Câu hoàn chỉnh:</i><br>After his contract <u><b>expires</b></u> he will have to look for a new job."
+  },
+  {
+    "id": "r_t2_q23",
+    "skill": "reading",
+    "test": 2,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 23,
+    "passage": "",
+    "prompt": "I _______ eat at expensive restaurants because I don't have a lot of extra money.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "always"
+      },
+      {
+        "key": "B",
+        "text": "often"
+      },
+      {
+        "key": "C",
+        "text": "usually"
+      },
+      {
+        "key": "D",
+        "text": "seldom"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "<b>Đáp án đúng: D</b> (seldom)<br><br><i>Câu hoàn chỉnh:</i><br>I <u><b>seldom</b></u> eat at expensive restaurants because I don't have a lot of extra money."
+  },
+  {
+    "id": "r_t2_q24",
+    "skill": "reading",
+    "test": 2,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 24,
+    "passage": "",
+    "prompt": "The storm caused a lot of damage to the building and we had to buy new _______ for many of the windows.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "glass"
+      },
+      {
+        "key": "B",
+        "text": "glasses"
+      },
+      {
+        "key": "C",
+        "text": "glassy"
+      },
+      {
+        "key": "D",
+        "text": "glassine"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "<b>Đáp án đúng: A</b> (glass)<br><br><i>Câu hoàn chỉnh:</i><br>The storm caused a lot of damage to the building and we had to buy new <u><b>glass</b></u> for many of the windows."
+  },
+  {
+    "id": "r_t2_q25",
+    "skill": "reading",
+    "test": 2,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 25,
+    "passage": "",
+    "prompt": "If we _______ more time, we would be able to do a more thorough job.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "would have"
+      },
+      {
+        "key": "B",
+        "text": "will have"
+      },
+      {
+        "key": "C",
+        "text": "have"
+      },
+      {
+        "key": "D",
+        "text": "had"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "<b>Đáp án đúng: D</b> (had)<br><br><i>Câu hoàn chỉnh:</i><br>If we <u><b>had</b></u> more time, we would be able to do a more thorough job."
+  },
+  {
+    "id": "r_t2_q26",
+    "skill": "reading",
+    "test": 2,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 26,
+    "passage": "",
+    "prompt": "You should _______ with your boss before committing yourself to that project.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "will speak"
+      },
+      {
+        "key": "B",
+        "text": "speak"
+      },
+      {
+        "key": "C",
+        "text": "speaking"
+      },
+      {
+        "key": "D",
+        "text": "spoken"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "<b>Đáp án đúng: B</b> (speak)<br><br><i>Câu hoàn chỉnh:</i><br>You should <u><b>speak</b></u> with your boss before committing yourself to that project."
+  },
+  {
+    "id": "r_t2_q27",
+    "skill": "reading",
+    "test": 2,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 27,
+    "passage": "",
+    "prompt": "They expect _______ before noon tomorrow.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "arrive"
+      },
+      {
+        "key": "B",
+        "text": "to arrive"
+      },
+      {
+        "key": "C",
+        "text": "arriving"
+      },
+      {
+        "key": "D",
+        "text": "will arrive"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "<b>Đáp án đúng: B</b> (to arrive)<br><br><i>Câu hoàn chỉnh:</i><br>They expect <u><b>to arrive</b></u> before noon tomorrow."
+  },
+  {
+    "id": "r_t2_q28",
+    "skill": "reading",
+    "test": 2,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 28,
+    "passage": "",
+    "prompt": "This store offers a wide _______ of office equipment.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "select"
+      },
+      {
+        "key": "B",
+        "text": "selective"
+      },
+      {
+        "key": "C",
+        "text": "selection"
+      },
+      {
+        "key": "D",
+        "text": "selecting"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "<b>Đáp án đúng: C</b> (selection)<br><br><i>Câu hoàn chỉnh:</i><br>This store offers a wide <u><b>selection</b></u> of office equipment."
+  },
+  {
+    "id": "r_t2_q29",
+    "skill": "reading",
+    "test": 2,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 29,
+    "passage": "",
+    "prompt": "_______ have changed the face of the modern workplace.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "Computers"
+      },
+      {
+        "key": "B",
+        "text": "Computer"
+      },
+      {
+        "key": "C",
+        "text": "The computer"
+      },
+      {
+        "key": "D",
+        "text": "A computer"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "<b>Đáp án đúng: A</b> (Computers)<br><br><i>Câu hoàn chỉnh:</i><br><u><b>Computers</b></u> have changed the face of the modern workplace."
+  },
+  {
+    "id": "r_t2_q30",
+    "skill": "reading",
+    "test": 2,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 30,
+    "passage": "",
+    "prompt": "The train _______ Chicago leaves at 4:00 A.M.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "in"
+      },
+      {
+        "key": "B",
+        "text": "at"
+      },
+      {
+        "key": "C",
+        "text": "to"
+      },
+      {
+        "key": "D",
+        "text": "by"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "<b>Đáp án đúng: C</b> (to)<br><br><i>Câu hoàn chỉnh:</i><br>The train <u><b>to</b></u> Chicago leaves at 4:00 A.M."
+  },
+  {
+    "id": "r_t2_q31",
+    "skill": "reading",
+    "test": 2,
+    "part": 2,
+    "partName": "Part 6 (Reading Part 2) - Text Completion (Điền đoạn văn)",
+    "questionNum": 31,
+    "passage": "",
+    "prompt": "Mr. Ashfield, (31) _______ just a sales representative who sold products door to door, is now the head of the European Sales Division...",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "still"
+      },
+      {
+        "key": "B",
+        "text": "once"
+      },
+      {
+        "key": "C",
+        "text": "soon"
+      },
+      {
+        "key": "D",
+        "text": "much"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "<b>Đáp án đúng: B</b> (once)<br><br><b>Giải thích:</b> Từng là (once)."
+  },
+  {
+    "id": "r_t2_q32",
+    "skill": "reading",
+    "test": 2,
+    "part": 2,
+    "partName": "Part 6 (Reading Part 2) - Text Completion (Điền đoạn văn)",
+    "questionNum": 32,
+    "passage": "",
+    "prompt": "Mr. Ashfield (32) _______ to the position after displaying not only his impressive sales skills...",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "will be appointed"
+      },
+      {
+        "key": "B",
+        "text": "is appointing"
+      },
+      {
+        "key": "C",
+        "text": "had appointed"
+      },
+      {
+        "key": "D",
+        "text": "was appointed"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "<b>Đáp án đúng: D</b> (was appointed)<br><br><b>Giải thích:</b> Được bổ nhiệm (quá khứ bị động)."
+  },
+  {
+    "id": "r_t2_q33",
+    "skill": "reading",
+    "test": 2,
+    "part": 2,
+    "partName": "Part 6 (Reading Part 2) - Text Completion (Điền đoạn văn)",
+    "questionNum": 33,
+    "passage": "",
+    "prompt": "(33) _______ However, the ambitious businessperson has larger goals to achieve.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "Mr. Ashfield helped them all rise from such humble beginnings."
+      },
+      {
+        "key": "B",
+        "text": "Mr. Ashfield's ultimate aim is to set up a sales department."
+      },
+      {
+        "key": "C",
+        "text": "It seems like they were born to be leaders in the industry."
+      },
+      {
+        "key": "D",
+        "text": "It may appear as if Mr. Ashfield has reached the top of his field."
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "<b>Đáp án đúng: D</b> (It may appear as if Mr. Ashfield has reached the top of his field.)<br><br><b>Giải thích:</b> Ý tương phản: Có vẻ như ông ấy đã lên đỉnh cao, tuy nhiên ông ấy còn nhiều mục tiêu lớn hơn."
+  },
+  {
+    "id": "r_t2_q34",
+    "skill": "reading",
+    "test": 2,
+    "part": 2,
+    "partName": "Part 6 (Reading Part 2) - Text Completion (Điền đoạn văn)",
+    "questionNum": 34,
+    "passage": "",
+    "prompt": "However, the ambitious businessperson has larger goals to achieve. (34) _______ he has publicly stated that he hopes to establish a global sales department...",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "At first"
+      },
+      {
+        "key": "B",
+        "text": "Despite that"
+      },
+      {
+        "key": "C",
+        "text": "In fact"
+      },
+      {
+        "key": "D",
+        "text": "Instead"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "<b>Đáp án đúng: C</b> (In fact)<br><br><b>Giải thích:</b> Thực tế là (In fact) để bổ sung làm rõ mục tiêu lớn."
+  },
+  {
+    "id": "r_t2_q35",
+    "skill": "reading",
+    "test": 2,
+    "part": 2,
+    "partName": "Part 6 (Reading Part 2) - Text Completion (Điền đoạn văn)",
+    "questionNum": 35,
+    "passage": "",
+    "prompt": "Heavenly Cakes, Inc. is a Boston-based bakery (35) _______ in fancy wedding cakes.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "specializes"
+      },
+      {
+        "key": "B",
+        "text": "is specializing"
+      },
+      {
+        "key": "C",
+        "text": "specializing"
+      },
+      {
+        "key": "D",
+        "text": "has specialized"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "<b>Đáp án đúng: C</b> (specializing)<br><br><b>Giải thích:</b> Mệnh đề quan hệ rút gọn chủ động (which specializes -> specializing)."
+  },
+  {
+    "id": "r_t2_q36",
+    "skill": "reading",
+    "test": 2,
+    "part": 2,
+    "partName": "Part 6 (Reading Part 2) - Text Completion (Điền đoạn văn)",
+    "questionNum": 36,
+    "passage": "",
+    "prompt": "(36) _______ They range from simple white cakes with black ribbons to elaborate, multi-colored creations...",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "We are very proud of our top-notch pastry bakers."
+      },
+      {
+        "key": "B",
+        "text": "We have developed more than 50 different cake designs."
+      },
+      {
+        "key": "C",
+        "text": "Plans to open more branches throughout the city are under way."
+      },
+      {
+        "key": "D",
+        "text": "There are 120,000 customers registered in our rewards program."
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "<b>Đáp án đúng: B</b> (We have developed more than 50 different cake designs.)<br><br><b>Giải thích:</b> Câu sau nói 'They range from...' liên kết với 'cake designs'."
+  },
+  {
+    "id": "r_t2_q37",
+    "skill": "reading",
+    "test": 2,
+    "part": 2,
+    "partName": "Part 6 (Reading Part 2) - Text Completion (Điền đoạn văn)",
+    "questionNum": 37,
+    "passage": "",
+    "prompt": "You can also (37) _______ your cake by choosing the frosting, the filling, the decorations, and the message.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "alternate"
+      },
+      {
+        "key": "B",
+        "text": "customize"
+      },
+      {
+        "key": "C",
+        "text": "conserve"
+      },
+      {
+        "key": "D",
+        "text": "distribute"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "<b>Đáp án đúng: B</b> (customize)<br><br><b>Giải thích:</b> Tự tùy biến bánh theo ý thích (customize)."
+  },
+  {
+    "id": "r_t2_q38",
+    "skill": "reading",
+    "test": 2,
+    "part": 2,
+    "partName": "Part 6 (Reading Part 2) - Text Completion (Điền đoạn văn)",
+    "questionNum": 38,
+    "passage": "",
+    "prompt": "Our New York City bakery (38) _______ at 1123 West 12th Street, just across the road from the Odoner Theater.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "is located"
+      },
+      {
+        "key": "B",
+        "text": "will be located"
+      },
+      {
+        "key": "C",
+        "text": "being located"
+      },
+      {
+        "key": "D",
+        "text": "was located"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "<b>Đáp án đúng: A</b> (is located)<br><br><b>Giải thích:</b> Tọa lạc tại (is located)."
+  },
+  {
+    "id": "r_t2_q39",
+    "skill": "reading",
+    "test": 2,
+    "part": 2,
+    "partName": "Part 6 (Reading Part 2) - Text Completion (Điền đoạn văn)",
+    "questionNum": 39,
+    "passage": "",
+    "prompt": "This letter serves as notification that I will (39) _______ Apartment 202 on Saturday, October 23.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "inspect"
+      },
+      {
+        "key": "B",
+        "text": "vacate"
+      },
+      {
+        "key": "C",
+        "text": "remodel"
+      },
+      {
+        "key": "D",
+        "text": "buy"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "<b>Đáp án đúng: B</b> (vacate)<br><br><b>Giải thích:</b> Rời khỏi/trả lại phòng trọ (vacate)."
+  },
+  {
+    "id": "r_t2_q40",
+    "skill": "reading",
+    "test": 2,
+    "part": 2,
+    "partName": "Part 6 (Reading Part 2) - Text Completion (Điền đoạn văn)",
+    "questionNum": 40,
+    "passage": "",
+    "prompt": "I hope that this, (40) _______ my history as a reliable tenant, will persuade you not to charge me a penalty...",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "together with"
+      },
+      {
+        "key": "B",
+        "text": "in that"
+      },
+      {
+        "key": "C",
+        "text": "such as"
+      },
+      {
+        "key": "D",
+        "text": "prior to"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "<b>Đáp án đúng: A</b> (together with)<br><br><b>Giải thích:</b> Cùng với (together with)."
+  },
+  {
+    "id": "r_t2_q41",
+    "skill": "reading",
+    "test": 2,
+    "part": 2,
+    "partName": "Part 6 (Reading Part 2) - Text Completion (Điền đoạn văn)",
+    "questionNum": 41,
+    "passage": "",
+    "prompt": "(41) _______ . Consequently, I would like to know when I can expect my security deposit of $500 to be returned.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "In addition, the wallpaper in the living room is unattractive."
+      },
+      {
+        "key": "B",
+        "text": "Other tenants have carried out their own improvements."
+      },
+      {
+        "key": "C",
+        "text": "Also, you will find the apartment to be in excellent condition."
+      },
+      {
+        "key": "D",
+        "text": "I have been told that I will need to provide a letter of reference."
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "<b>Đáp án đúng: C</b> (Also, you will find the apartment to be in excellent condition.)<br><br><b>Giải thích:</b> Căn hộ trong tình trạng tốt nên người thuê muốn nhận lại tiền đặt cọc (deposit)."
+  },
+  {
+    "id": "r_t2_q42",
+    "skill": "reading",
+    "test": 2,
+    "part": 2,
+    "partName": "Part 6 (Reading Part 2) - Text Completion (Điền đoạn văn)",
+    "questionNum": 42,
+    "passage": "",
+    "prompt": "Please call me at 555-0126 to confirm (42) _______ of this letter and discuss the abovementioned issues.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "recipient"
+      },
+      {
+        "key": "B",
+        "text": "received"
+      },
+      {
+        "key": "C",
+        "text": "receive"
+      },
+      {
+        "key": "D",
+        "text": "receipt"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "<b>Đáp án đúng: D</b> (receipt)<br><br><b>Giải thích:</b> confirm receipt of (xác nhận việc đã nhận được thư)."
+  },
+  {
+    "id": "r_t2_q43",
+    "skill": "reading",
+    "test": 2,
+    "part": 2,
+    "partName": "Part 6 (Reading Part 2) - Text Completion (Điền đoạn văn)",
+    "questionNum": 43,
+    "passage": "",
+    "prompt": "Dear Ms. Elder, (43) _______ I'm afraid that the ProPower Cyclemaster N50 you purchased will take longer to ship than originally expected.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "In comparison to the others, the one you ordered is quite popular."
+      },
+      {
+        "key": "B",
+        "text": "First of all, the shipment of your order will take as many as seven days."
+      },
+      {
+        "key": "C",
+        "text": "Sadly, some of those featured products have been discontinued."
+      },
+      {
+        "key": "D",
+        "text": "I am writing to update you on the order you placed through our Website."
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "<b>Đáp án đúng: D</b> (I am writing to update you on the order you placed through our Website.)<br><br><b>Giải thích:</b> Mở đầu email thông báo cập nhật về đơn hàng."
+  },
+  {
+    "id": "r_t2_q44",
+    "skill": "reading",
+    "test": 2,
+    "part": 2,
+    "partName": "Part 6 (Reading Part 2) - Text Completion (Điền đoạn văn)",
+    "questionNum": 44,
+    "passage": "",
+    "prompt": "Although we promised seven-day shipping, I do not think the item will arrive (44) _______ the beginning of March.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "until"
+      },
+      {
+        "key": "B",
+        "text": "from"
+      },
+      {
+        "key": "C",
+        "text": "without"
+      },
+      {
+        "key": "D",
+        "text": "under"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "<b>Đáp án đúng: A</b> (until)<br><br><b>Giải thích:</b> not arrive until (mãi đến đầu tháng Ba mới tới)."
+  },
+  {
+    "id": "r_t2_q45",
+    "skill": "reading",
+    "test": 2,
+    "part": 2,
+    "partName": "Part 6 (Reading Part 2) - Text Completion (Điền đoạn văn)",
+    "questionNum": 45,
+    "passage": "",
+    "prompt": "Please accept my sincerest apologies for this unfortunate (45) _______",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "cancellation"
+      },
+      {
+        "key": "B",
+        "text": "breakage"
+      },
+      {
+        "key": "C",
+        "text": "interference"
+      },
+      {
+        "key": "D",
+        "text": "delay"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "<b>Đáp án đúng: D</b> (delay)<br><br><b>Giải thích:</b> Sự chậm trễ trong giao hàng (delay)."
+  },
+  {
+    "id": "r_t2_q46",
+    "skill": "reading",
+    "test": 2,
+    "part": 2,
+    "partName": "Part 6 (Reading Part 2) - Text Completion (Điền đoạn văn)",
+    "questionNum": 46,
+    "passage": "",
+    "prompt": "...as you purchased a high-quality product at an (46) _______ price.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "afforded"
+      },
+      {
+        "key": "B",
+        "text": "afford"
+      },
+      {
+        "key": "C",
+        "text": "affordable"
+      },
+      {
+        "key": "D",
+        "text": "affording"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "<b>Đáp án đúng: C</b> (affordable)<br><br><b>Giải thích:</b> Giá cả phải chăng (affordable price)."
+  },
+  {
+    "id": "r_t2_q47",
+    "skill": "reading",
+    "test": 2,
+    "part": 3,
+    "partName": "Part 7 (Reading Part 3) - Reading Comprehension (Đọc hiểu đoạn văn / hội thoại)",
+    "questionNum": 47,
+    "passage": "<b>Tin nhắn (Susie Page gửi Jack Hamilton):</b><br>'I've been feeling really ill since last night, so I'm afraid I'm going to be off work today...'",
+    "prompt": "47. Why did Ms. Page send the message?",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "To share a revised travel itinerary"
+      },
+      {
+        "key": "B",
+        "text": "To describe a computer problem"
+      },
+      {
+        "key": "C",
+        "text": "To report an absence"
+      },
+      {
+        "key": "D",
+        "text": "To complain about a workload"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "<b>Đáp án đúng: C. To report an absence</b><br><br>Cô ấy bị ốm nên báo xin nghỉ làm ngày hôm nay (report an absence)."
+  },
+  {
+    "id": "r_t2_q48",
+    "skill": "reading",
+    "test": 2,
+    "part": 3,
+    "partName": "Part 7 (Reading Part 3) - Reading Comprehension (Đọc hiểu đoạn văn / hội thoại)",
+    "questionNum": 48,
+    "passage": "<b>Tin nhắn:</b><br>'Could you let him [Terry] know I can't make it? He'll have to do it alone, unfortunately.'",
+    "prompt": "48. What does Ms. Page ask Mr. Hamilton to do?",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "Edit a document"
+      },
+      {
+        "key": "B",
+        "text": "Speak to a colleague"
+      },
+      {
+        "key": "C",
+        "text": "Entertain some clients"
+      },
+      {
+        "key": "D",
+        "text": "Reschedule a presentation"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "<b>Đáp án đúng: B. Speak to a colleague</b><br><br>Nhờ nói lại với đồng nghiệp là Terry."
+  },
+  {
+    "id": "r_t2_q49",
+    "skill": "reading",
+    "test": 2,
+    "part": 3,
+    "partName": "Part 7 (Reading Part 3) - Reading Comprehension (Đọc hiểu đoạn văn / hội thoại)",
+    "questionNum": 49,
+    "passage": "<b>Phiếu giảm giá (Claude Clothing Coupon):</b><br>'...Claude Clothing is offering a coupon for free delivery to our loyal customers on orders of $40 or more.*'",
+    "prompt": "49. What is mentioned as a requirement for usage of the coupon?",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "A form of identification"
+      },
+      {
+        "key": "B",
+        "text": "A downloaded mobile app"
+      },
+      {
+        "key": "C",
+        "text": "A customer account number"
+      },
+      {
+        "key": "D",
+        "text": "A minimum purchase"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "<b>Đáp án đúng: D. A minimum purchase</b><br><br>Yêu cầu đơn hàng tối thiểu từ $40 trở lên."
+  },
+  {
+    "id": "r_t2_q50",
+    "skill": "reading",
+    "test": 2,
+    "part": 3,
+    "partName": "Part 7 (Reading Part 3) - Reading Comprehension (Đọc hiểu đoạn văn / hội thoại)",
+    "questionNum": 50,
+    "passage": "<b>Phiếu giảm giá:</b><br>'This coupon may only be used when placing an order via telephone, our Web site, or postal order.'",
+    "prompt": "50. Which means of placing an order is the coupon NOT valid for?",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "In a shop"
+      },
+      {
+        "key": "B",
+        "text": "Over the phone"
+      },
+      {
+        "key": "C",
+        "text": "By post"
+      },
+      {
+        "key": "D",
+        "text": "Online"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "<b>Đáp án đúng: A. In a shop</b><br><br>Phiếu chỉ dùng qua điện thoại, web hoặc đường bưu điện, KHÔNG áp dụng mua trực tiếp tại cửa hàng (In a shop)."
+  },
+  {
+    "id": "r_t3_q1",
+    "skill": "reading",
+    "test": 3,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 1,
+    "passage": "",
+    "prompt": "I will call you as soon as I _______",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "arrive"
+      },
+      {
+        "key": "B",
+        "text": "arrives"
+      },
+      {
+        "key": "C",
+        "text": "was arriving"
+      },
+      {
+        "key": "D",
+        "text": "will arrive"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "<b>Đáp án đúng: A</b> (arrive)<br><br><i>Câu hoàn chỉnh:</i><br>I will call you as soon as I <u><b>arrive</b></u>"
+  },
+  {
+    "id": "r_t3_q2",
+    "skill": "reading",
+    "test": 3,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 2,
+    "passage": "",
+    "prompt": "We will have to _______ strictly to meet expenses this month.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "economy"
+      },
+      {
+        "key": "B",
+        "text": "economize"
+      },
+      {
+        "key": "C",
+        "text": "economist"
+      },
+      {
+        "key": "D",
+        "text": "economical"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "<b>Đáp án đúng: B</b> (economize)<br><br><i>Câu hoàn chỉnh:</i><br>We will have to <u><b>economize</b></u> strictly to meet expenses this month."
+  },
+  {
+    "id": "r_t3_q3",
+    "skill": "reading",
+    "test": 3,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 3,
+    "passage": "",
+    "prompt": "You'll find the ink cartridges _______ the top shelf of the closet.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "in"
+      },
+      {
+        "key": "B",
+        "text": "on"
+      },
+      {
+        "key": "C",
+        "text": "up"
+      },
+      {
+        "key": "D",
+        "text": "at"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "<b>Đáp án đúng: B</b> (on)<br><br><i>Câu hoàn chỉnh:</i><br>You'll find the ink cartridges <u><b>on</b></u> the top shelf of the closet."
+  },
+  {
+    "id": "r_t3_q4",
+    "skill": "reading",
+    "test": 3,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 4,
+    "passage": "",
+    "prompt": "The missing document was _______ in an empty office.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "discover"
+      },
+      {
+        "key": "B",
+        "text": "discovery"
+      },
+      {
+        "key": "C",
+        "text": "discovered"
+      },
+      {
+        "key": "D",
+        "text": "discovering"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "<b>Đáp án đúng: C</b> (discovered)<br><br><i>Câu hoàn chỉnh:</i><br>The missing document was <u><b>discovered</b></u> in an empty office."
+  },
+  {
+    "id": "r_t3_q5",
+    "skill": "reading",
+    "test": 3,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 5,
+    "passage": "",
+    "prompt": "This report is urgent, so please turn it _______ before the end of the day.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "on"
+      },
+      {
+        "key": "B",
+        "text": "up"
+      },
+      {
+        "key": "C",
+        "text": "in"
+      },
+      {
+        "key": "D",
+        "text": "over"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "<b>Đáp án đúng: C</b> (in)<br><br><i>Câu hoàn chỉnh:</i><br>This report is urgent, so please turn it <u><b>in</b></u> before the end of the day."
+  },
+  {
+    "id": "r_t3_q6",
+    "skill": "reading",
+    "test": 3,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 6,
+    "passage": "",
+    "prompt": "If you need any help filling out the forms, _______ somebody at the front desk for assistance.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "to ask"
+      },
+      {
+        "key": "B",
+        "text": "asking"
+      },
+      {
+        "key": "C",
+        "text": "asks"
+      },
+      {
+        "key": "D",
+        "text": "ask"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "<b>Đáp án đúng: D</b> (ask)<br><br><i>Câu hoàn chỉnh:</i><br>If you need any help filling out the forms, <u><b>ask</b></u> somebody at the front desk for assistance."
+  },
+  {
+    "id": "r_t3_q7",
+    "skill": "reading",
+    "test": 3,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 7,
+    "passage": "",
+    "prompt": "We will need to think _______ in order to find a good solution to this problem.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "creatively"
+      },
+      {
+        "key": "B",
+        "text": "creative"
+      },
+      {
+        "key": "C",
+        "text": "created"
+      },
+      {
+        "key": "D",
+        "text": "creator"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "<b>Đáp án đúng: A</b> (creatively)<br><br><i>Câu hoàn chỉnh:</i><br>We will need to think <u><b>creatively</b></u> in order to find a good solution to this problem."
+  },
+  {
+    "id": "r_t3_q8",
+    "skill": "reading",
+    "test": 3,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 8,
+    "passage": "",
+    "prompt": "This office is expensive, but it's _______ than our old office.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "space"
+      },
+      {
+        "key": "B",
+        "text": "spacious"
+      },
+      {
+        "key": "C",
+        "text": "more spacious"
+      },
+      {
+        "key": "D",
+        "text": "the most spacious"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "<b>Đáp án đúng: C</b> (more spacious)<br><br><i>Câu hoàn chỉnh:</i><br>This office is expensive, but it's <u><b>more spacious</b></u> than our old office."
+  },
+  {
+    "id": "r_t3_q9",
+    "skill": "reading",
+    "test": 3,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 9,
+    "passage": "",
+    "prompt": "Dr. Chin, _______ book I just showed you, works across the hall from me.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "who"
+      },
+      {
+        "key": "B",
+        "text": "that"
+      },
+      {
+        "key": "C",
+        "text": "whom"
+      },
+      {
+        "key": "D",
+        "text": "whose"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "<b>Đáp án đúng: D</b> (whose)<br><br><i>Câu hoàn chỉnh:</i><br>Dr. Chin, <u><b>whose</b></u> book I just showed you, works across the hall from me."
+  },
+  {
+    "id": "r_t3_q10",
+    "skill": "reading",
+    "test": 3,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 10,
+    "passage": "",
+    "prompt": "The new company headquarters is _______ Main Street.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "at"
+      },
+      {
+        "key": "B",
+        "text": "on"
+      },
+      {
+        "key": "C",
+        "text": "in"
+      },
+      {
+        "key": "D",
+        "text": "to"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "<b>Đáp án đúng: B</b> (on)<br><br><i>Câu hoàn chỉnh:</i><br>The new company headquarters is <u><b>on</b></u> Main Street."
+  },
+  {
+    "id": "r_t3_q11",
+    "skill": "reading",
+    "test": 3,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 11,
+    "passage": "",
+    "prompt": "I really enjoy the work that I do, _______ I have a hard time getting along with my colleagues.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "but"
+      },
+      {
+        "key": "B",
+        "text": "and"
+      },
+      {
+        "key": "C",
+        "text": "as"
+      },
+      {
+        "key": "D",
+        "text": "or"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "<b>Đáp án đúng: A</b> (but)<br><br><i>Câu hoàn chỉnh:</i><br>I really enjoy the work that I do, <u><b>but</b></u> I have a hard time getting along with my colleagues."
+  },
+  {
+    "id": "r_t3_q12",
+    "skill": "reading",
+    "test": 3,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 12,
+    "passage": "",
+    "prompt": "We returned the table to the store because we _______ a small flaw on the surface.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "demanded"
+      },
+      {
+        "key": "B",
+        "text": "deplored"
+      },
+      {
+        "key": "C",
+        "text": "detected"
+      },
+      {
+        "key": "D",
+        "text": "delayed"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "<b>Đáp án đúng: C</b> (detected)<br><br><i>Câu hoàn chỉnh:</i><br>We returned the table to the store because we <u><b>detected</b></u> a small flaw on the surface."
+  },
+  {
+    "id": "r_t3_q13",
+    "skill": "reading",
+    "test": 3,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 13,
+    "passage": "",
+    "prompt": "The old house on the corner is _______ down and needs some serious repair work.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "fell"
+      },
+      {
+        "key": "B",
+        "text": "falls"
+      },
+      {
+        "key": "C",
+        "text": "fallen"
+      },
+      {
+        "key": "D",
+        "text": "falling"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "<b>Đáp án đúng: D</b> (falling)<br><br><i>Câu hoàn chỉnh:</i><br>The old house on the corner is <u><b>falling</b></u> down and needs some serious repair work."
+  },
+  {
+    "id": "r_t3_q14",
+    "skill": "reading",
+    "test": 3,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 14,
+    "passage": "",
+    "prompt": "I will need these documents for the meeting tomorrow, so please have them on my desk _______ 8:00.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "before"
+      },
+      {
+        "key": "B",
+        "text": "between"
+      },
+      {
+        "key": "C",
+        "text": "on"
+      },
+      {
+        "key": "D",
+        "text": "in"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "<b>Đáp án đúng: A</b> (before)<br><br><i>Câu hoàn chỉnh:</i><br>I will need these documents for the meeting tomorrow, so please have them on my desk <u><b>before</b></u> 8:00."
+  },
+  {
+    "id": "r_t3_q15",
+    "skill": "reading",
+    "test": 3,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 15,
+    "passage": "",
+    "prompt": "The visitor we are expecting in a few days _______ help finding a good hotel.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "need"
+      },
+      {
+        "key": "B",
+        "text": "needs"
+      },
+      {
+        "key": "C",
+        "text": "have needed"
+      },
+      {
+        "key": "D",
+        "text": "are going to need"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "<b>Đáp án đúng: B</b> (needs)<br><br><i>Câu hoàn chỉnh:</i><br>The visitor we are expecting in a few days <u><b>needs</b></u> help finding a good hotel."
+  },
+  {
+    "id": "r_t3_q16",
+    "skill": "reading",
+    "test": 3,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 16,
+    "passage": "",
+    "prompt": "The _______ of our manufacturing process has saved the company a lot of money.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "simplification"
+      },
+      {
+        "key": "B",
+        "text": "simplify"
+      },
+      {
+        "key": "C",
+        "text": "simply"
+      },
+      {
+        "key": "D",
+        "text": "simple"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "<b>Đáp án đúng: A</b> (simplification)<br><br><i>Câu hoàn chỉnh:</i><br>The <u><b>simplification</b></u> of our manufacturing process has saved the company a lot of money."
+  },
+  {
+    "id": "r_t3_q17",
+    "skill": "reading",
+    "test": 3,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 17,
+    "passage": "",
+    "prompt": "Ms. Lee prepared the charts, _______ Ms. Kim presented them at the meeting.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "or"
+      },
+      {
+        "key": "B",
+        "text": "during"
+      },
+      {
+        "key": "C",
+        "text": "and"
+      },
+      {
+        "key": "D",
+        "text": "of"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "<b>Đáp án đúng: C</b> (and)<br><br><i>Câu hoàn chỉnh:</i><br>Ms. Lee prepared the charts, <u><b>and</b></u> Ms. Kim presented them at the meeting."
+  },
+  {
+    "id": "r_t3_q18",
+    "skill": "reading",
+    "test": 3,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 18,
+    "passage": "",
+    "prompt": "Everybody employed by this office _______ a professional degree.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "has"
+      },
+      {
+        "key": "B",
+        "text": "have"
+      },
+      {
+        "key": "C",
+        "text": "to have"
+      },
+      {
+        "key": "D",
+        "text": "is having"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "<b>Đáp án đúng: A</b> (has)<br><br><i>Câu hoàn chỉnh:</i><br>Everybody employed by this office <u><b>has</b></u> a professional degree."
+  },
+  {
+    "id": "r_t3_q19",
+    "skill": "reading",
+    "test": 3,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 19,
+    "passage": "",
+    "prompt": "You can expect _______ your first paycheck before the end of your first month of employment.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "receive"
+      },
+      {
+        "key": "B",
+        "text": "to receive"
+      },
+      {
+        "key": "C",
+        "text": "receiving"
+      },
+      {
+        "key": "D",
+        "text": "recipient"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "<b>Đáp án đúng: B</b> (to receive)<br><br><i>Câu hoàn chỉnh:</i><br>You can expect <u><b>to receive</b></u> your first paycheck before the end of your first month of employment."
+  },
+  {
+    "id": "r_t3_q20",
+    "skill": "reading",
+    "test": 3,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 20,
+    "passage": "",
+    "prompt": "It is better for the economy to buy things that are produced _______ rather than bringing in products from far away.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "local"
+      },
+      {
+        "key": "B",
+        "text": "localize"
+      },
+      {
+        "key": "C",
+        "text": "locally"
+      },
+      {
+        "key": "D",
+        "text": "location"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "<b>Đáp án đúng: C</b> (locally)<br><br><i>Câu hoàn chỉnh:</i><br>It is better for the economy to buy things that are produced <u><b>locally</b></u> rather than bringing in products from far away."
+  },
+  {
+    "id": "r_t3_q21",
+    "skill": "reading",
+    "test": 3,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 21,
+    "passage": "",
+    "prompt": "If you _______ your reservations earlier, you would have gotten on the flight you wanted.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "made"
+      },
+      {
+        "key": "B",
+        "text": "had made"
+      },
+      {
+        "key": "C",
+        "text": "have made"
+      },
+      {
+        "key": "D",
+        "text": "would have made"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "<b>Đáp án đúng: B</b> (had made)<br><br><i>Câu hoàn chỉnh:</i><br>If you <u><b>had made</b></u> your reservations earlier, you would have gotten on the flight you wanted."
+  },
+  {
+    "id": "r_t3_q22",
+    "skill": "reading",
+    "test": 3,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 22,
+    "passage": "",
+    "prompt": "The manager let everyone _______ the office early to attend the convention.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "left"
+      },
+      {
+        "key": "B",
+        "text": "to leave"
+      },
+      {
+        "key": "C",
+        "text": "leaves"
+      },
+      {
+        "key": "D",
+        "text": "leave"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "<b>Đáp án đúng: D</b> (leave)<br><br><i>Câu hoàn chỉnh:</i><br>The manager let everyone <u><b>leave</b></u> the office early to attend the convention."
+  },
+  {
+    "id": "r_t3_q23",
+    "skill": "reading",
+    "test": 3,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 23,
+    "passage": "",
+    "prompt": "The number of people who ask questions at the end of the lecture _______ always quite astonishing.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "be"
+      },
+      {
+        "key": "B",
+        "text": "are"
+      },
+      {
+        "key": "C",
+        "text": "were"
+      },
+      {
+        "key": "D",
+        "text": "is"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "<b>Đáp án đúng: D</b> (is)<br><br><i>Câu hoàn chỉnh:</i><br>The number of people who ask questions at the end of the lecture <u><b>is</b></u> always quite astonishing."
+  },
+  {
+    "id": "r_t3_q24",
+    "skill": "reading",
+    "test": 3,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 24,
+    "passage": "",
+    "prompt": "You can sign the document now, _______ you can speak to an attorney first if you prefer.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "and"
+      },
+      {
+        "key": "B",
+        "text": "but"
+      },
+      {
+        "key": "C",
+        "text": "or"
+      },
+      {
+        "key": "D",
+        "text": "nor"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "<b>Đáp án đúng: C</b> (or)<br><br><i>Câu hoàn chỉnh:</i><br>You can sign the document now, <u><b>or</b></u> you can speak to an attorney first if you prefer."
+  },
+  {
+    "id": "r_t3_q25",
+    "skill": "reading",
+    "test": 3,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 25,
+    "passage": "",
+    "prompt": "You'll find the letter _______ the papers on my desk.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "along"
+      },
+      {
+        "key": "B",
+        "text": "among"
+      },
+      {
+        "key": "C",
+        "text": "almost"
+      },
+      {
+        "key": "D",
+        "text": "always"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "<b>Đáp án đúng: B</b> (among)<br><br><i>Câu hoàn chỉnh:</i><br>You'll find the letter <u><b>among</b></u> the papers on my desk."
+  },
+  {
+    "id": "r_t3_q26",
+    "skill": "reading",
+    "test": 3,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 26,
+    "passage": "",
+    "prompt": "He might _______ a discount if he pays for his ticket before next week.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "get"
+      },
+      {
+        "key": "B",
+        "text": "gets"
+      },
+      {
+        "key": "C",
+        "text": "will get"
+      },
+      {
+        "key": "D",
+        "text": "going to get"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "<b>Đáp án đúng: A</b> (get)<br><br><i>Câu hoàn chỉnh:</i><br>He might <u><b>get</b></u> a discount if he pays for his ticket before next week."
+  },
+  {
+    "id": "r_t3_q27",
+    "skill": "reading",
+    "test": 3,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 27,
+    "passage": "",
+    "prompt": "If you lived closer to the office, you _______ trouble getting to work on time.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "don't have"
+      },
+      {
+        "key": "B",
+        "text": "didn't have"
+      },
+      {
+        "key": "C",
+        "text": "won't have"
+      },
+      {
+        "key": "D",
+        "text": "wouldn't have"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "<b>Đáp án đúng: D</b> (wouldn't have)<br><br><i>Câu hoàn chỉnh:</i><br>If you lived closer to the office, you <u><b>wouldn't have</b></u> trouble getting to work on time."
+  },
+  {
+    "id": "r_t3_q28",
+    "skill": "reading",
+    "test": 3,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 28,
+    "passage": "",
+    "prompt": "After listening to his thorough _______, I had no problems understanding how to use the software.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "explains"
+      },
+      {
+        "key": "B",
+        "text": "explained"
+      },
+      {
+        "key": "C",
+        "text": "explanation"
+      },
+      {
+        "key": "D",
+        "text": "explanatory"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "<b>Đáp án đúng: C</b> (explanation)<br><br><i>Câu hoàn chỉnh:</i><br>After listening to his thorough <u><b>explanation</b></u>, I had no problems understanding how to use the software."
+  },
+  {
+    "id": "r_t3_q29",
+    "skill": "reading",
+    "test": 3,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 29,
+    "passage": "",
+    "prompt": "He had a good reputation and was _______ as a very fair boss.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "regarded"
+      },
+      {
+        "key": "B",
+        "text": "registered"
+      },
+      {
+        "key": "C",
+        "text": "regulated"
+      },
+      {
+        "key": "D",
+        "text": "regretted"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "<b>Đáp án đúng: A</b> (regarded)<br><br><i>Câu hoàn chỉnh:</i><br>He had a good reputation and was <u><b>regarded</b></u> as a very fair boss."
+  },
+  {
+    "id": "r_t3_q30",
+    "skill": "reading",
+    "test": 3,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 30,
+    "passage": "",
+    "prompt": "We will review your application _______ you have submitted all your paperwork.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "soon"
+      },
+      {
+        "key": "B",
+        "text": "as soon"
+      },
+      {
+        "key": "C",
+        "text": "as soon as"
+      },
+      {
+        "key": "D",
+        "text": "soon than"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "<b>Đáp án đúng: C</b> (as soon as)<br><br><i>Câu hoàn chỉnh:</i><br>We will review your application <u><b>as soon as</b></u> you have submitted all your paperwork."
+  },
+  {
+    "id": "r_t3_q31",
+    "skill": "reading",
+    "test": 3,
+    "part": 2,
+    "partName": "Part 6 (Reading Part 2) - Text Completion (Điền đoạn văn)",
+    "questionNum": 31,
+    "passage": "",
+    "prompt": "The eighteen sites under the department's management (31) _______ by residents of all ages for recreation and relaxation.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "will use"
+      },
+      {
+        "key": "B",
+        "text": "had been used"
+      },
+      {
+        "key": "C",
+        "text": "are used"
+      },
+      {
+        "key": "D",
+        "text": "would have used"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "<b>Đáp án đúng: C</b> (are used)<br><br><b>Giải thích:</b> Hiện tại đơn bị động (are used)."
+  },
+  {
+    "id": "r_t3_q32",
+    "skill": "reading",
+    "test": 3,
+    "part": 2,
+    "partName": "Part 6 (Reading Part 2) - Text Completion (Điền đoạn văn)",
+    "questionNum": 32,
+    "passage": "",
+    "prompt": "\"\"(32) _______ we need is additional financial support for facility improvements,\"\" says Council Member Dena Walters.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "What"
+      },
+      {
+        "key": "B",
+        "text": "Whichever"
+      },
+      {
+        "key": "C",
+        "text": "That"
+      },
+      {
+        "key": "D",
+        "text": "Anyone\""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "<b>Đáp án đúng: A</b> (What)<br><br><b>Giải thích:</b> Mệnh đề danh ngữ: What we need is..."
+  },
+  {
+    "id": "r_t3_q33",
+    "skill": "reading",
+    "test": 3,
+    "part": 2,
+    "partName": "Part 6 (Reading Part 2) - Text Completion (Điền đoạn văn)",
+    "questionNum": 33,
+    "passage": "",
+    "prompt": "The (33) _______ will be discussed at a council meeting on March 28 at 7 P.M.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "achievement"
+      },
+      {
+        "key": "B",
+        "text": "selection"
+      },
+      {
+        "key": "C",
+        "text": "matter"
+      },
+      {
+        "key": "D",
+        "text": "setback"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "<b>Đáp án đúng: C</b> (matter)<br><br><b>Giải thích:</b> Vấn đề này (The matter)."
+  },
+  {
+    "id": "r_t3_q34",
+    "skill": "reading",
+    "test": 3,
+    "part": 2,
+    "partName": "Part 6 (Reading Part 2) - Text Completion (Điền đoạn văn)",
+    "questionNum": 34,
+    "passage": "",
+    "prompt": "All Rosewood residents are invited to attend, and those who wish to secure seating are urged to arrive early. (34) _______",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "Departmental budgets are adjusted annually."
+      },
+      {
+        "key": "B",
+        "text": "This includes a short public comment period."
+      },
+      {
+        "key": "C",
+        "text": "Higher than usual attendance is expected."
+      },
+      {
+        "key": "D",
+        "text": "Each council member serves a two-year term."
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "<b>Đáp án đúng: B</b> (This includes a short public comment period.)<br><br><b>Giải thích:</b> Cuộc họp có bao gồm thời gian lấy ý kiến công chúng."
+  },
+  {
+    "id": "r_t3_q35",
+    "skill": "reading",
+    "test": 3,
+    "part": 2,
+    "partName": "Part 6 (Reading Part 2) - Text Completion (Điền đoạn văn)",
+    "questionNum": 35,
+    "passage": "",
+    "prompt": "You can (35) _______ extend the life of your Oakfirth-brand camping tent by following these guidelines.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "signify"
+      },
+      {
+        "key": "B",
+        "text": "significant"
+      },
+      {
+        "key": "C",
+        "text": "significance"
+      },
+      {
+        "key": "D",
+        "text": "significantly"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "<b>Đáp án đúng: D</b> (significantly)<br><br><b>Giải thích:</b> Trạng từ bổ nghĩa cho động từ extend."
+  },
+  {
+    "id": "r_t3_q36",
+    "skill": "reading",
+    "test": 3,
+    "part": 2,
+    "partName": "Part 6 (Reading Part 2) - Text Completion (Điền đoạn văn)",
+    "questionNum": 36,
+    "passage": "",
+    "prompt": "First, make sure it is clean before putting it into storage for more than a few days. (36) _______ If the tent must be washed...",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "Some types of tents may be more difficult to set up."
+      },
+      {
+        "key": "B",
+        "text": "A piece of flat, soft ground makes an ideal campsite."
+      },
+      {
+        "key": "C",
+        "text": "Use a cloth to wipe away small amounts of dirt."
+      },
+      {
+        "key": "D",
+        "text": "These can be repaired with adhesive tape or patches."
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "<b>Đáp án đúng: C</b> (Use a cloth to wipe away small amounts of dirt.)<br><br><b>Giải thích:</b> Hướng dẫn làm sạch lều trước khi cất giữ."
+  },
+  {
+    "id": "r_t3_q37",
+    "skill": "reading",
+    "test": 3,
+    "part": 2,
+    "partName": "Part 6 (Reading Part 2) - Text Completion (Điền đoạn văn)",
+    "questionNum": 37,
+    "passage": "",
+    "prompt": "If the tent must be washed, do not expose it to detergents or other cleaning fluids that contain (37) _______ chemicals.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "steep"
+      },
+      {
+        "key": "B",
+        "text": "harsh"
+      },
+      {
+        "key": "C",
+        "text": "timely"
+      },
+      {
+        "key": "D",
+        "text": "automated"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "<b>Đáp án đúng: B</b> (harsh)<br><br><b>Giải thích:</b> Hóa chất tẩy rửa mạnh/độc hại (harsh chemicals)."
+  },
+  {
+    "id": "r_t3_q38",
+    "skill": "reading",
+    "test": 3,
+    "part": 2,
+    "partName": "Part 6 (Reading Part 2) - Text Completion (Điền đoạn văn)",
+    "questionNum": 38,
+    "passage": "",
+    "prompt": "Then, allow it to (38) _______ completely before packing it in the provided bag.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "dry"
+      },
+      {
+        "key": "B",
+        "text": "cool"
+      },
+      {
+        "key": "C",
+        "text": "fill"
+      },
+      {
+        "key": "D",
+        "text": "harden"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "<b>Đáp án đúng: A</b> (dry)<br><br><b>Giải thích:</b> Để lều khô hoàn toàn trước khi đóng gói."
+  },
+  {
+    "id": "r_t3_q39",
+    "skill": "reading",
+    "test": 3,
+    "part": 2,
+    "partName": "Part 6 (Reading Part 2) - Text Completion (Điền đoạn văn)",
+    "questionNum": 39,
+    "passage": "",
+    "prompt": "This year, we have selected Kansas City as the host city because of its (39) _______ location.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "accessible"
+      },
+      {
+        "key": "B",
+        "text": "accessibly"
+      },
+      {
+        "key": "C",
+        "text": "accesses"
+      },
+      {
+        "key": "D",
+        "text": "accessibility"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "<b>Đáp án đúng: A</b> (accessible)<br><br><b>Giải thích:</b> Tính từ đứng trước danh từ location."
+  },
+  {
+    "id": "r_t3_q40",
+    "skill": "reading",
+    "test": 3,
+    "part": 2,
+    "partName": "Part 6 (Reading Part 2) - Text Completion (Điền đoạn văn)",
+    "questionNum": 40,
+    "passage": "",
+    "prompt": "If you are traveling from out of town, please see the enclosed details regarding (40) _______",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "accommodations"
+      },
+      {
+        "key": "B",
+        "text": "fees"
+      },
+      {
+        "key": "C",
+        "text": "presentations"
+      },
+      {
+        "key": "D",
+        "text": "requirements"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "<b>Đáp án đúng: A</b> (accommodations)<br><br><b>Giải thích:</b> Chỗ ở khách sạn (accommodations)."
+  },
+  {
+    "id": "r_t3_q41",
+    "skill": "reading",
+    "test": 3,
+    "part": 2,
+    "partName": "Part 6 (Reading Part 2) - Text Completion (Điền đoạn văn)",
+    "questionNum": 41,
+    "passage": "",
+    "prompt": "This workshop is an excellent way to (41) _______ your business management skills.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "enforce"
+      },
+      {
+        "key": "B",
+        "text": "observe"
+      },
+      {
+        "key": "C",
+        "text": "enhance"
+      },
+      {
+        "key": "D",
+        "text": "pursue"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "<b>Đáp án đúng: C</b> (enhance)<br><br><b>Giải thích:</b> Nâng cao kỹ năng quản lý (enhance skills)."
+  },
+  {
+    "id": "r_t3_q42",
+    "skill": "reading",
+    "test": 3,
+    "part": 2,
+    "partName": "Part 6 (Reading Part 2) - Text Completion (Điền đoạn văn)",
+    "questionNum": 42,
+    "passage": "",
+    "prompt": "...be sure to register by the August 10 deadline. (42) _______",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "Unfortunately, registration for that particular workshop has closed."
+      },
+      {
+        "key": "B",
+        "text": "We hope you had as much fun as we did at last year's gathering."
+      },
+      {
+        "key": "C",
+        "text": "We may decide that a larger venue is more suited to our needs."
+      },
+      {
+        "key": "D",
+        "text": "This will enable us to guarantee that a place is reserved for you."
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "<b>Đáp án đúng: D</b> (This will enable us to guarantee that a place is reserved for you.)<br><br><b>Giải thích:</b> Đăng ký sớm giúp đảm bảo giữ chỗ."
+  },
+  {
+    "id": "r_t3_q43",
+    "skill": "reading",
+    "test": 3,
+    "part": 2,
+    "partName": "Part 6 (Reading Part 2) - Text Completion (Điền đoạn văn)",
+    "questionNum": 43,
+    "passage": "",
+    "prompt": "They will be stocked with fruit, snack bars, juices, and other treats, all (43) _______ for their healthiness and good taste.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "chosen"
+      },
+      {
+        "key": "B",
+        "text": "choosing"
+      },
+      {
+        "key": "C",
+        "text": "choice"
+      },
+      {
+        "key": "D",
+        "text": "choose"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "<b>Đáp án đúng: A</b> (chosen)<br><br><b>Giải thích:</b> Rút gọn mệnh đề quan hệ bị động (which are chosen)."
+  },
+  {
+    "id": "r_t3_q44",
+    "skill": "reading",
+    "test": 3,
+    "part": 2,
+    "partName": "Part 6 (Reading Part 2) - Text Completion (Điền đoạn văn)",
+    "questionNum": 44,
+    "passage": "",
+    "prompt": "In order to avoid confusion... pantry goods will (44) _______ be available in special pantry cupboards.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "now"
+      },
+      {
+        "key": "B",
+        "text": "only"
+      },
+      {
+        "key": "C",
+        "text": "again"
+      },
+      {
+        "key": "D",
+        "text": "hardly"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "<b>Đáp án đúng: B</b> (only)<br><br><b>Giải thích:</b> Chỉ có sẵn tại tủ riêng (will only be available)."
+  },
+  {
+    "id": "r_t3_q45",
+    "skill": "reading",
+    "test": 3,
+    "part": 2,
+    "partName": "Part 6 (Reading Part 2) - Text Completion (Điền đoạn văn)",
+    "questionNum": 45,
+    "passage": "",
+    "prompt": "The sole rule for the pantries' use is that employees may not take more food or drink than they will consume immediately. (45) _______",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "I will circulate the full list of rules as soon as it has been approved."
+      },
+      {
+        "key": "B",
+        "text": "Items should not be stored in desks or transported out of the office."
+      },
+      {
+        "key": "C",
+        "text": "Moreover, used dishes are to be washed promptly, not left in the sink."
+      },
+      {
+        "key": "D",
+        "text": "Several staff members have reported instances of this behavior."
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "<b>Đáp án đúng: B</b> (Items should not be stored in desks or transported out of the office.)<br><br><b>Giải thích:</b> Quy định không tích trữ đồ ăn tại bàn hoặc mang ra khỏi công ty."
+  },
+  {
+    "id": "r_t3_q46",
+    "skill": "reading",
+    "test": 3,
+    "part": 2,
+    "partName": "Part 6 (Reading Part 2) - Text Completion (Điền đoạn văn)",
+    "questionNum": 46,
+    "passage": "",
+    "prompt": "Employees (46) _______ this rule can expect to have their pantry privileges suspended.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "broke"
+      },
+      {
+        "key": "B",
+        "text": "will break"
+      },
+      {
+        "key": "C",
+        "text": "are breaking"
+      },
+      {
+        "key": "D",
+        "text": "who break"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "<b>Đáp án đúng: D</b> (who break)<br><br><b>Giải thích:</b> Mệnh đề quan hệ: Employees who break this rule."
+  },
+  {
+    "id": "r_t3_q47",
+    "skill": "reading",
+    "test": 3,
+    "part": 3,
+    "partName": "Part 7 (Reading Part 3) - Reading Comprehension (Đọc hiểu đoạn văn / hội thoại)",
+    "questionNum": 47,
+    "passage": "<b>Đoạn văn (Trang web Ban giám đốc Parkler):</b><br>'Once elected, the board must create an annual work plan that determines the distribution of work between itself, any of its committees, and the CEO. It also must appoint an auditing committee...'",
+    "prompt": "47. What is NOT mentioned as a responsibility of the board of directors?",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "Seeking benefits for investors"
+      },
+      {
+        "key": "B",
+        "text": "Forming a team to oversee financial affairs"
+      },
+      {
+        "key": "C",
+        "text": "Dividing tasks among the company's leadership"
+      },
+      {
+        "key": "D",
+        "text": "Appointing the company's chief executive officer"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "<b>Đáp án đúng: D. Appointing the company's chief executive officer</b><br><br>Hội đồng phân chia công việc với CEO chứ không nêu bổ nhiệm CEO."
+  },
+  {
+    "id": "r_t3_q48",
+    "skill": "reading",
+    "test": 3,
+    "part": 3,
+    "partName": "Part 7 (Reading Part 3) - Reading Comprehension (Đọc hiểu đoạn văn / hội thoại)",
+    "questionNum": 48,
+    "passage": "<b>Đoạn văn:</b><br>'Scroll down to read about current members of the board.'",
+    "prompt": "48. What can most likely be found further down on the Web page?",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "Biographical details about some people"
+      },
+      {
+        "key": "B",
+        "text": "A list of the company's official rules"
+      },
+      {
+        "key": "C",
+        "text": "A summary of a yearly report"
+      },
+      {
+        "key": "D",
+        "text": "The schedule for a shareholder meeting"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "<b>Đáp án đúng: A. Biographical details about some people</b><br><br>Cuộn xuống để xem thông tin về các thành viên hiện tại -> thông tin tiểu sử cá nhân."
+  },
+  {
+    "id": "r_t3_q49",
+    "skill": "reading",
+    "test": 3,
+    "part": 3,
+    "partName": "Part 7 (Reading Part 3) - Reading Comprehension (Đọc hiểu đoạn văn / hội thoại)",
+    "questionNum": 49,
+    "passage": "<b>Đoạn chat (Salvo Trevisano & Jaromir Nowak):</b><br>Salvo: 'Will you be able to get back here by then?'<br>Jaromir [3:16 P.M.]: 'Probably not.'",
+    "prompt": "49. At 3:16 P.M., what does Mr. Nowak mean when he writes, 'Probably not'?",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "He does not have enough materials."
+      },
+      {
+        "key": "B",
+        "text": "He does not think a truck has free space."
+      },
+      {
+        "key": "C",
+        "text": "He will be unable to assist Mr. Trevisano."
+      },
+      {
+        "key": "D",
+        "text": "He may have trouble finding Strickland Street."
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "<b>Đáp án đúng: C. He will be unable to assist Mr. Trevisano.</b><br><br>Không thể về kịp để hỗ trợ bốc dỡ hàng."
+  },
+  {
+    "id": "r_t3_q50",
+    "skill": "reading",
+    "test": 3,
+    "part": 3,
+    "partName": "Part 7 (Reading Part 3) - Reading Comprehension (Đọc hiểu đoạn văn / hội thoại)",
+    "questionNum": 50,
+    "passage": "<b>Đoạn chat:</b><br>'...it turns out that some of the pipe is starting to wear away and needs to be replaced to stop the sink from leaking.'",
+    "prompt": "50. What is Mr. Nowak currently doing?",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "Reviewing some building plans"
+      },
+      {
+        "key": "B",
+        "text": "Fixing a plumbing problem"
+      },
+      {
+        "key": "C",
+        "text": "Organizing some supplies"
+      },
+      {
+        "key": "D",
+        "text": "Replacing a light fixture"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "<b>Đáp án đúng: B. Fixing a plumbing problem</b><br><br>Đang xử lý sửa ống nước/chống rò rỉ bồn rửa (plumbing problem)."
+  },
+  {
+    "id": "r_t4_q1",
+    "skill": "reading",
+    "test": 4,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 1,
+    "passage": "",
+    "prompt": "When Ms. Song gets here, we _______ the meeting.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "start"
+      },
+      {
+        "key": "B",
+        "text": "will start"
+      },
+      {
+        "key": "C",
+        "text": "have started"
+      },
+      {
+        "key": "D",
+        "text": "are starting"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "<b>Đáp án đúng: B</b> (will start)<br><br><i>Câu hoàn chỉnh:</i><br>When Ms. Song gets here, we <u><b>will start</b></u> the meeting."
+  },
+  {
+    "id": "r_t4_q2",
+    "skill": "reading",
+    "test": 4,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 2,
+    "passage": "",
+    "prompt": "Don't forget to sign the application form _______ you submit it.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "while"
+      },
+      {
+        "key": "B",
+        "text": "after"
+      },
+      {
+        "key": "C",
+        "text": "as soon as"
+      },
+      {
+        "key": "D",
+        "text": "before"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "<b>Đáp án đúng: D</b> (before)<br><br><i>Câu hoàn chỉnh:</i><br>Don't forget to sign the application form <u><b>before</b></u> you submit it."
+  },
+  {
+    "id": "r_t4_q3",
+    "skill": "reading",
+    "test": 4,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 3,
+    "passage": "",
+    "prompt": "The final report should be sent _______ the company's main office before the end of the month.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "in"
+      },
+      {
+        "key": "B",
+        "text": "to"
+      },
+      {
+        "key": "C",
+        "text": "on"
+      },
+      {
+        "key": "D",
+        "text": "at"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "<b>Đáp án đúng: B</b> (to)<br><br><i>Câu hoàn chỉnh:</i><br>The final report should be sent <u><b>to</b></u> the company's main office before the end of the month."
+  },
+  {
+    "id": "r_t4_q4",
+    "skill": "reading",
+    "test": 4,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 4,
+    "passage": "",
+    "prompt": "All employees _______ to attend next Friday's staff meeting.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "encourage"
+      },
+      {
+        "key": "B",
+        "text": "will encourage"
+      },
+      {
+        "key": "C",
+        "text": "are encouraged"
+      },
+      {
+        "key": "D",
+        "text": "are encouraging"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "<b>Đáp án đúng: C</b> (are encouraged)<br><br><i>Câu hoàn chỉnh:</i><br>All employees <u><b>are encouraged</b></u> to attend next Friday's staff meeting."
+  },
+  {
+    "id": "r_t4_q5",
+    "skill": "reading",
+    "test": 4,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 5,
+    "passage": "",
+    "prompt": "We _______ each staff member to do his or her part to get this project completed on time.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "expect"
+      },
+      {
+        "key": "B",
+        "text": "expel"
+      },
+      {
+        "key": "C",
+        "text": "expend"
+      },
+      {
+        "key": "D",
+        "text": "expedite"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "<b>Đáp án đúng: A</b> (expect)<br><br><i>Câu hoàn chỉnh:</i><br>We <u><b>expect</b></u> each staff member to do his or her part to get this project completed on time."
+  },
+  {
+    "id": "r_t4_q6",
+    "skill": "reading",
+    "test": 4,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 6,
+    "passage": "",
+    "prompt": "The association conference will take place _______ December.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "in"
+      },
+      {
+        "key": "B",
+        "text": "on"
+      },
+      {
+        "key": "C",
+        "text": "at"
+      },
+      {
+        "key": "D",
+        "text": "of"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "<b>Đáp án đúng: A</b> (in)<br><br><i>Câu hoàn chỉnh:</i><br>The association conference will take place <u><b>in</b></u> December."
+  },
+  {
+    "id": "r_t4_q7",
+    "skill": "reading",
+    "test": 4,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 7,
+    "passage": "",
+    "prompt": "Mr. Lutz is _______ to take on such a big responsibility because he doesn't feel prepared for it at this time.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "relieved"
+      },
+      {
+        "key": "B",
+        "text": "reluctant"
+      },
+      {
+        "key": "C",
+        "text": "reliable"
+      },
+      {
+        "key": "D",
+        "text": "relocated"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "<b>Đáp án đúng: B</b> (reluctant)<br><br><i>Câu hoàn chỉnh:</i><br>Mr. Lutz is <u><b>reluctant</b></u> to take on such a big responsibility because he doesn't feel prepared for it at this time."
+  },
+  {
+    "id": "r_t4_q8",
+    "skill": "reading",
+    "test": 4,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 8,
+    "passage": "",
+    "prompt": "The current _______ of this office plans to leave before the end of the month.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "occupancy"
+      },
+      {
+        "key": "B",
+        "text": "occupying"
+      },
+      {
+        "key": "C",
+        "text": "occupy"
+      },
+      {
+        "key": "D",
+        "text": "occupant"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "<b>Đáp án đúng: D</b> (occupant)<br><br><i>Câu hoàn chỉnh:</i><br>The current <u><b>occupant</b></u> of this office plans to leave before the end of the month."
+  },
+  {
+    "id": "r_t4_q9",
+    "skill": "reading",
+    "test": 4,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 9,
+    "passage": "",
+    "prompt": "We are looking for ways to reduce expenses _______ our financial situation is not good.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "although"
+      },
+      {
+        "key": "B",
+        "text": "but"
+      },
+      {
+        "key": "C",
+        "text": "because"
+      },
+      {
+        "key": "D",
+        "text": "or"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "<b>Đáp án đúng: C</b> (because)<br><br><i>Câu hoàn chỉnh:</i><br>We are looking for ways to reduce expenses <u><b>because</b></u> our financial situation is not good."
+  },
+  {
+    "id": "r_t4_q10",
+    "skill": "reading",
+    "test": 4,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 10,
+    "passage": "",
+    "prompt": "The office closes _______ noon on Saturdays.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "at"
+      },
+      {
+        "key": "B",
+        "text": "on"
+      },
+      {
+        "key": "C",
+        "text": "in"
+      },
+      {
+        "key": "D",
+        "text": "to"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "<b>Đáp án đúng: A</b> (at)<br><br><i>Câu hoàn chỉnh:</i><br>The office closes <u><b>at</b></u> noon on Saturdays."
+  },
+  {
+    "id": "r_t4_q11",
+    "skill": "reading",
+    "test": 4,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 11,
+    "passage": "",
+    "prompt": "The director says that she _______ to hire several new staff members next year.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "plan"
+      },
+      {
+        "key": "B",
+        "text": "plans"
+      },
+      {
+        "key": "C",
+        "text": "planning"
+      },
+      {
+        "key": "D",
+        "text": "planned"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "<b>Đáp án đúng: B</b> (plans)<br><br><i>Câu hoàn chỉnh:</i><br>The director says that she <u><b>plans</b></u> to hire several new staff members next year."
+  },
+  {
+    "id": "r_t4_q12",
+    "skill": "reading",
+    "test": 4,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 12,
+    "passage": "",
+    "prompt": "Mr. Chan _______ in charge of operations since the beginning of last year.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "is"
+      },
+      {
+        "key": "B",
+        "text": "was"
+      },
+      {
+        "key": "C",
+        "text": "has been"
+      },
+      {
+        "key": "D",
+        "text": "will be"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "<b>Đáp án đúng: C</b> (has been)<br><br><i>Câu hoàn chỉnh:</i><br>Mr. Chan <u><b>has been</b></u> in charge of operations since the beginning of last year."
+  },
+  {
+    "id": "r_t4_q13",
+    "skill": "reading",
+    "test": 4,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 13,
+    "passage": "",
+    "prompt": "Replacement cartridges for the printer can be found _______ the top shelf of the supply closet.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "on"
+      },
+      {
+        "key": "B",
+        "text": "in"
+      },
+      {
+        "key": "C",
+        "text": "at"
+      },
+      {
+        "key": "D",
+        "text": "between"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "<b>Đáp án đúng: A</b> (on)<br><br><i>Câu hoàn chỉnh:</i><br>Replacement cartridges for the printer can be found <u><b>on</b></u> the top shelf of the supply closet."
+  },
+  {
+    "id": "r_t4_q14",
+    "skill": "reading",
+    "test": 4,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 14,
+    "passage": "",
+    "prompt": "Both lunch _______ dinner are served in the company cafeteria.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "or"
+      },
+      {
+        "key": "B",
+        "text": "either"
+      },
+      {
+        "key": "C",
+        "text": "but"
+      },
+      {
+        "key": "D",
+        "text": "and"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "<b>Đáp án đúng: D</b> (and)<br><br><i>Câu hoàn chỉnh:</i><br>Both lunch <u><b>and</b></u> dinner are served in the company cafeteria."
+  },
+  {
+    "id": "r_t4_q15",
+    "skill": "reading",
+    "test": 4,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 15,
+    "passage": "",
+    "prompt": "Requests for extra time off must _______ by the employee's supervisor.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "approve"
+      },
+      {
+        "key": "B",
+        "text": "be approved"
+      },
+      {
+        "key": "C",
+        "text": "be approving"
+      },
+      {
+        "key": "D",
+        "text": "approval"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "<b>Đáp án đúng: B</b> (be approved)<br><br><i>Câu hoàn chỉnh:</i><br>Requests for extra time off must <u><b>be approved</b></u> by the employee's supervisor."
+  },
+  {
+    "id": "r_t4_q16",
+    "skill": "reading",
+    "test": 4,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 16,
+    "passage": "",
+    "prompt": "The board of directors agreed _______ Ms. Silva's contract for another year.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "renew"
+      },
+      {
+        "key": "B",
+        "text": "to renew"
+      },
+      {
+        "key": "C",
+        "text": "renewing"
+      },
+      {
+        "key": "D",
+        "text": "will renew"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "<b>Đáp án đúng: B</b> (to renew)<br><br><i>Câu hoàn chỉnh:</i><br>The board of directors agreed <u><b>to renew</b></u> Ms. Silva's contract for another year."
+  },
+  {
+    "id": "r_t4_q17",
+    "skill": "reading",
+    "test": 4,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 17,
+    "passage": "",
+    "prompt": "It is important to dress _______ when going on a job interview.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "profess"
+      },
+      {
+        "key": "B",
+        "text": "profession"
+      },
+      {
+        "key": "C",
+        "text": "professional"
+      },
+      {
+        "key": "D",
+        "text": "professionally"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "<b>Đáp án đúng: D</b> (professionally)<br><br><i>Câu hoàn chỉnh:</i><br>It is important to dress <u><b>professionally</b></u> when going on a job interview."
+  },
+  {
+    "id": "r_t4_q18",
+    "skill": "reading",
+    "test": 4,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 18,
+    "passage": "",
+    "prompt": "Ms. Toth slipped and fell _______ she was walking on the icy sidewalk in front of the building.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "while"
+      },
+      {
+        "key": "B",
+        "text": "during"
+      },
+      {
+        "key": "C",
+        "text": "although"
+      },
+      {
+        "key": "D",
+        "text": "but"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "<b>Đáp án đúng: A</b> (while)<br><br><i>Câu hoàn chỉnh:</i><br>Ms. Toth slipped and fell <u><b>while</b></u> she was walking on the icy sidewalk in front of the building."
+  },
+  {
+    "id": "r_t4_q19",
+    "skill": "reading",
+    "test": 4,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 19,
+    "passage": "",
+    "prompt": "We prohibit _______ in any part of the building or grounds.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "smoke"
+      },
+      {
+        "key": "B",
+        "text": "to smoke"
+      },
+      {
+        "key": "C",
+        "text": "smoking"
+      },
+      {
+        "key": "D",
+        "text": "will smoke"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "<b>Đáp án đúng: C</b> (smoking)<br><br><i>Câu hoàn chỉnh:</i><br>We prohibit <u><b>smoking</b></u> in any part of the building or grounds."
+  },
+  {
+    "id": "r_t4_q20",
+    "skill": "reading",
+    "test": 4,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 20,
+    "passage": "",
+    "prompt": "All packages, bags, and bundles will be _______ by a security officer before leaving the building.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "respected"
+      },
+      {
+        "key": "B",
+        "text": "inspected"
+      },
+      {
+        "key": "C",
+        "text": "prospected"
+      },
+      {
+        "key": "D",
+        "text": "suspected"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "<b>Đáp án đúng: B</b> (inspected)<br><br><i>Câu hoàn chỉnh:</i><br>All packages, bags, and bundles will be <u><b>inspected</b></u> by a security officer before leaving the building."
+  },
+  {
+    "id": "r_t4_q21",
+    "skill": "reading",
+    "test": 4,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 21,
+    "passage": "",
+    "prompt": "The new office is _______ 151 North Main Street.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "on"
+      },
+      {
+        "key": "B",
+        "text": "at"
+      },
+      {
+        "key": "C",
+        "text": "in"
+      },
+      {
+        "key": "D",
+        "text": "for"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "<b>Đáp án đúng: B</b> (at)<br><br><i>Câu hoàn chỉnh:</i><br>The new office is <u><b>at</b></u> 151 North Main Street."
+  },
+  {
+    "id": "r_t4_q22",
+    "skill": "reading",
+    "test": 4,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 22,
+    "passage": "",
+    "prompt": "We are concerned _______ the high rate of absenteeism among our employees.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "on"
+      },
+      {
+        "key": "B",
+        "text": "for"
+      },
+      {
+        "key": "C",
+        "text": "about"
+      },
+      {
+        "key": "D",
+        "text": "of"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "<b>Đáp án đúng: C</b> (about)<br><br><i>Câu hoàn chỉnh:</i><br>We are concerned <u><b>about</b></u> the high rate of absenteeism among our employees."
+  },
+  {
+    "id": "r_t4_q23",
+    "skill": "reading",
+    "test": 4,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 23,
+    "passage": "",
+    "prompt": "The new building will be dedicated _______ June 30.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "on"
+      },
+      {
+        "key": "B",
+        "text": "in"
+      },
+      {
+        "key": "C",
+        "text": "at"
+      },
+      {
+        "key": "D",
+        "text": "to"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "<b>Đáp án đúng: A</b> (on)<br><br><i>Câu hoàn chỉnh:</i><br>The new building will be dedicated <u><b>on</b></u> June 30."
+  },
+  {
+    "id": "r_t4_q24",
+    "skill": "reading",
+    "test": 4,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 24,
+    "passage": "",
+    "prompt": "The rent on this office is _______ than the rent we have been paying at our old place.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "high"
+      },
+      {
+        "key": "B",
+        "text": "higher"
+      },
+      {
+        "key": "C",
+        "text": "highly"
+      },
+      {
+        "key": "D",
+        "text": "highest"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "<b>Đáp án đúng: B</b> (higher)<br><br><i>Câu hoàn chỉnh:</i><br>The rent on this office is <u><b>higher</b></u> than the rent we have been paying at our old place."
+  },
+  {
+    "id": "r_t4_q25",
+    "skill": "reading",
+    "test": 4,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 25,
+    "passage": "",
+    "prompt": "_______ we were careful with expenses, we still went over our budget this year.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "If"
+      },
+      {
+        "key": "B",
+        "text": "Since"
+      },
+      {
+        "key": "C",
+        "text": "Because"
+      },
+      {
+        "key": "D",
+        "text": "Even though"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "<b>Đáp án đúng: D</b> (Even though)<br><br><i>Câu hoàn chỉnh:</i><br><u><b>Even though</b></u> we were careful with expenses, we still went over our budget this year."
+  },
+  {
+    "id": "r_t4_q26",
+    "skill": "reading",
+    "test": 4,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 26,
+    "passage": "",
+    "prompt": "She delayed _______ the contract until she had a chance to speak with her attorney.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "sign"
+      },
+      {
+        "key": "B",
+        "text": "signing"
+      },
+      {
+        "key": "C",
+        "text": "to sign"
+      },
+      {
+        "key": "D",
+        "text": "signature"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "<b>Đáp án đúng: B</b> (signing)<br><br><i>Câu hoàn chỉnh:</i><br>She delayed <u><b>signing</b></u> the contract until she had a chance to speak with her attorney."
+  },
+  {
+    "id": "r_t4_q27",
+    "skill": "reading",
+    "test": 4,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 27,
+    "passage": "",
+    "prompt": "The woman _______ rents this office uses it only a few days a month.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "who's"
+      },
+      {
+        "key": "B",
+        "text": "whose"
+      },
+      {
+        "key": "C",
+        "text": "who"
+      },
+      {
+        "key": "D",
+        "text": "whom"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "<b>Đáp án đúng: C</b> (who)<br><br><i>Câu hoàn chỉnh:</i><br>The woman <u><b>who</b></u> rents this office uses it only a few days a month."
+  },
+  {
+    "id": "r_t4_q28",
+    "skill": "reading",
+    "test": 4,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 28,
+    "passage": "",
+    "prompt": "If your passport is no longer _______ then you should use some other form of identification.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "valid"
+      },
+      {
+        "key": "B",
+        "text": "validate"
+      },
+      {
+        "key": "C",
+        "text": "validating"
+      },
+      {
+        "key": "D",
+        "text": "validation"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "<b>Đáp án đúng: A</b> (valid)<br><br><i>Câu hoàn chỉnh:</i><br>If your passport is no longer <u><b>valid</b></u> then you should use some other form of identification."
+  },
+  {
+    "id": "r_t4_q29",
+    "skill": "reading",
+    "test": 4,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 29,
+    "passage": "",
+    "prompt": "He _______ about that issue for last month's report.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "writes"
+      },
+      {
+        "key": "B",
+        "text": "wrote"
+      },
+      {
+        "key": "C",
+        "text": "is writing"
+      },
+      {
+        "key": "D",
+        "text": "written"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "<b>Đáp án đúng: B</b> (wrote)<br><br><i>Câu hoàn chỉnh:</i><br>He <u><b>wrote</b></u> about that issue for last month's report."
+  },
+  {
+    "id": "r_t4_q30",
+    "skill": "reading",
+    "test": 4,
+    "part": 1,
+    "partName": "Part 5 (Reading Part 1) - Incomplete Sentences (Điền vào câu)",
+    "questionNum": 30,
+    "passage": "",
+    "prompt": "_______ your supervisor if you plan to be away from the office for any length of time during the day.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "Notify"
+      },
+      {
+        "key": "B",
+        "text": "Notifying"
+      },
+      {
+        "key": "C",
+        "text": "Should notify"
+      },
+      {
+        "key": "D",
+        "text": "Will notify"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "<b>Đáp án đúng: A</b> (Notify)<br><br><i>Câu hoàn chỉnh:</i><br><u><b>Notify</b></u> your supervisor if you plan to be away from the office for any length of time during the day."
+  },
+  {
+    "id": "r_t4_q31",
+    "skill": "reading",
+    "test": 4,
+    "part": 2,
+    "partName": "Part 6 (Reading Part 2) - Text Completion (Điền đoạn văn)",
+    "questionNum": 31,
+    "passage": "",
+    "prompt": "Fill the water reservoir to the desired level, as indicated by the number of cups along the side. (31) _______ This will help you to avoid impurities, and it will also improve the taste of the coffee.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "Be careful not to get the power cord wet."
+      },
+      {
+        "key": "B",
+        "text": "Place the device a few inches from the wall."
+      },
+      {
+        "key": "C",
+        "text": "Always use bottled or filtered water."
+      },
+      {
+        "key": "D",
+        "text": "You can select from two to ten cups."
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "<b>Đáp án đúng: C</b> (Always use bottled or filtered water.)<br><br><b>Giải thích:</b> Dùng nước đóng chai hoặc nước lọc để tránh cặn bẩn và tăng hương vị."
+  },
+  {
+    "id": "r_t4_q32",
+    "skill": "reading",
+    "test": 4,
+    "part": 2,
+    "partName": "Part 6 (Reading Part 2) - Text Completion (Điền đoạn văn)",
+    "questionNum": 32,
+    "passage": "",
+    "prompt": "The green button will blink (32) _______ until the water is heated to the correct temperature.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "continuous"
+      },
+      {
+        "key": "B",
+        "text": "continuously"
+      },
+      {
+        "key": "C",
+        "text": "continual"
+      },
+      {
+        "key": "D",
+        "text": "continue"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "<b>Đáp án đúng: B</b> (continuously)<br><br><b>Giải thích:</b> Trạng từ bổ nghĩa cho động từ blink."
+  },
+  {
+    "id": "r_t4_q33",
+    "skill": "reading",
+    "test": 4,
+    "part": 2,
+    "partName": "Part 6 (Reading Part 2) - Text Completion (Điền đoạn văn)",
+    "questionNum": 33,
+    "passage": "",
+    "prompt": "Remove the plastic basket and add into it one scoop of ground coffee... Then (33) _______ the basket to its place.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "return"
+      },
+      {
+        "key": "B",
+        "text": "label"
+      },
+      {
+        "key": "C",
+        "text": "discard"
+      },
+      {
+        "key": "D",
+        "text": "empty"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "<b>Đáp án đúng: A</b> (return)<br><br><b>Giải thích:</b> Đặt lại giỏ về vị trí cũ (return the basket to its place)."
+  },
+  {
+    "id": "r_t4_q34",
+    "skill": "reading",
+    "test": 4,
+    "part": 2,
+    "partName": "Part 6 (Reading Part 2) - Text Completion (Điền đoạn văn)",
+    "questionNum": 34,
+    "passage": "",
+    "prompt": "The brewing process will begin (34) _______ a few seconds.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "near"
+      },
+      {
+        "key": "B",
+        "text": "upon"
+      },
+      {
+        "key": "C",
+        "text": "beside"
+      },
+      {
+        "key": "D",
+        "text": "within"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "<b>Đáp án đúng: D</b> (within)<br><br><b>Giải thích:</b> Trong vòng vài giây (within a few seconds)."
+  },
+  {
+    "id": "r_t4_q35",
+    "skill": "reading",
+    "test": 4,
+    "part": 2,
+    "partName": "Part 6 (Reading Part 2) - Text Completion (Điền đoạn văn)",
+    "questionNum": 35,
+    "passage": "",
+    "prompt": "The town's recent tourism campaign (35) _______ many people to our town and its beautiful coastal scenery.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "has attracted"
+      },
+      {
+        "key": "B",
+        "text": "attracting"
+      },
+      {
+        "key": "C",
+        "text": "to attract"
+      },
+      {
+        "key": "D",
+        "text": "is being attracted"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "<b>Đáp án đúng: A</b> (has attracted)<br><br><b>Giải thích:</b> Hiện tại hoàn thành: has attracted."
+  },
+  {
+    "id": "r_t4_q36",
+    "skill": "reading",
+    "test": 4,
+    "part": 2,
+    "partName": "Part 6 (Reading Part 2) - Text Completion (Điền đoạn văn)",
+    "questionNum": 36,
+    "passage": "",
+    "prompt": "These (36) _______ are making the area unpleasant for everyone.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "shortages"
+      },
+      {
+        "key": "B",
+        "text": "obligations"
+      },
+      {
+        "key": "C",
+        "text": "behaviors"
+      },
+      {
+        "key": "D",
+        "text": "occupants"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "<b>Đáp án đúng: C</b> (behaviors)<br><br><b>Giải thích:</b> Những hành vi này (xả rác, đốt lửa trái phép...)."
+  },
+  {
+    "id": "r_t4_q37",
+    "skill": "reading",
+    "test": 4,
+    "part": 2,
+    "partName": "Part 6 (Reading Part 2) - Text Completion (Điền đoạn văn)",
+    "questionNum": 37,
+    "passage": "",
+    "prompt": "I have enclosed a list of ways to resolve these problems, one of (37) _______ is simply adding more trash cans.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "what"
+      },
+      {
+        "key": "B",
+        "text": "that"
+      },
+      {
+        "key": "C",
+        "text": "which"
+      },
+      {
+        "key": "D",
+        "text": "this"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "<b>Đáp án đúng: C</b> (which)<br><br><b>Giải thích:</b> Đại từ quan hệ chỉ vật đứng sau giới từ: one of which."
+  },
+  {
+    "id": "r_t4_q38",
+    "skill": "reading",
+    "test": 4,
+    "part": 2,
+    "partName": "Part 6 (Reading Part 2) - Text Completion (Điền đoạn văn)",
+    "questionNum": 38,
+    "passage": "",
+    "prompt": "This would not cost the city much at all. (38) _______ . I hope you will consider my ideas.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "For example, broken glass bottles are washing up on shore."
+      },
+      {
+        "key": "B",
+        "text": "Several city council members have even visited the area."
+      },
+      {
+        "key": "C",
+        "text": "Either way, it results in an unfair burden on residents."
+      },
+      {
+        "key": "D",
+        "text": "In fact, one of the local businesses might donate them."
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "<b>Đáp án đúng: D</b> (In fact, one of the local businesses might donate them.)<br><br><b>Giải thích:</b> Ý làm rõ cho việc không tốn chi phí: Doanh nghiệp địa phương có thể tài trợ thùng rác."
+  },
+  {
+    "id": "r_t4_q39",
+    "skill": "reading",
+    "test": 4,
+    "part": 2,
+    "partName": "Part 6 (Reading Part 2) - Text Completion (Điền đoạn văn)",
+    "questionNum": 39,
+    "passage": "",
+    "prompt": "...protect company property and ensure that our offices make positive (39) _______ on clients and other visitors.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "impresses"
+      },
+      {
+        "key": "B",
+        "text": "impressed"
+      },
+      {
+        "key": "C",
+        "text": "impressively"
+      },
+      {
+        "key": "D",
+        "text": "impressions"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "<b>Đáp án đúng: D</b> (impressions)<br><br><b>Giải thích:</b> Make positive impressions (tạo ấn tượng tích cực)."
+  },
+  {
+    "id": "r_t4_q40",
+    "skill": "reading",
+    "test": 4,
+    "part": 2,
+    "partName": "Part 6 (Reading Part 2) - Text Completion (Điền đoạn văn)",
+    "questionNum": 40,
+    "passage": "",
+    "prompt": "(40) _______ employees will be asked to avoid modifying their work spaces in ways that damage the furniture or walls.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "Therefore"
+      },
+      {
+        "key": "B",
+        "text": "Nevertheless"
+      },
+      {
+        "key": "C",
+        "text": "Additionally"
+      },
+      {
+        "key": "D",
+        "text": "Rather"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "<b>Đáp án đúng: A</b> (Therefore)<br><br><b>Giải thích:</b> Vì vậy / do đó (Therefore)."
+  },
+  {
+    "id": "r_t4_q41",
+    "skill": "reading",
+    "test": 4,
+    "part": 2,
+    "partName": "Part 6 (Reading Part 2) - Text Completion (Điền đoạn văn)",
+    "questionNum": 41,
+    "passage": "",
+    "prompt": "Steps should also be taken to minimize (41) _______ . Work-related materials should be organized neatly...",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "mess"
+      },
+      {
+        "key": "B",
+        "text": "conflict"
+      },
+      {
+        "key": "C",
+        "text": "lateness"
+      },
+      {
+        "key": "D",
+        "text": "spending"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "<b>Đáp án đúng: A</b> (mess)<br><br><b>Giải thích:</b> Giảm thiểu sự bừa bộn (minimize mess)."
+  },
+  {
+    "id": "r_t4_q42",
+    "skill": "reading",
+    "test": 4,
+    "part": 2,
+    "partName": "Part 6 (Reading Part 2) - Text Completion (Điền đoạn văn)",
+    "questionNum": 42,
+    "passage": "",
+    "prompt": "...no more than 20% of the space in your office or cubicle should be taken up by personal items. (42) _______",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "With luck, we will be able to reach 30% by the end of the year."
+      },
+      {
+        "key": "B",
+        "text": "These include photographs, decorative statues, posters, etc."
+      },
+      {
+        "key": "C",
+        "text": "Your supervisor will then guide you to your new work space."
+      },
+      {
+        "key": "D",
+        "text": "Putting these electronic devices on \"\"energy saver\"\" mode is also helpful.\""
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "<b>Đáp án đúng: B</b> (These include photographs, decorative statues, posters, etc.)<br><br><b>Giải thích:</b> Liệt kê các đồ vật cá nhân (personal items)."
+  },
+  {
+    "id": "r_t4_q43",
+    "skill": "reading",
+    "test": 4,
+    "part": 2,
+    "partName": "Part 6 (Reading Part 2) - Text Completion (Điền đoạn văn)",
+    "questionNum": 43,
+    "passage": "",
+    "prompt": "We have selected several items from a list of (43) _______ requested by tenants.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "shipments"
+      },
+      {
+        "key": "B",
+        "text": "improvements"
+      },
+      {
+        "key": "C",
+        "text": "regulations"
+      },
+      {
+        "key": "D",
+        "text": "transactions"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "<b>Đáp án đúng: B</b> (improvements)<br><br><b>Giải thích:</b> Danh sách các cải tạo/nâng cấp (improvements)."
+  },
+  {
+    "id": "r_t4_q44",
+    "skill": "reading",
+    "test": 4,
+    "part": 2,
+    "partName": "Part 6 (Reading Part 2) - Text Completion (Điền đoạn văn)",
+    "questionNum": 44,
+    "passage": "",
+    "prompt": "Mainly, we (44) _______ the community lounge by changing the carpet and painting the walls. This project is scheduled for May 20-23.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "had upgraded"
+      },
+      {
+        "key": "B",
+        "text": "upgraded"
+      },
+      {
+        "key": "C",
+        "text": "upgrade"
+      },
+      {
+        "key": "D",
+        "text": "will upgrade"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "<b>Đáp án đúng: D</b> (will upgrade)<br><br><b>Giải thích:</b> Kế hoạch nâng cấp trong tương lai (will upgrade)."
+  },
+  {
+    "id": "r_t4_q45",
+    "skill": "reading",
+    "test": 4,
+    "part": 2,
+    "partName": "Part 6 (Reading Part 2) - Text Completion (Điền đoạn văn)",
+    "questionNum": 45,
+    "passage": "",
+    "prompt": "This project is scheduled for May 20-23. (45) _______",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "We appreciate the feedback you provided to us afterward."
+      },
+      {
+        "key": "B",
+        "text": "The lounge is commonly used for group gatherings and meetings."
+      },
+      {
+        "key": "C",
+        "text": "While it is underway, tenants will not be allowed access to the room."
+      },
+      {
+        "key": "D",
+        "text": "Accordingly, some tenants will be signing new lease agreements."
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "<b>Đáp án đúng: C</b> (While it is underway, tenants will not be allowed access to the room.)<br><br><b>Giải thích:</b> Thông báo trong thời gian thi công thì không được vào phòng sinh hoạt chung."
+  },
+  {
+    "id": "r_t4_q46",
+    "skill": "reading",
+    "test": 4,
+    "part": 2,
+    "partName": "Part 6 (Reading Part 2) - Text Completion (Điền đoạn văn)",
+    "questionNum": 46,
+    "passage": "",
+    "prompt": "The work has not been scheduled yet, as it is being done (46) _______ by a different company.",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "separately"
+      },
+      {
+        "key": "B",
+        "text": "previously"
+      },
+      {
+        "key": "C",
+        "text": "consistently"
+      },
+      {
+        "key": "D",
+        "text": "urgently"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "<b>Đáp án đúng: A</b> (separately)<br><br><b>Giải thích:</b> Được thực hiện riêng biệt bởi công ty khác (done separately)."
+  },
+  {
+    "id": "r_t4_q47",
+    "skill": "reading",
+    "test": 4,
+    "part": 3,
+    "partName": "Part 7 (Reading Part 3) - Reading Comprehension (Đọc hiểu đoạn văn / hội thoại)",
+    "questionNum": 47,
+    "passage": "<b>Thông tin (Vepnex Bank Media Request):</b><br>'Vepnex Bank is glad to cooperate with media requests for information under the following conditions. Inquiries must come from an employee of a media organization...'",
+    "prompt": "47. For whom is the information intended?",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "Potential vendors"
+      },
+      {
+        "key": "B",
+        "text": "Members of the press"
+      },
+      {
+        "key": "C",
+        "text": "Existing customers"
+      },
+      {
+        "key": "D",
+        "text": "Bank employees"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "<b>Đáp án đúng: B. Members of the press</b><br><br>Thông tin dành cho phóng viên/báo chí truyền thông (media organization/press)."
+  },
+  {
+    "id": "r_t4_q48",
+    "skill": "reading",
+    "test": 4,
+    "part": 3,
+    "partName": "Part 7 (Reading Part 3) - Reading Comprehension (Đọc hiểu đoạn văn / hội thoại)",
+    "questionNum": 48,
+    "passage": "<b>Thông tin:</b><br>'The communications department is staffed during the bank's hours of operation (Monday through Friday, 8 A.M. to 5 P.M.)...'",
+    "prompt": "48. What is indicated about Vepnex Bank?",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "It is in a partnership with a local organization."
+      },
+      {
+        "key": "B",
+        "text": "It recently created a new department."
+      },
+      {
+        "key": "C",
+        "text": "It has a live chat support service."
+      },
+      {
+        "key": "D",
+        "text": "It is not open on weekends."
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "<b>Đáp án đúng: D. It is not open on weekends.</b><br><br>Giờ làm việc chỉ từ thứ Hai đến thứ Sáu (Monday through Friday) -> Cuối tuần không mở cửa."
+  },
+  {
+    "id": "r_t4_q49",
+    "skill": "reading",
+    "test": 4,
+    "part": 3,
+    "partName": "Part 7 (Reading Part 3) - Reading Comprehension (Đọc hiểu đoạn văn / hội thoại)",
+    "questionNum": 49,
+    "passage": "<b>Đoạn chat (Luis Santos & Zhen Tai):</b><br>Zhen Tai: 'I didn't receive anything like that from you. Let me check my junk mail folder... There's nothing there.'<br>Luis Santos [2:46 P.M.]: 'That's strange. I sent it a few hours ago.'",
+    "prompt": "49. At 2:46 P.M., what does Mr. Santos most likely mean when he writes, 'That's strange'?",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "He does not know why a file has been deleted."
+      },
+      {
+        "key": "B",
+        "text": "He thinks an e-mail message should have arrived."
+      },
+      {
+        "key": "C",
+        "text": "He is confused by the contents of a document."
+      },
+      {
+        "key": "D",
+        "text": "He is having trouble accessing his e-mail account."
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "<b>Đáp án đúng: B. He thinks an e-mail message should have arrived.</b><br><br>Anh ấy ngạc nhiên vì nghĩ email gửi từ vài tiếng trước đáng lẽ đã phải đến."
+  },
+  {
+    "id": "r_t4_q50",
+    "skill": "reading",
+    "test": 4,
+    "part": 3,
+    "partName": "Part 7 (Reading Part 3) - Reading Comprehension (Đọc hiểu đoạn văn / hội thoại)",
+    "questionNum": 50,
+    "passage": "<b>Đoạn chat:</b><br>Zhen Tai: 'I'm supposed to sit down with Ms. Styles to discuss an upcoming project, and I need to head out now.'",
+    "prompt": "50. What will Ms. Tai most likely do next?",
+    "audio": null,
+    "image": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "Go to a meeting"
+      },
+      {
+        "key": "B",
+        "text": "Review a financial report"
+      },
+      {
+        "key": "C",
+        "text": "Search a desk drawer"
+      },
+      {
+        "key": "D",
+        "text": "Turn on a printer"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "<b>Đáp án đúng: A. Go to a meeting</b><br><br>Cô ấy cần đi gặp cô Styles để thảo luận dự án (Go to a meeting)."
+  }
+]

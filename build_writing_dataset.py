@@ -1,0 +1,318 @@
+import json
+import sys
+
+if sys.stdout.encoding != 'utf-8':
+    try:
+        sys.stdout.reconfigure(encoding='utf-8', errors='replace')
+    except Exception:
+        pass
+
+writing_data = {
+    "paragraphs": [
+        {
+            "id": "p_travel",
+            "topic": "Advantages of Travelling",
+            "title": "Write a paragraph about the advantages of travelling",
+            "titleVi": "Viết một đoạn văn về những lợi ích của việc đi du lịch",
+            "sampleEn": "Travelling is good. It helps us relax after work. We can meet new people. We can learn about new places. We can try new food. Travelling makes us happy. It helps us become more confident. We can make nice memories with family and friends. In short, travelling is good for our body and mind. It makes life better.",
+            "sampleVi": "Đi du lịch rất tuyệt vời. Nó giúp chúng ta thư giãn sau giờ làm việc. Chúng ta có thể gặp gỡ những người bạn mới, khám phá những vùng đất mới và thưởng thức những món ăn lạ. Du lịch mang lại niềm vui và giúp chúng ta trở nên tự tin hơn. Chúng ta có thể tạo nên những kỷ niệm đẹp bên gia đình và bạn bè. Tóm lại, du lịch rất tốt cho cả thể chất lẫn tinh thần, giúp cuộc sống trở nên tốt đẹp hơn.",
+            "wordCount": 68,
+            "targetWords": "60 - 80 từ",
+            "structure": {
+                "opening": "Travelling is good. It helps us relax after work. (Mở đoạn giới thiệu du lịch)",
+                "body": "We can meet new people, learn about new places, try new food, become more confident and make nice memories. (Nêu các lợi ích cụ thể)",
+                "conclusion": "In short, travelling is good for our body and mind. It makes life better. (Kết luận tóm tắt lại)"
+            },
+            "vocabulary": [
+                {"word": "relax (v)", "meaning": "thư giãn, xả hơi"},
+                {"word": "confident (adj)", "meaning": "tự tin"},
+                {"word": "make memories (phrase)", "meaning": "tạo nên những kỷ niệm đẹp"},
+                {"word": "in short (transition)", "meaning": "tóm lại, nói ngắn gọn"},
+                {"word": "body and mind (phrase)", "meaning": "thể chất lẫn tinh thần"}
+            ],
+            "connectors": ["It helps...", "We can...", "In short...", "It makes..."]
+        },
+        {
+            "id": "p_sport",
+            "topic": "My Favourite Sport",
+            "title": "Write a paragraph about your favourite sport",
+            "titleVi": "Viết một đoạn văn về môn thể thao yêu thích của bạn",
+            "sampleEn": "My favourite sport is football. It is also called soccer. It is a very popular sport. People play it all over the world. I like football because it is fun. It is easy to play. It is a simple game. You only need a ball. You can play with your friends. Football is good for your health. It makes you strong. It also teaches you teamwork. I play football after school. I play in the park near my house. Sometimes I watch football on TV. My favourite team is Manchester United. I love to score goals. When I score, I feel very happy. Football is my passion. I really love it. I will play it forever. I think everyone should try it.",
+            "sampleVi": "Môn thể thao yêu thích của tôi là bóng đá. Nó còn được gọi là soccer. Đây là một môn thể thao rất phổ biến được chơi trên toàn thế giới. Tôi thích bóng đá vì nó rất vui và dễ chơi. Đây là một trò chơi đơn giản, bạn chỉ cần một quả bóng và có thể chơi cùng bạn bè. Bóng đá rất tốt cho sức khỏe, giúp bạn khỏe mạnh và rèn luyện tinh thần đồng đội. Tôi thường chơi bóng đá sau giờ học ở công viên gần nhà. Thỉnh thoảng tôi xem bóng đá trên TV. Đội bóng yêu thích của tôi là Manchester United. Tôi rất thích ghi bàn; mỗi khi ghi bàn, tôi cảm thấy vô cùng hạnh phúc. Bóng đá là niềm đam mê của tôi và tôi nghĩ mọi người nên thử chơi môn này.",
+            "wordCount": 115,
+            "targetWords": "90 - 120 từ",
+            "structure": {
+                "opening": "My favourite sport is football. It is a very popular sport. (Mở đoạn giới thiệu môn thể thao)",
+                "body": "Why I like it (easy, fun, good for health, teamwork), when & where I play, favourite team and scoring goals. (Các chi tiết và cảm xúc)",
+                "conclusion": "Football is my passion. I think everyone should try it. (Kết đoạn khẳng định đam mê và lời khuyên)"
+            },
+            "vocabulary": [
+                {"word": "popular (adj)", "meaning": "phổ biến, được nhiều người yêu thích"},
+                {"word": "teamwork (n)", "meaning": "tinh thần đồng đội, làm việc nhóm"},
+                {"word": "score goals (phrase)", "meaning": "ghi bàn thắng"},
+                {"word": "passion (n)", "meaning": "niềm đam mê cháy bỏng"},
+                {"word": "healthy and strong (phrase)", "meaning": "khỏe mạnh và dẻo dai"}
+            ],
+            "connectors": ["Because it is...", "You only need...", "It also teaches...", "When I..., I feel..."]
+        }
+    ],
+    "qaTopics": [
+        {
+            "id": "qa_shopping",
+            "category": "Shopping (Mua sắm)",
+            "description": "Các câu hỏi thường gặp về thói quen mua sắm trực tuyến (Online Shopping)",
+            "questions": [
+                {
+                    "num": 1,
+                    "q": "Do you like shopping online? Why (not)?",
+                    "qVi": "Bạn có thích mua sắm trực tuyến không? Tại sao (không)?",
+                    "a": "Yes, I like shopping online because it is cheap and convenient.",
+                    "aVi": "Có, tôi thích mua sắm online vì nó rẻ và tiện lợi.",
+                    "starters": ["Yes, I like shopping online because...", "No, I don't like it because..."],
+                    "keywords": ["cheap (rẻ)", "convenient (tiện lợi)", "save time (tiết kiệm thời gian)"]
+                },
+                {
+                    "num": 2,
+                    "q": "How often do you shop online?",
+                    "qVi": "Bạn có thường xuyên mua sắm online không?",
+                    "a": "I don’t shop online very often. I only shop when I need something.",
+                    "aVi": "Tôi không mua online thường xuyên lắm. Tôi chỉ mua khi cần thứ gì đó.",
+                    "starters": ["I don't shop online very often...", "I usually shop online once a week/month..."],
+                    "keywords": ["very often (thường xuyên)", "only when I need (chỉ khi tôi cần)"]
+                },
+                {
+                    "num": 3,
+                    "q": "Do you think online shopping is popular in your country?",
+                    "qVi": "Bạn có nghĩ mua sắm trực tuyến phổ biến ở đất nước bạn không?",
+                    "a": "Yes, online shopping is popular in my country since it has become available everywhere.",
+                    "aVi": "Có, mua sắm online rất phổ biến ở nước tôi vì nó hiện đã có mặt ở khắp mọi nơi.",
+                    "starters": ["Yes, online shopping is very popular because...", "In my opinion, it is popular since..."],
+                    "keywords": ["popular (phổ biến)", "available everywhere (có sẵn ở mọi nơi)"]
+                },
+                {
+                    "num": 4,
+                    "q": "Is online shopping easy or difficult for you?",
+                    "qVi": "Mua sắm online đối với bạn là dễ hay khó?",
+                    "a": "For me, online shopping is easy. I can do it on my phone anytime.",
+                    "aVi": "Đối với tôi, mua sắm trực tuyến rất dễ. Tôi có thể thực hiện trên điện thoại bất cứ lúc nào.",
+                    "starters": ["For me, online shopping is easy because...", "I think it is easy to..."],
+                    "keywords": ["easy (dễ dàng)", "on my phone (trên điện thoại)", "anytime (bất kỳ lúc nào)"]
+                },
+                {
+                    "num": 5,
+                    "q": "Have you ever bought clothes online?",
+                    "qVi": "Bạn đã bao giờ mua quần áo online chưa?",
+                    "a": "Yes, I have bought some of my clothes online.",
+                    "aVi": "Có, tôi đã từng mua một số bộ quần áo của mình qua mạng.",
+                    "starters": ["Yes, I have bought...", "No, I have never bought..."],
+                    "keywords": ["have bought (đã từng mua)", "some of my clothes (một số quần áo của tôi)"]
+                },
+                {
+                    "num": 6,
+                    "q": "What do you like about shopping online?",
+                    "qVi": "Bạn thích điều gì nhất ở việc mua sắm trực tuyến?",
+                    "a": "What I like most about shopping online is its convenience. I can buy what I want anytime and anywhere.",
+                    "aVi": "Điều tôi thích nhất ở mua sắm trực tuyến là sự tiện lợi của nó. Tôi có thể mua những gì mình muốn mọi lúc mọi nơi.",
+                    "starters": ["What I like most is...", "I like the fact that..."],
+                    "keywords": ["convenience (sự tiện lợi)", "anytime and anywhere (mọi lúc mọi nơi)"]
+                }
+            ]
+        },
+        {
+            "id": "qa_technology",
+            "category": "Technology (Công nghệ)",
+            "description": "Các câu hỏi về việc sử dụng thiết bị công nghệ và mạng xã hội trong đời sống hàng ngày",
+            "questions": [
+                {
+                    "num": 1,
+                    "q": "What technological device do you use every day?",
+                    "qVi": "Thiết bị công nghệ nào bạn sử dụng hàng ngày?",
+                    "a": "I use my smartphone every day.",
+                    "aVi": "Tôi sử dụng điện thoại thông minh của mình mỗi ngày.",
+                    "starters": ["I use my smartphone / laptop every day because..."],
+                    "keywords": ["smartphone (điện thoại thông minh)", "every day (hàng ngày)"]
+                },
+                {
+                    "num": 2,
+                    "q": "Do you like using modern technology?",
+                    "qVi": "Bạn có thích sử dụng công nghệ hiện đại không?",
+                    "a": "Yes, I do. It is very useful and fun.",
+                    "aVi": "Có, tôi rất thích. Nó rất hữu ích và thú vị.",
+                    "starters": ["Yes, I do because it is...", "Yes, modern technology helps me..."],
+                    "keywords": ["useful (hữu ích)", "fun (thú vị)", "helpful (giúp ích)"]
+                },
+                {
+                    "num": 3,
+                    "q": "Do you prefer using a laptop or a mobile phone? Why?",
+                    "qVi": "Bạn thích dùng laptop hay điện thoại di động hơn? Tại sao?",
+                    "a": "I prefer a mobile phone. It is small and easy to carry.",
+                    "aVi": "Tôi thích điện thoại di động hơn. Nó nhỏ gọn và dễ mang theo bên mình.",
+                    "starters": ["I prefer a mobile phone / laptop because it is..."],
+                    "keywords": ["prefer (thích hơn)", "small and easy to carry (nhỏ và dễ mang theo)"]
+                },
+                {
+                    "num": 4,
+                    "q": "What application do you use the most?",
+                    "qVi": "Ứng dụng nào bạn sử dụng nhiều nhất?",
+                    "a": "I use YouTube the most. I watch videos and listen to music.",
+                    "aVi": "Tôi sử dụng YouTube nhiều nhất. Tôi xem video và nghe nhạc.",
+                    "starters": ["I use YouTube / Facebook the most to..."],
+                    "keywords": ["use the most (dùng nhiều nhất)", "watch videos (xem video)", "listen to music (nghe nhạc)"]
+                },
+                {
+                    "num": 5,
+                    "q": "How often do you use social media?",
+                    "qVi": "Bạn sử dụng mạng xã hội thường xuyên như thế nào?",
+                    "a": "I use social media every day. About two hours a day.",
+                    "aVi": "Tôi sử dụng mạng xã hội mỗi ngày. Khoảng hai tiếng một ngày.",
+                    "starters": ["I use social media every day, about..."],
+                    "keywords": ["social media (mạng xã hội)", "hours a day (tiếng mỗi ngày)"]
+                },
+                {
+                    "num": 6,
+                    "q": "How has technology changed the way you study?",
+                    "qVi": "Công nghệ đã thay đổi cách bạn học tập như thế nào?",
+                    "a": "Technology makes studying easier. I can find information online and study at home.",
+                    "aVi": "Công nghệ làm cho việc học trở nên dễ dàng hơn. Tôi có thể tìm kiếm thông tin trên mạng và học tại nhà.",
+                    "starters": ["Technology makes studying easier because...", "Thanks to technology, I can..."],
+                    "keywords": ["easier (dễ dàng hơn)", "find information online (tìm thông tin trên mạng)", "study at home (học tại nhà)"]
+                }
+            ]
+        },
+        {
+            "id": "qa_holidays",
+            "category": "Holidays & Special Occasions (Ngày lễ)",
+            "description": "Các câu hỏi về ngày lễ yêu thích và phong tục đón Tết cổ truyền",
+            "questions": [
+                {
+                    "num": 1,
+                    "q": "What is your favourite holiday?",
+                    "qVi": "Ngày lễ yêu thích nhất của bạn là gì?",
+                    "a": "My favourite holiday is Tet.",
+                    "aVi": "Ngày lễ yêu thích của tôi là dịp Tết.",
+                    "starters": ["My favourite holiday is Tet / Christmas because..."],
+                    "keywords": ["favourite holiday (ngày lễ yêu thích)", "Tet (Tết cổ truyền)"]
+                },
+                {
+                    "num": 2,
+                    "q": "How do you usually celebrate it?",
+                    "qVi": "Bạn thường đón ngày lễ đó như thế nào?",
+                    "a": "I usually celebrate it with my family. We eat special food and visit our relatives.",
+                    "aVi": "Tôi thường đón Tết cùng gia đình. Chúng tôi ăn các món ăn đặc biệt và đi chúc tết họ hàng.",
+                    "starters": ["I usually celebrate it with...", "We often gather and..."],
+                    "keywords": ["celebrate (ăn mừng, đón lễ)", "special food (món ăn đặc biệt)", "visit relatives (thăm họ hàng)"]
+                },
+                {
+                    "num": 3,
+                    "q": "Do you prefer travelling or staying at home during holidays? Why?",
+                    "qVi": "Bạn thích đi du lịch hay ở nhà trong các dịp lễ? Tại sao?",
+                    "a": "I prefer staying at home. It is relaxing, and I can be with my family.",
+                    "aVi": "Tôi thích ở nhà hơn. Nó rất thư giãn và tôi có thể ở bên gia đình mình.",
+                    "starters": ["I prefer staying at home because...", "I prefer travelling since..."],
+                    "keywords": ["prefer staying at home (thích ở nhà hơn)", "relaxing (thư thái)", "be with my family (ở bên gia đình)"]
+                },
+                {
+                    "num": 4,
+                    "q": "What holidays are most important in your country?",
+                    "qVi": "Những ngày lễ nào quan trọng nhất ở đất nước bạn?",
+                    "a": "Tet is the most important holiday in my country. It is the Lunar New Year.",
+                    "aVi": "Tết là ngày lễ quan trọng nhất ở đất nước tôi. Đó là dịp Tết Nguyên Đán.",
+                    "starters": ["Tet is the most important holiday because...", "In my country, the most important holiday is..."],
+                    "keywords": ["most important holiday (ngày lễ quan trọng nhất)", "Lunar New Year (Tết Nguyên Đán)"]
+                },
+                {
+                    "num": 5,
+                    "q": "What do people usually do during Tet holiday?",
+                    "qVi": "Mọi người thường làm gì trong dịp Tết?",
+                    "a": "During Tet, people clean their houses, cook traditional food, visit family, and give lucky money to children.",
+                    "aVi": "Trong dịp Tết, mọi người dọn dẹp nhà cửa, nấu các món ăn truyền thống, thăm gia đình và mừng tuổi (lì xì) cho trẻ em.",
+                    "starters": ["During Tet, people usually clean...", "They often visit relatives and..."],
+                    "keywords": ["clean houses (dọn nhà)", "traditional food (món ăn truyền thống)", "give lucky money (lì xì)"]
+                },
+                {
+                    "num": 6,
+                    "q": "Why are holidays important to you?",
+                    "qVi": "Tại sao các ngày nghỉ lễ lại quan trọng đối với bạn?",
+                    "a": "Holidays are important to me because I can rest and spend time with my family.",
+                    "aVi": "Những ngày nghỉ lễ rất quan trọng đối với tôi vì tôi có thể nghỉ ngơi và dành thời gian cho gia đình.",
+                    "starters": ["Holidays are important to me because I can...", "It is a great time to..."],
+                    "keywords": ["rest (nghỉ ngơi)", "spend time with family (dành thời gian cho gia đình)"]
+                }
+            ]
+        },
+        {
+            "id": "qa_travel",
+            "category": "Travel (Du lịch)",
+            "description": "Các câu hỏi phỏng vấn về sở thích đi du lịch và kế hoạch khám phá các vùng đất mới",
+            "questions": [
+                {
+                    "num": 1,
+                    "q": "Do you like travelling? Why or why not?",
+                    "qVi": "Bạn có thích đi du lịch không? Tại sao có hoặc tại sao không?",
+                    "a": "Yes, I like travelling. It is fun, and I can see new places.",
+                    "aVi": "Có, tôi thích đi du lịch. Nó rất vui và tôi có thể ngắm nhìn những vùng đất mới.",
+                    "starters": ["Yes, I like travelling because...", "Travelling is my passion because..."],
+                    "keywords": ["fun (vui vẻ)", "see new places (ngắm nhìn những nơi mới)"]
+                },
+                {
+                    "num": 2,
+                    "q": "Do you prefer to travel alone or with other people? Why?",
+                    "qVi": "Bạn thích đi du lịch một mình hay đi cùng người khác? Tại sao?",
+                    "a": "I prefer to travel with other people. I feel happy and safe with my family or friends.",
+                    "aVi": "Tôi thích đi du lịch cùng người khác hơn. Tôi cảm thấy vui vẻ và an toàn khi ở bên gia đình hoặc bạn bè.",
+                    "starters": ["I prefer to travel with other people because...", "I prefer travelling alone since..."],
+                    "keywords": ["travel with other people (đi cùng người khác)", "feel happy and safe (cảm thấy vui và an toàn)"]
+                },
+                {
+                    "num": 3,
+                    "q": "How often do you travel to other places?",
+                    "qVi": "Bạn có thường xuyên đi du lịch đến những nơi khác không?",
+                    "a": "I travel to other places once or twice a year.",
+                    "aVi": "Tôi đi du lịch đến những nơi khác một hoặc hai lần một năm.",
+                    "starters": ["I travel once or twice a year...", "I usually go on a trip every..."],
+                    "keywords": ["once or twice a year (một hoặc hai lần mỗi năm)", "other places (những nơi khác)"]
+                },
+                {
+                    "num": 4,
+                    "q": "In which season do you enjoy travelling the most? Why?",
+                    "qVi": "Bạn thích đi du lịch vào mùa nào nhất? Tại sao?",
+                    "a": "I enjoy travelling in spring. The weather is cool and nice.",
+                    "aVi": "Tôi thích đi du lịch vào mùa xuân. Thời tiết lúc đó mát mẻ và dễ chịu.",
+                    "starters": ["I enjoy travelling in spring / summer because...", "My favourite season to travel is..."],
+                    "keywords": ["in spring (vào mùa xuân)", "cool and nice weather (thời tiết mát mẻ và đẹp)"]
+                },
+                {
+                    "num": 5,
+                    "q": "Where would you like to visit in the future? Why?",
+                    "qVi": "Bạn muốn đến thăm nơi nào trong tương lai? Tại sao?",
+                    "a": "I would like to visit Japan. I want to see Mount Fuji and eat Japanese food.",
+                    "aVi": "Tôi muốn đến thăm Nhật Bản. Tôi muốn ngắm núi Phú Sĩ và thưởng thức món ăn Nhật Bản.",
+                    "starters": ["I would like to visit Japan / Paris because I want to...", "My dream destination is..."],
+                    "keywords": ["would like to visit (muốn ghé thăm)", "Mount Fuji (núi Phú Sĩ)", "local food (món ăn địa phương)"]
+                },
+                {
+                    "num": 6,
+                    "q": "What activities do you usually enjoy when visiting a new place?",
+                    "qVi": "Những hoạt động nào bạn thường thích làm khi đến thăm một nơi mới?",
+                    "a": "I usually enjoy sightseeing, taking photos, and trying local food.",
+                    "aVi": "Tôi thường thích ngắm cảnh, chụp ảnh và thưởng thức ẩm thực địa phương.",
+                    "starters": ["I usually enjoy sightseeing and...", "When visiting a new place, I love to..."],
+                    "keywords": ["sightseeing (ngắm cảnh)", "taking photos (chụp ảnh)", "trying local food (thử món ăn địa phương)"]
+                }
+            ]
+        }
+    ]
+}
+
+# Write to JSON
+with open('toeic_writing_data.json', 'w', encoding='utf-8') as f:
+    json.dump(writing_data, f, ensure_ascii=False, indent=2)
+
+# Write to JS
+with open('toeic_writing_data.js', 'w', encoding='utf-8') as f:
+    f.write("// Dữ liệu Luyện Viết B1 (Paragraph Writing & Topic Q&A)\n")
+    f.write("window.TOEIC_WRITING_DATA = ")
+    json.dump(writing_data, f, ensure_ascii=False)
+    f.write(";\n")
+
+print("Created toeic_writing_data.json and toeic_writing_data.js successfully!")

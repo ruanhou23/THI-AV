@@ -1,0 +1,1463 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TOEIC Master - Ôn Luyện Listening & Reading B1 Toàn Diện</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+</head>
+<body class="theme-dark">
+  <!-- TOP NAVBAR -->
+  <header class="top-nav">
+    <div class="nav-left">
+      <div class="app-logo">
+        <span class="logo-icon">🎯</span>
+        <div class="logo-text">
+          <span class="logo-title">TOEIC Master B1</span>
+          <span class="logo-sub">Thi thử & Chấm điểm (Listening + Reading)</span>
+        </div>
+      </div>
+      <div class="nav-tabs-group">
+        <button class="nav-tab-btn active" id="tabNavListening">🎧 Listening (280c)</button>
+        <button class="nav-tab-btn" id="tabNavReading">📖 Reading B1 (200c)</button>
+        <button class="nav-tab-btn" id="tabNavTranslation">🌐 Luyện Dịch (480c)</button>
+        <button class="nav-tab-btn" id="tabNavWriting">✍️ Luyện Viết B1</button>
+        <button class="nav-tab-btn" id="tabNavSpeaking">🗣️ Luyện & Thi Nói B1</button>
+        <button class="nav-tab-btn" id="tabNavEditor">🛠️ Sửa Đáp Án</button>
+      </div>
+    </div>
+
+    <!-- Active Test Info & Timer in Exam Mode -->
+    <div class="nav-center" id="navCenterInfo">
+      <div class="exam-status-badge" id="examStatusBadge">
+        <span class="test-label" id="currentTestDisplay">Listening Test 1</span>
+        <span class="mode-tag" id="currentModeDisplay">Chế độ Thi Thử</span>
+      </div>
+      <div class="exam-timer-box" id="examTimerBox">
+        <span class="timer-icon">⏱️</span>
+        <span id="timerCountdown">45:00</span>
+      </div>
+    </div>
+
+    <div class="nav-right">
+      <button class="nav-btn theme-toggle" id="btnThemeToggle" title="Chuyển giao diện Sáng / Tối">
+        <span id="themeIcon">☀️</span>
+      </button>
+      <button class="nav-btn btn-lan-modal" id="btnLanModal" title="Xem mã QR & link truy cập trên điện thoại / máy khác">
+        <span>📱 Mạng LAN</span>
+      </button>
+      <button class="nav-btn btn-exit" id="btnExitTest" title="Chọn đề thi khác">
+        <span>Đổi Đề / Kỹ Năng</span>
+      </button>
+      <button class="btn btn-submit-exam" id="btnTopSubmit">
+        <span>Nộp Bài</span> 🚀
+      </button>
+    </div>
+  </header>
+
+  <!-- MAIN APP CONTAINER -->
+  <main class="main-container">
+    
+    <!-- 1. HOME / TEST SELECTOR SCREEN -->
+    <section class="screen-view active" id="screenHome">
+      <div class="home-hero">
+        <h2>Phòng Thi & Ôn Luyện TOEIC Toàn Diện</h2>
+        <p>Hệ thống thi thử mô phỏng đề thi thực tế, tự động chấm điểm Listening & Reading B1 chuẩn xác.</p>
+      </div>
+
+      <!-- LAN Quick Banner -->
+      <div class="lan-quick-banner" id="lanQuickBanner">
+        <div class="lan-banner-content">
+          <span class="lan-pulse-dot"></span>
+          <span>📱 <strong>Học trên điện thoại / iPad qua Wi-Fi:</strong> <span class="lan-url-highlight" id="heroLanUrl">http://192.168.2.6:8000/index.html</span></span>
+        </div>
+        <div class="lan-banner-actions">
+          <button class="btn-xs-lan" id="btnHeroOpenLanModal">📲 Quét Mã QR</button>
+          <a href="lan.html" target="_blank" class="btn-xs-lan secondary">🌐 Trang LAN ↗</a>
+        </div>
+      </div>
+
+      <!-- Skill Selector (Listening vs Reading) -->
+      <div class="skill-selector-container">
+        <div class="skill-tabs-toggle">
+          <button class="skill-tab-btn active" id="skillToggleListening" data-skill="listening">
+            🎧 TOEIC Listening (Test 1 - 4: 280 câu)
+          </button>
+          <button class="skill-tab-btn" id="skillToggleReading" data-skill="reading">
+            📖 TOEIC Reading B1 (Test 1 - 4: 200 câu)
+          </button>
+        </div>
+      </div>
+
+      <!-- Mode selection toggle -->
+      <div class="mode-selection-container">
+        <h3>1. Chọn hình thức làm bài:</h3>
+        <div class="mode-cards-grid">
+          <div class="mode-card" data-mode="study" id="modeCardStudy">
+            <div class="mode-card-header">
+              <span class="mode-card-icon">📚</span>
+              <div class="mode-card-badge" style="background:#059669;">Ôn tập kỹ</div>
+            </div>
+            <h4>Học Trước Khi Thi (Study Mode)</h4>
+            <p>Xem trước toàn bộ câu hỏi kèm đáp án chuẩn, lời dịch, transcript và giải thích chi tiết để nạp kiến thức vững chắc trước khi bấm giờ thi thật.</p>
+            <ul class="mode-features">
+              <li>✓ Hiển thị sẵn đáp án đúng & giải thích chi tiết</li>
+              <li>✓ Nghe transcript / đọc đoạn văn không giới hạn thời gian</li>
+              <li>✓ 1-Click chuyển sang Thi Thử ngay khi học xong</li>
+            </ul>
+          </div>
+
+          <div class="mode-card active" data-mode="exam" id="modeCardExam">
+            <div class="mode-card-header">
+              <span class="mode-card-icon">⏱️</span>
+              <div class="mode-card-badge">Khuyên dùng</div>
+            </div>
+            <h4>Chế Độ Thi Thử (Exam Mode)</h4>
+            <p>Mô phỏng thi thực tế có đếm ngược thời gian, ẩn đáp án trong khi làm, tự động chấm điểm và quy đổi điểm TOEIC chuẩn (5 - 495).</p>
+            <ul class="mode-features">
+              <li>✓ Bảng câu hỏi nhảy câu linh hoạt</li>
+              <li>✓ Đánh dấu cờ (Flag) câu phân vân</li>
+              <li>✓ Báo cáo điểm số & phân tích đúng/sai</li>
+            </ul>
+          </div>
+
+          <div class="mode-card" data-mode="practice" id="modeCardPractice">
+            <div class="mode-card-header">
+              <span class="mode-card-icon">💡</span>
+              <div class="mode-card-badge secondary">Luyện tập</div>
+            </div>
+            <h4>Chế Độ Luyện Tập (Practice Mode)</h4>
+            <p>Luyện tập từng câu không áp lực thời gian, nhận kết quả Đúng/Sai tức thì kèm câu hoàn chỉnh, transcript và lời giải thích chi tiết.</p>
+            <ul class="mode-features">
+              <li>✓ Hiển thị đáp án & giải thích ngay</li>
+              <li>✓ Xem lại kỹ lưỡng không giới hạn</li>
+              <li>✓ Tùy chọn lọc luyện riêng từng Part</li>
+            </ul>
+          </div>
+
+          <div class="mode-card" data-mode="translation" id="modeCardTranslation">
+            <div class="mode-card-header">
+              <span class="mode-card-icon">🌐</span>
+              <div class="mode-card-badge" style="background:#8b5cf6;">Mới</div>
+            </div>
+            <h4>Luyện Dịch Câu Song Ngữ</h4>
+            <p>Luyện phản xạ dịch Anh - Việt & Việt - Anh cho 480 câu đề thi, bẻ khóa từ vựng trọng tâm và cấu trúc ngữ pháp từng câu.</p>
+            <ul class="mode-features">
+              <li>✓ Dịch 2 chiều: Anh ➔ Việt & Việt ➔ Anh</li>
+              <li>✓ Bẻ khóa từ vựng & cấu trúc ngữ pháp</li>
+              <li>✓ Tự đánh giá ghi nhớ & theo dõi tiến độ</li>
+            </ul>
+          </div>
+
+          <div class="mode-card" data-mode="writing" id="modeCardWriting">
+            <div class="mode-card-header">
+              <span class="mode-card-icon">✍️</span>
+              <div class="mode-card-badge" style="background:#0ea5e9;">Mới</div>
+            </div>
+            <h4>Luyện Viết B1 (Writing)</h4>
+            <p>Luyện viết đoạn văn B1 (Du lịch, Thể thao) & thực hành 24 câu hỏi phỏng vấn theo 4 chủ đề then chốt với gợi ý từ vựng, từ nối và bài mẫu chuẩn.</p>
+            <ul class="mode-features">
+              <li>✓ Viết đoạn văn: Dàn ý Mở - Thân - Kết & đếm từ trực tiếp</li>
+              <li>✓ 24 câu hỏi viết: Mua sắm, Công nghệ, Lễ Tết, Du lịch</li>
+              <li>✓ Gợi ý từ nối, từ vựng hay & nghe phát âm bài mẫu</li>
+            </ul>
+          </div>
+
+                    <div class="mode-card" data-mode="speaking" id="modeCardSpeaking">
+            <div class="mode-card-header">
+              <span class="mode-card-icon">🗣️</span>
+              <div class="mode-card-badge" style="background:#10b981;">Mới</div>
+            </div>
+            <h4>Luyện & Thi Nói B1 (Speaking)</h4>
+            <p>Luyện 24 câu hỏi phỏng vấn (4 chủ đề) & 5 bài nói độc thoại mở rộng (Topic Development) từ English Speaking Topics kèm Text-to-Speech phát âm chuẩn, nhận diện giọng nói, ghi âm trực tiếp và phòng thi thử bấm giờ.</p>
+            <ul class="mode-features">
+              <li>✓ Phần 1 (Social Interaction): 24 câu hỏi kèm gợi ý & câu trả lời chuẩn</li>
+              <li>✓ Phần 2 (Topic Development): 5 chủ đề lớn kèm dàn ý 4 câu định hướng</li>
+              <li>✓ 🔊 Nghe bài mẫu giọng bản xứ & 🎤 Ghi âm / Nhận diện giọng nói</li>
+              <li>✓ ⏱️ Phòng thi thử đếm ngược thời gian chuẩn B1/TOEIC</li>
+            </ul>
+          </div>
+
+          <div class="mode-card" data-mode="editor" id="modeCardEditor">
+            <div class="mode-card-header">
+              <span class="mode-card-icon">🛠️</span>
+              <div class="mode-card-badge" style="background:#ec4899;">Công cụ</div>
+            </div>
+            <h4>Tìm & Sửa Đáp Án</h4>
+            <p>Tìm kiếm nhanh bất kỳ câu hỏi nào trong 480 câu (Listening & Reading B1), chỉnh sửa đáp án đúng (A, B, C, D) và lời giải thích.</p>
+            <ul class="mode-features">
+              <li>✓ Tìm nhanh theo từ khóa, số câu, kỹ năng</li>
+              <li>✓ Đổi đáp án đúng 1 chạm (A, B, C, D)</li>
+              <li>✓ Tự động áp dụng ngay vào bài thi & lưu file</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Test selection -->
+      <div class="test-selection-container">
+        <div class="test-section-header-row">
+          <h3 id="testSectionTitle">2. Chọn bộ đề thi (Listening):</h3>
+          
+          <!-- Shuffle options toggle for Reading mode -->
+          <div class="reading-shuffle-toggle-wrap" id="readingShuffleToggleWrap" style="display: none;">
+            <label class="switch-control" title="Đảo ngẫu nhiên vị trí các đáp án (A, B, C, D) mỗi khi làm bài để rèn luyện tư duy thực tế, tránh nhớ máy móc vị trí">
+              <input type="checkbox" id="chkReadingShuffle" checked>
+              <span class="switch-slider"></span>
+              <span class="switch-label">🔀 <strong>Đảo đáp án khi kiểm tra</strong></span>
+            </label>
+          </div>
+
+          <!-- Hide options text toggle for Listening mode -->
+          <div class="listening-hide-toggle-wrap" id="listeningHideToggleWrap" style="display: none;">
+            <label class="switch-control" title="Ẩn nội dung chữ của đáp án (chỉ để lại A, B, C, D chuẩn đề thi ETS thực tế để luyện nghe)">
+              <input type="checkbox" id="chkListeningHide">
+              <span class="switch-slider"></span>
+              <span class="switch-label">🙈 <strong>Ẩn chữ đáp án (Chỉ để lại A, B, C, D)</strong></span>
+            </label>
+          </div>
+        </div>
+        
+        <!-- Tests Grid (Dynamically updated for Listening vs Reading) -->
+        <div class="tests-grid" id="testsGridContainer">
+          <!-- Populated by JS -->
+        </div>
+
+        <!-- Filter by Part option -->
+        <div class="part-practice-banner">
+          <div class="banner-content">
+            <h4 id="partPracticeTitle">🎯 Bạn chỉ muốn cày riêng từng kỹ năng (Part)?</h4>
+            <p id="partPracticeSub">Hệ thống hỗ trợ gom 4 Test để luyện chuyên sâu 1 phần cụ thể.</p>
+          </div>
+          <div class="part-buttons-group" id="partButtonsGroup">
+            <!-- Populated by JS -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. EXAM / PRACTICE WORKSPACE SCREEN -->
+    <section class="screen-view" id="screenExam">
+      <div class="exam-workspace-layout">
+        
+        <!-- LEFT: QUESTION CONTENT -->
+        <div class="question-workspace-panel">
+          
+          <!-- Study Mode Notice Banner -->
+          <div class="study-mode-banner" id="studyModeBanner" style="display:none;">
+            <div class="study-banner-left">
+              <span class="study-banner-icon">📚</span>
+              <div class="study-banner-info">
+                <strong>Chế Độ Học Trước Khi Thi:</strong> Đáp án đúng & lời giải thích chi tiết đã được hiển thị để bạn ôn tập trước khi thi.
+              </div>
+            </div>
+            <button class="btn btn-sm btn-study-to-exam" id="btnStudyToExam" title="Bắt đầu thi thử tính giờ ngay sau khi đã học xong">
+              🚀 Đã học xong - Thi Thử ngay!
+            </button>
+          </div>
+
+          <!-- Audio Bar (Only in Listening Mode) -->
+          <div class="question-audio-bar" id="questionAudioBar">
+            <div class="audio-info">
+              <span class="audio-wave-anim"><span></span><span></span><span></span><span></span></span>
+              <span id="currentAudioLabel">Audio Câu 1</span>
+            </div>
+
+            <div class="audio-main-player">
+              <audio id="questionAudioPlayer" preload="auto"></audio>
+              
+              <div class="custom-audio-controls">
+                <button class="player-btn" id="btnAudioRewind" title="Lùi lại 5 giây (-5s)">⏪ 5s</button>
+                <button class="player-btn btn-play-pause" id="btnAudioPlayPause" title="Phát / Dừng (Phím Space)">
+                  <span id="playPauseIcon">▶️</span>
+                </button>
+                <button class="player-btn" id="btnAudioForward" title="Tiến tới 5 giây (+5s)">5s ⏩</button>
+
+                <div class="audio-progress-wrap">
+                  <div class="audio-time" id="audioCurrentTime">00:00</div>
+                  <input type="range" class="audio-seek-slider" id="audioSeekBar" value="0" min="0" max="100" step="0.1">
+                  <div class="audio-time" id="audioTotalDuration">00:00</div>
+                </div>
+
+                <div class="audio-speed-selector">
+                  <label>Tốc độ:</label>
+                  <select id="audioSpeedSelect">
+                    <option value="0.8">0.8x</option>
+                    <option value="1.0" selected>1.0x</option>
+                    <option value="1.2">1.2x</option>
+                    <option value="1.5">1.5x</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Question Details Box -->
+          <div class="question-detail-card" id="questionCard">
+            <!-- Header bar of current question -->
+            <div class="q-header">
+              <div class="q-title-group">
+                <span class="q-number-pill" id="qNumberPill">Câu 1 / 70</span>
+                <span class="q-part-pill" id="qPartPill">Part 1</span>
+                <span class="q-skill-pill" id="qSkillPill">Listening</span>
+                <span class="q-shuffle-pill" id="qShufflePill" style="display:none;" title="Các đáp án câu này đã được đảo ngẫu nhiên">🔀 Đã đảo đáp án</span>
+              </div>
+              <div class="q-tools">
+                <button class="q-tool-btn" id="btnToggleShuffleInExam" style="display:none;" title="Bật/Tắt đảo thứ tự đáp án (A, B, C, D) cho bài kiểm tra này">
+                  <span>🔀</span>
+                  <span id="shuffleBtnText">Đảo đáp án</span>
+                </button>
+                <button class="q-tool-btn" id="btnToggleListeningHideInExam" style="display:none;" title="Bật/Tắt ẩn chữ đáp án (chỉ để lại A, B, C, D chuẩn đề thi ETS)">
+                  <span id="listeningHideIcon">🙈</span>
+                  <span id="listeningHideLabel">Ẩn chữ (Chỉ A B C D)</span>
+                </button>
+                <button class="q-tool-btn" id="btnFlagQuestion" title="Đánh dấu câu hỏi này để xem lại sau (Phím F)">
+                  <span class="flag-icon">🚩</span>
+                  <span id="flagBtnText">Đánh dấu</span>
+                </button>
+              </div>
+            </div>
+
+            <!-- Reading Passage Box (For Reading Part 2 & Part 3) -->
+            <div class="q-passage-container" id="qPassageContainer" style="display:none;">
+              <div class="passage-label">📖 Đoạn Văn Đọc Hiểu / Hội Thoại:</div>
+              <div class="passage-content" id="qPassageContent"></div>
+            </div>
+
+            <!-- Part 1 Image Display (Listening) -->
+            <div class="q-image-container" id="qImageContainer" style="display:none;">
+              <img id="qImage" src="" alt="Hình ảnh bài thi Part 1">
+            </div>
+
+            <!-- Question Prompt Text -->
+            <div class="q-prompt" id="qPrompt">
+              Đang tải câu hỏi...
+            </div>
+
+            <!-- Inline Listening Hide Bar -->
+            <div class="listening-hide-banner" id="listeningHideBanner" style="display:none;">
+              <div class="hide-banner-info">
+                <span>🎧 <strong>Chuẩn đề thi:</strong> Chữ đáp án đang ẩn (chỉ để lại A, B, C, D). Lắng nghe audio để chọn.</span>
+              </div>
+              <button type="button" class="btn btn-xs btn-outline" id="btnPeekListening">👁️ Hiện chữ câu này</button>
+            </div>
+
+            <!-- Multiple Choice Options -->
+            <div class="q-options-container" id="qOptionsContainer">
+              <!-- Dynamically populated options -->
+            </div>
+
+            <!-- Practice Mode Immediate Explanation Box -->
+            <div class="q-explanation-box" id="qExplanationBox" style="display:none;">
+              <div class="explanation-header">
+                <span class="exp-icon">💡</span>
+                <strong>Lời giải chi tiết & Transcript</strong>
+              </div>
+              <div class="explanation-body" id="qExplanationContent">
+                <!-- Transcript and explanation -->
+              </div>
+            </div>
+          </div>
+
+          <!-- Question Navigation Buttons at Bottom -->
+          <div class="q-bottom-nav">
+            <button class="btn btn-nav" id="btnPrevQuestion">
+              ⬅️ Câu trước <span class="shortcut-hint">(←)</span>
+            </button>
+            <div class="bottom-center-info">
+              <span id="answeredCounterText">Đã làm: 0/70</span>
+            </div>
+            <button class="btn btn-nav" id="btnNextQuestion">
+              Câu tiếp theo ➡️ <span class="shortcut-hint">(→)</span>
+            </button>
+          </div>
+
+        </div>
+
+        <!-- RIGHT: QUESTION PALETTE & SIDEBAR -->
+        <aside class="palette-sidebar">
+          <div class="sidebar-header">
+            <h3>Danh Sách Câu Hỏi</h3>
+            <div class="palette-legend">
+              <span class="legend-item"><span class="dot answered"></span> Đã làm</span>
+              <span class="legend-item"><span class="dot current"></span> Đang xem</span>
+              <span class="legend-item"><span class="dot flagged"></span> Có cờ 🚩</span>
+              <span class="legend-item"><span class="dot unanswered"></span> Chưa làm</span>
+            </div>
+          </div>
+
+          <!-- Question Grid -->
+          <div class="palette-grid-wrap">
+            <div class="palette-part-group" id="groupPart1">
+              <div class="palette-group-title" id="titleGroupPart1">Part 1</div>
+              <div class="palette-buttons-grid" id="gridPart1"></div>
+            </div>
+            <div class="palette-part-group" id="groupPart2">
+              <div class="palette-group-title" id="titleGroupPart2">Part 2</div>
+              <div class="palette-buttons-grid" id="gridPart2"></div>
+            </div>
+            <div class="palette-part-group" id="groupPart3">
+              <div class="palette-group-title" id="titleGroupPart3">Part 3</div>
+              <div class="palette-buttons-grid" id="gridPart3"></div>
+            </div>
+          </div>
+
+          <!-- Sidebar Bottom Actions -->
+          <div class="sidebar-footer">
+            <button class="btn btn-primary btn-block btn-submit-full" id="btnSubmitExam">
+              🚀 Nộp Bài Thi & Chấm Điểm
+            </button>
+          </div>
+        </aside>
+
+      </div>
+    </section>
+
+    <!-- 3. SCORE REPORT & DETAILED REVIEW SCREEN -->
+    <section class="screen-view" id="screenScore">
+      <div class="score-report-card">
+        
+        <!-- Score Header Summary -->
+        <div class="score-hero">
+          <div class="score-badge-circle">
+            <span class="score-big" id="scoreEstimated">420</span>
+            <span class="score-scale">/ 495 Điểm</span>
+          </div>
+          <div class="score-hero-details">
+            <h2 id="scoreTitle">Xuất Sắc! Bạn Đã Hoàn Thành Bài Thi</h2>
+            <p class="score-subtitle" id="scoreSubText">Kết quả phân tích chi tiết bài thi TOEIC</p>
+            <div class="score-meta-stats">
+              <div class="meta-stat-item">
+                <span class="stat-num" id="correctCountDisplay">58 / 70</span>
+                <span class="stat-name">Số câu đúng</span>
+              </div>
+              <div class="meta-stat-item">
+                <span class="stat-num" id="accuracyPercentage">82.9%</span>
+                <span class="stat-name">Độ chính xác</span>
+              </div>
+              <div class="meta-stat-item">
+                <span class="stat-num" id="timeSpentDisplay">38:15</span>
+                <span class="stat-name">Thời gian làm bài</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Breakdown by Part -->
+        <div class="parts-breakdown-section">
+          <h3>Phân Tích Chi Tiết Theo Từng Phần:</h3>
+          <div class="breakdown-grid">
+            <div class="breakdown-card" id="cardBreakdownP1">
+              <div class="b-header">
+                <span class="b-part" id="bPart1Label">Part 1</span>
+                <span class="b-name" id="bPart1Sub">Mô tả tranh</span>
+              </div>
+              <div class="b-score" id="p1ScoreText">5/6 câu</div>
+              <div class="b-bar"><div class="b-bar-fill" id="p1BarFill" style="width: 83%;"></div></div>
+            </div>
+
+            <div class="breakdown-card" id="cardBreakdownP2">
+              <div class="b-header">
+                <span class="b-part" id="bPart2Label">Part 2</span>
+                <span class="b-name" id="bPart2Sub">Hỏi & Đáp</span>
+              </div>
+              <div class="b-score" id="p2ScoreText">21/25 câu</div>
+              <div class="b-bar"><div class="b-bar-fill" id="p2BarFill" style="width: 84%;"></div></div>
+            </div>
+
+            <div class="breakdown-card" id="cardBreakdownP3">
+              <div class="b-header">
+                <span class="b-part" id="bPart3Label">Part 3</span>
+                <span class="b-name" id="bPart3Sub">Đoạn hội thoại</span>
+              </div>
+              <div class="b-score" id="p3ScoreText">32/39 câu</div>
+              <div class="b-bar"><div class="b-bar-fill" id="p3BarFill" style="width: 82%;"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Review Controls & Filter -->
+        <div class="review-toolbar">
+          <h3>Xem Lại Bài Thi & Giải Thích Từng Câu:</h3>
+          <div class="review-filter-buttons">
+            <button class="filter-btn active" data-filter="all">Tất cả (<span id="cntFilterAll">70</span>)</button>
+            <button class="filter-btn text-incorrect" data-filter="wrong">❌ Câu làm sai (<span id="cntFilterWrong">12</span>)</button>
+            <button class="filter-btn text-correct" data-filter="right">✅ Câu làm đúng (<span id="cntFilterRight">58</span>)</button>
+            <button class="filter-btn text-unanswered" data-filter="unanswered">⚪ Chưa làm (<span id="cntFilterUnanswered">0</span>)</button>
+          </div>
+        </div>
+
+        <!-- Detailed Review List -->
+        <div class="review-questions-list" id="reviewQuestionsList">
+          <!-- Dynamically populated review cards -->
+        </div>
+
+        <!-- Action Buttons -->
+        <div class="score-actions-row">
+          <button class="btn btn-outline" id="btnRetakeTest">🔄 Làm Lại Đề Này</button>
+          <button class="btn btn-primary" id="btnChooseAnotherTest">📚 Chọn Đề Thi Khác</button>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 4. SENTENCE TRANSLATION PRACTICE SCREEN -->
+    <section class="screen-view" id="screenTranslation">
+      <div class="translation-workspace-layout">
+        
+        <!-- LEFT: TRANSLATION MAIN PANEL -->
+        <div class="translation-main-panel">
+          
+          <!-- Toolbar at top of translation panel -->
+          <div class="trans-top-toolbar">
+            <div class="trans-direction-toggle">
+              <span class="trans-dir-label">Chế độ:</span>
+              <button class="trans-dir-btn active" id="btnDirEnVi" data-dir="en-vi">
+                🇬🇧 Anh ➔ 🇻🇳 Việt
+              </button>
+              <button class="trans-dir-btn" id="btnDirViEn" data-dir="vi-en">
+                🇻🇳 Việt ➔ 🇬🇧 Anh (Phản xạ)
+              </button>
+            </div>
+
+            <div class="trans-filter-selectors">
+              <select id="transSelectSkill">
+                <option value="all">Tất cả Kỹ Năng (480 câu)</option>
+                <option value="listening">🎧 Listening (280 câu)</option>
+                <option value="reading">📖 Reading B1 (200 câu)</option>
+              </select>
+
+              <select id="transSelectTest">
+                <option value="all">Tất cả Test (1 - 4)</option>
+                <option value="1">Test 1</option>
+                <option value="2">Test 2</option>
+                <option value="3">Test 3</option>
+                <option value="4">Test 4</option>
+              </select>
+
+              <select id="transSelectPart">
+                <option value="all">Tất cả Part</option>
+                <option value="1">Part 1</option>
+                <option value="2">Part 2</option>
+                <option value="3">Part 3</option>
+              </select>
+            </div>
+          </div>
+
+          <!-- Translation Card -->
+          <div class="translation-card" id="translationCard">
+            
+            <div class="trans-card-header">
+              <div class="trans-info-group">
+                <span class="q-number-pill" id="transNumberPill">Câu 1 / 70</span>
+                <span class="q-part-pill" id="transPartPill">Part 1</span>
+                <span class="trans-context-pill" id="transContextPill">Test 1</span>
+              </div>
+              
+              <!-- Audio player in translation card (if available) -->
+              <div class="trans-audio-controls">
+                <button class="player-btn" id="btnTransAudioPlay">▶️ Nghe Audio</button>
+                <select id="transAudioSpeed">
+                  <option value="0.8">0.8x</option>
+                  <option value="1.0" selected>1.0x</option>
+                  <option value="1.2">1.2x</option>
+                </select>
+              </div>
+            </div>
+
+            <!-- Image if Part 1 -->
+            <div class="trans-image-container" id="transImageContainer" style="display:none;">
+              <img id="transImage" src="" alt="Hình ảnh minh họa">
+            </div>
+
+            <!-- Source Sentence Box -->
+            <div class="trans-source-box">
+              <div class="trans-label" id="transSourceLabel">CÂU TIẾNG ANH CẦN DỊCH:</div>
+              <div class="trans-source-text" id="transSourceText">
+                Loading...
+              </div>
+            </div>
+
+            <!-- User translation textarea -->
+            <div class="trans-user-input-box">
+              <label for="transUserInput">Nhập bản dịch của bạn (hoặc nhẩm dịch rồi bấm Xem bản dịch):</label>
+              <textarea id="transUserInput" rows="2" placeholder="Gõ bản dịch vào đây để luyện tay hoặc dịch nhẩm..."></textarea>
+            </div>
+
+            <!-- Hint Keywords (Toggleable) -->
+            <div class="trans-hint-box" id="transHintBox" style="display:none;">
+              <div class="hint-title">💡 Gợi ý từ vựng trong câu:</div>
+              <div class="hint-keywords-list" id="transHintKeywords"></div>
+            </div>
+
+            <!-- Action buttons -->
+            <div class="trans-card-actions">
+              <button class="btn btn-outline" id="btnToggleHint">💡 Hiện Gợi Ý Từ Vựng</button>
+              <button class="btn btn-primary" id="btnRevealTranslation">👁️ Xem Bản Dịch Chuẩn <span class="shortcut-hint">(Enter)</span></button>
+            </div>
+
+            <!-- Revealed Official Translation & Breakdown -->
+            <div class="trans-reveal-box" id="transRevealBox" style="display:none;">
+              
+              <div class="trans-target-result">
+                <div class="target-label" id="transTargetLabel">BẢN DỊCH CHUẨN:</div>
+                <div class="target-text" id="transTargetText">...</div>
+              </div>
+
+              <!-- Key Vocabulary Section -->
+              <div class="trans-vocab-section" id="transVocabSection">
+                <div class="section-title">📚 Từ Vựng & Cụm Từ Trọng Điểm:</div>
+                <div class="vocab-chips-grid" id="transVocabChips"></div>
+              </div>
+
+              <!-- Grammar & Technique Section -->
+              <div class="trans-grammar-section" id="transGrammarSection">
+                <div class="section-title">📐 Cấu Trúc & Điểm Ngữ Pháp:</div>
+                <div class="grammar-content" id="transGrammarContent"></div>
+              </div>
+
+              <!-- Self Rating Buttons -->
+              <div class="trans-self-rating-section">
+                <div class="rating-label">Bạn đã nhớ câu này chưa? (Lưu vào sổ tay tiến độ):</div>
+                <div class="rating-buttons">
+                  <button class="rating-btn btn-rate-hard" data-rating="hard">🔴 Chưa thuộc (Cần ôn)</button>
+                  <button class="rating-btn btn-rate-good" data-rating="good">🟡 Gần đúng</button>
+                  <button class="rating-btn btn-rate-easy" data-rating="easy">🟢 Đã thuộc chuẩn xác</button>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+          <!-- Bottom Navigation in Translation Mode -->
+          <div class="q-bottom-nav">
+            <button class="btn btn-nav" id="btnTransPrev">
+              ⬅️ Câu trước <span class="shortcut-hint">(←)</span>
+            </button>
+            <div class="bottom-center-info">
+              <span id="transProgressText">Tiến độ: 0 / 70 câu</span>
+            </div>
+            <button class="btn btn-nav" id="btnTransNext">
+              Câu tiếp theo ➡️ <span class="shortcut-hint">(→)</span>
+            </button>
+          </div>
+
+        </div>
+
+        <!-- RIGHT: TRANSLATION PALETTE -->
+        <aside class="palette-sidebar">
+          <div class="sidebar-header">
+            <h3>Danh Sách Câu Dịch</h3>
+            <div class="palette-legend">
+              <span class="legend-item"><span class="dot" style="background:#10b981;"></span> Đã thuộc</span>
+              <span class="legend-item"><span class="dot" style="background:#f59e0b;"></span> Gần đúng</span>
+              <span class="legend-item"><span class="dot" style="background:#ef4444;"></span> Cần ôn</span>
+              <span class="legend-item"><span class="dot unanswered"></span> Chưa học</span>
+            </div>
+          </div>
+
+          <div class="palette-grid-wrap">
+            <div class="palette-buttons-grid" id="transPaletteGrid"></div>
+          </div>
+
+          <div class="sidebar-footer">
+            <button class="btn btn-outline btn-block" id="btnResetTransProgress">
+              🔄 Đặt Lại Tiến Độ Dịch
+            </button>
+          </div>
+        </aside>
+
+      </div>
+    </section>
+
+    <!-- 5. WRITING PRACTICE SCREEN -->
+    <section class="screen-view" id="screenWriting">
+      <div class="writing-workspace-layout">
+        
+        <!-- LEFT / MAIN WRITING WORKSPACE -->
+        <div class="writing-main-panel">
+          
+          <!-- Sub-navigation toolbar (Paragraph vs QA) -->
+          <div class="writing-top-toolbar">
+            <div class="writing-subnav-tabs">
+              <button class="writing-subtab-btn active" id="btnWritingSubtabParagraph">
+                📝 Viết Đoạn Văn (2 Đề B1)
+              </button>
+              <button class="writing-subtab-btn" id="btnWritingSubtabQA">
+                💬 Trả Lời Câu Hỏi (24 Q&A)
+              </button>
+            </div>
+            
+            <div class="writing-toolbar-actions">
+              <span class="writing-autosave-indicator" id="writingAutosaveIndicator">💾 Đã lưu nháp</span>
+              <button class="btn btn-outline btn-sm" id="btnWritingClearDraft">🗑️ Xóa bản nháp này</button>
+            </div>
+          </div>
+
+          <!-- SUBVIEW 1: PARAGRAPH WRITING -->
+          <div class="writing-subview active" id="viewWritingParagraph">
+            
+            <!-- Topic Selector Pills -->
+            <div class="writing-topic-selector" id="paragraphTopicSelector">
+              <!-- Dynamically populated: Topic 1 & Topic 2 -->
+            </div>
+
+            <!-- Prompt & Guide Card -->
+            <div class="writing-prompt-card">
+              <div class="prompt-header-row">
+                <div class="prompt-badges-group">
+                  <span class="writing-badge-mode">Đoạn Văn B1</span>
+                  <span class="writing-badge-target" id="paragraphTargetBadge">Mục tiêu: 60 - 80 từ</span>
+                </div>
+                <div class="prompt-tools">
+                  <button class="btn btn-sm btn-outline" id="btnSpeakSampleParaPrompt">🔊 Nghe Đề Bài</button>
+                </div>
+              </div>
+
+              <h2 class="writing-prompt-title" id="paragraphPromptTitle">Advantages of Travelling</h2>
+              <p class="writing-prompt-vi" id="paragraphPromptVi">Viết một đoạn văn về những lợi ích của việc đi du lịch</p>
+
+              <!-- Collapsible Outline / Structure Box -->
+              <div class="writing-structure-box">
+                <div class="structure-header" id="btnToggleStructure">
+                  <span class="structure-title">📐 Dàn Ý Chuẩn B1 (Mở Bài - Thân Bài - Kết Bài)</span>
+                  <span class="structure-toggle-icon" id="structureToggleIcon">▼</span>
+                </div>
+                <div class="structure-body" id="structureBodyContent">
+                  <div class="structure-item">
+                    <span class="structure-tag opening">Mở bài (Opening)</span>
+                    <span class="structure-desc" id="outlineOpeningText">Nêu chủ đề hoặc giới thiệu tổng quan</span>
+                  </div>
+                  <div class="structure-item">
+                    <span class="structure-tag body">Thân bài (Body)</span>
+                    <span class="structure-desc" id="outlineBodyText">Đưa ra 2-3 luận điểm dẫn chứng kèm giải thích ngắn gọn</span>
+                  </div>
+                  <div class="structure-item">
+                    <span class="structure-tag conclusion">Kết bài (Conclusion)</span>
+                    <span class="structure-desc" id="outlineConclusionText">Tóm tắt lại ý chính hoặc nêu cảm nghĩ, lời khuyên</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Helpers: Connectors & Vocabulary -->
+              <div class="writing-helpers-grid">
+                <div class="helper-card">
+                  <div class="helper-card-title">🔗 Từ Nối Gợi Ý (Click để chèn vào bài):</div>
+                  <div class="helper-chips-container" id="paragraphConnectorsList"></div>
+                </div>
+                <div class="helper-card">
+                  <div class="helper-card-title">💡 Từ Vựng Hay Theo Chủ Đề:</div>
+                  <div class="helper-chips-container" id="paragraphVocabList"></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Writing Editor Card -->
+            <div class="writing-editor-card">
+              <div class="editor-header-bar">
+                <label for="paragraphTextarea" class="editor-label">✍️ Khung Viết Bài Của Bạn (Tiếng Anh):</label>
+                <div class="editor-live-stats">
+                  <span class="stat-badge" id="paraWordCountBadge"><strong>0</strong> / 80 từ</span>
+                  <span class="stat-badge secondary" id="paraCharCountBadge">0 ký tự</span>
+                  <span class="stat-status-badge" id="paraStatusBadge">Chưa đủ từ</span>
+                </div>
+              </div>
+
+              <textarea id="paragraphTextarea" class="writing-textarea" rows="8" placeholder="Start typing your English paragraph here... Hệ thống tự động đếm từ và lưu lại văn bản của bạn."></textarea>
+
+              <div class="editor-action-buttons">
+                <button class="btn btn-outline" id="btnSpeakUserParagraph">🔊 Đọc Bài Của Bạn</button>
+                <button class="btn btn-primary" id="btnRevealParagraphSample">👁️ Xem Bài Mẫu Chuẩn & So Sánh Từ Vựng</button>
+              </div>
+            </div>
+
+            <!-- Revealed Sample Model Answer & Comparison -->
+            <div class="writing-sample-reveal" id="paragraphSampleReveal" style="display:none;">
+              <div class="sample-top-bar">
+                <div class="sample-title-group">
+                  <span class="sample-star-icon">🌟</span>
+                  <h4>BÀI MẪU B1 ĐẠT ĐIỂM CAO</h4>
+                  <span class="sample-word-pill" id="sampleParaWordCountPill">68 từ</span>
+                </div>
+                <button class="btn btn-outline btn-sm" id="btnSpeakSampleParagraph">🔊 Nghe Bài Mẫu Chuẩn</button>
+              </div>
+
+              <!-- English Sample with highlighting -->
+              <div class="sample-text-en-box" id="sampleParaEnBox"></div>
+              <!-- Vietnamese Translation -->
+              <div class="sample-text-vi-box" id="sampleParaViBox"></div>
+
+              <!-- Vocabulary Breakdown -->
+              <div class="sample-vocab-breakdown">
+                <div class="breakdown-title">📚 Phân Tích Từ Vựng & Cụm Từ Trọng Điểm:</div>
+                <div class="vocab-chips-grid" id="sampleParaVocabGrid"></div>
+              </div>
+
+              <!-- Student Progress / Comparison Feedback -->
+              <div class="student-comparison-feedback" id="paragraphComparisonBox"></div>
+            </div>
+
+          </div>
+
+          <!-- SUBVIEW 2: TOPIC Q&A WRITING -->
+          <div class="writing-subview" id="viewWritingQA" style="display:none;">
+            
+            <!-- Category Tabs: Shopping / Tech / Holidays / Travel -->
+            <div class="qa-category-nav" id="qaCategoryNav">
+              <!-- Populated dynamically -->
+            </div>
+
+            <!-- Question Card -->
+            <div class="qa-question-card">
+              <div class="qa-card-top">
+                <div class="qa-meta-group">
+                  <span class="q-number-pill" id="qaNumberPill">Câu 1 / 24</span>
+                  <span class="qa-theme-pill" id="qaThemePill">Shopping</span>
+                  <span class="qa-status-pill" id="qaStatusPill">Chưa làm</span>
+                </div>
+                <button class="btn btn-sm btn-outline" id="btnSpeakQAQuestion">🔊 Nghe Câu Hỏi</button>
+              </div>
+
+              <!-- Question Content -->
+              <div class="qa-question-prompt">
+                <div class="qa-prompt-en" id="qaPromptEn">Do you like shopping online? Why (not)?</div>
+                <div class="qa-prompt-vi" id="qaPromptVi">Bạn có thích mua sắm trực tuyến không? Tại sao (không)?</div>
+              </div>
+
+              <!-- Hints: Starters & Keywords -->
+              <div class="qa-hints-wrapper">
+                <div class="qa-starter-box">
+                  <span class="hint-title-tag">💡 Mẫu câu mở đầu (Click để chèn vào câu trả lời):</span>
+                  <div class="starter-chips-list" id="qaStarterChipsList"></div>
+                </div>
+                <div class="qa-keyword-box">
+                  <span class="hint-title-tag">🔑 Từ khóa trọng tâm:</span>
+                  <div class="keyword-chips-list" id="qaKeywordChipsList"></div>
+                </div>
+              </div>
+
+              <!-- User Answer Box -->
+              <div class="qa-user-editor">
+                <div class="editor-header-bar">
+                  <label for="qaAnswerTextarea" class="editor-label">✍️ Câu Trả Lời Của Bạn (Tiếng Anh):</label>
+                  <span class="stat-badge" id="qaWordCountBadge"><strong>0</strong> từ</span>
+                </div>
+                <textarea id="qaAnswerTextarea" class="writing-textarea qa-textarea" rows="3" placeholder="Nhập câu trả lời bằng tiếng Anh của bạn tại đây..."></textarea>
+              </div>
+
+              <!-- QA Actions -->
+              <div class="editor-action-buttons">
+                <button class="btn btn-outline" id="btnSpeakUserQA">🔊 Đọc Câu Của Bạn</button>
+                <button class="btn btn-primary" id="btnRevealQASample">👁️ Xem Câu Trả Lời Mẫu Chuẩn</button>
+              </div>
+
+              <!-- Revealed Model QA -->
+              <div class="qa-sample-reveal" id="qaSampleReveal" style="display:none;">
+                <div class="sample-top-bar">
+                  <div class="sample-title-group">
+                    <span class="sample-star-icon">🌟</span>
+                    <h4>CÂU TRẢ LỜI MẪU CHUẨN:</h4>
+                  </div>
+                  <button class="btn btn-outline btn-sm" id="btnSpeakQASample">🔊 Nghe Phát Âm Mẫu</button>
+                </div>
+
+                <div class="qa-sample-en-box" id="qaSampleEnBox"></div>
+                <div class="qa-sample-vi-box" id="qaSampleViBox"></div>
+
+                <div class="qa-comparison-box" id="qaComparisonBox"></div>
+              </div>
+
+              <!-- Bottom Nav Buttons -->
+              <div class="q-bottom-nav" style="margin-top:24px;">
+                <button class="btn btn-nav" id="btnQAPrev">⬅️ Câu trước</button>
+                <div class="bottom-center-info">
+                  <span id="qaProgressSummary">Tiến độ: 0 / 24 câu đã viết</span>
+                </div>
+                <button class="btn btn-nav" id="btnQANext">Câu tiếp theo ➡️</button>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- RIGHT SIDEBAR: WRITING PALETTE / QUESTION JUMPER -->
+        <aside class="palette-sidebar" id="writingPaletteSidebar">
+          <div class="sidebar-header">
+            <h3 id="writingPaletteTitle">Danh Sách Câu Hỏi</h3>
+            <div class="palette-legend">
+              <span class="legend-item"><span class="dot" style="background:#10b981;"></span> Đã viết</span>
+              <span class="legend-item"><span class="dot unanswered"></span> Chưa viết</span>
+            </div>
+          </div>
+
+          <div class="palette-grid-wrap">
+            <div class="palette-buttons-grid" id="writingPaletteGrid"></div>
+          </div>
+
+          <div class="sidebar-footer">
+            <button class="btn btn-outline btn-block" id="btnResetAllWritingDrafts">
+              🔄 Đặt Lại Tất Cả Bài Viết
+            </button>
+          </div>
+        </aside>
+
+      </div>
+    </section>
+
+    
+    <!-- 6. SPEAKING PRACTICE & EXAM SCREEN -->
+    <section class="screen-view" id="screenSpeaking">
+      <div class="speaking-workspace-layout">
+        
+        <!-- MAIN SPEAKING WORKSPACE -->
+        <div class="speaking-main-panel">
+          
+          <!-- Sub-navigation toolbar -->
+          <div class="speaking-top-toolbar">
+            <div class="speaking-subnav-tabs">
+              <button class="speaking-subtab-btn active" id="btnSpeakingSubtabStudy">
+                📚 Học Bài Mẫu (Study Mode)
+              </button>
+              <button class="speaking-subtab-btn" id="btnSpeakingSubtabPart1">
+                💬 Phần 1: Tương Tác Xã Hội (24 Q&A)
+              </button>
+              <button class="speaking-subtab-btn" id="btnSpeakingSubtabPart2">
+                🎙️ Phần 2: Phát Triển Chủ Đề (5 Đề Lớn)
+              </button>
+              <button class="speaking-subtab-btn" id="btnSpeakingSubtabExam">
+                ⏱️ Phần 3: Phòng Thi Thử Nói
+              </button>
+            </div>
+            
+            <div class="speaking-toolbar-actions">
+              <span class="speaking-status-badge" id="speakingStatusBadge">🎙️ Sẵn sàng học nói</span>
+              <button class="btn btn-outline btn-sm" id="btnSpeakingStopAllAudio" title="Dừng âm thanh">⏹️ Dừng phát âm</button>
+            </div>
+          </div>
+
+          <!-- SUBVIEW 0: SPEAKING STUDY MODE (HỌC BÀI MẪU & TỪ VỰNG) -->
+          <div class="speaking-subview active" id="viewSpeakingStudy">
+            <div class="speaking-study-banner">
+              <div class="study-banner-main">
+                <h3>📚 Học & Ghi Nhớ Bài Mẫu Thi Nói B1 (29 Chủ Đề)</h3>
+                <p>Xem trước toàn bộ 24 câu hỏi phỏng vấn Part 1 và 5 bài nói độc thoại Part 2 kèm câu trả lời mẫu chuẩn, dịch nghĩa tiếng Việt, từ vựng ăn điểm và phát âm giọng bản xứ.</p>
+              </div>
+            </div>
+
+            <!-- Topic Filter Pills & Controls -->
+            <div class="speaking-study-toolbar">
+              <div class="study-filter-pills" id="speakingStudyFilterPills">
+                <button type="button" class="study-pill active" data-filter="all">Tất cả (29 bài)</button>
+                <button type="button" class="study-pill" data-filter="tech">💻 Công nghệ (6c)</button>
+                <button type="button" class="study-pill" data-filter="holiday">🎉 Lễ Tết (6c)</button>
+                <button type="button" class="study-pill" data-filter="travel">✈️ Du lịch (6c)</button>
+                <button type="button" class="study-pill" data-filter="shopping">🛍️ Mua sắm (6c)</button>
+                <button type="button" class="study-pill" data-filter="part2">🎙️ 5 Đề Độc Thoại P2</button>
+              </div>
+
+              <div class="study-tools-row">
+                <div class="study-search-wrap">
+                  <span class="search-icon">🔍</span>
+                  <input type="text" id="speakingStudySearchInput" placeholder="Tìm câu hỏi, bài mẫu, từ vựng...">
+                  <button type="button" class="btn-clear-study-search" id="btnClearStudySearch" style="display:none;">✕</button>
+                </div>
+                
+                <div class="study-controls-group">
+                  <div class="study-speed-wrap">
+                    <label>🔊 Tốc độ:</label>
+                    <select id="speakingStudySpeedSelect">
+                      <option value="0.8">0.8x (Chậm)</option>
+                      <option value="0.95" selected>1.0x (Chuẩn)</option>
+                      <option value="1.2">1.2x (Nhanh)</option>
+                    </select>
+                  </div>
+                  <button type="button" class="btn btn-outline btn-sm" id="btnToggleStudyViTranslation">
+                    👁️ Ẩn/Hiện Lời Dịch
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Cards List Container -->
+            <div class="speaking-study-grid" id="speakingStudyCardsContainer">
+              <!-- Populated by JS -->
+            </div>
+          </div>
+
+          <!-- SUBVIEW 1: PART 1 SOCIAL INTERACTION -->
+          <div class="speaking-subview" id="viewSpeakingPart1" style="display:none;">
+            <!-- Topic Pills Selector -->
+            <div class="speaking-topic-selector" id="speakingP1TopicSelector">
+              <!-- Dynamically populated: Tech, Holiday, Travel, Shopping -->
+            </div>
+
+            <!-- Question Card -->
+            <div class="speaking-card" id="speakingP1Card">
+              <div class="speaking-card-header">
+                <div class="speaking-header-left">
+                  <span class="speaking-badge-topic" id="speakingP1TopicBadge">💻 Technology</span>
+                  <span class="speaking-badge-qnum" id="speakingP1QNumBadge">Câu 1 / 6</span>
+                </div>
+                <div class="speaking-header-right">
+                  <button class="btn btn-sm btn-outline" id="btnP1ListenQuestion" title="Nghe câu hỏi">🔊 Nghe Câu Hỏi</button>
+                </div>
+              </div>
+
+              <!-- Question Prompt Text -->
+              <div class="speaking-prompt-box">
+                <h3 class="speaking-question-text" id="speakingP1QuestionText">What technological device do you use every day?</h3>
+                <div class="speaking-question-vi" id="speakingP1QuestionVi">Bạn sử dụng thiết bị công nghệ nào hàng ngày?</div>
+              </div>
+
+              <!-- Live Voice Recording Zone -->
+              <div class="speaking-record-zone">
+                <div class="speaking-mic-controls">
+                  <button class="speaking-record-btn" id="btnP1RecordToggle">
+                    <span class="mic-icon">🎤</span>
+                    <span class="mic-text" id="p1RecordBtnText">Bắt Đầu Nói</span>
+                  </button>
+                  <div class="speaking-record-timer" id="p1RecordTimer" style="display:none;">
+                    <span class="recording-pulse"></span>
+                    <span class="timer-text" id="p1RecordTimerText">00:00</span>
+                  </div>
+                </div>
+
+                <!-- Speech to text transcript area -->
+                <div class="speaking-transcript-box">
+                  <div class="transcript-header">
+                    <span class="transcript-title">📝 Lời bạn nói (Nhận diện giọng nói):</span>
+                    <span class="transcript-wordcount" id="p1TranscriptWordCount">0 từ</span>
+                  </div>
+                  <div class="speaking-transcript-text" id="p1TranscriptText">Nhấn nút "Bắt Đầu Nói" và trả lời câu hỏi bằng tiếng Anh...</div>
+                  <div class="speaking-user-audio-wrap" id="p1UserAudioWrap" style="display:none;">
+                    <span class="audio-label">🎧 Nghe lại giọng bạn vừa thu:</span>
+                    <audio id="p1UserAudioPlayer" controls></audio>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Model Answer Accordion (Toggle) -->
+              <div class="speaking-model-toggle-wrap">
+                <button class="btn btn-primary-light" id="btnToggleP1Sample">
+                  👁️ Hiện Câu Trả Lời Mẫu & Lời Dịch
+                </button>
+              </div>
+
+              <div class="speaking-sample-box" id="p1SampleBox" style="display:none;">
+                <div class="sample-box-header">
+                  <span class="sample-label">✅ Câu Trả Lời Mẫu Chuẩn:</span>
+                  <button class="btn btn-sm btn-success" id="btnP1ListenSample">🔊 Nghe Bài Mẫu</button>
+                </div>
+                <div class="sample-en-text" id="p1SampleEn">"I use my smartphone every day."</div>
+                <div class="sample-vi-text" id="p1SampleVi">Tôi sử dụng điện thoại thông minh của mình hàng ngày.</div>
+
+                <div class="speaking-helpers-grid">
+                  <div class="helper-col">
+                    <div class="helper-title">📚 Từ vựng trọng tâm:</div>
+                    <ul class="speaking-vocab-list" id="p1VocabList"></ul>
+                  </div>
+                  <div class="helper-col">
+                    <div class="helper-title">✨ Mẫu câu mở rộng:</div>
+                    <ul class="speaking-template-list" id="p1TemplateList"></ul>
+                  </div>
+                </div>
+              </div>
+
+              <!-- P1 Pagination Footer -->
+              <div class="speaking-card-footer">
+                <button class="btn btn-outline" id="btnP1PrevQ">⬅️ Câu trước</button>
+                <div class="speaking-q-pills" id="p1QPillsContainer"></div>
+                <button class="btn btn-primary" id="btnP1NextQ">Câu tiếp ➡️</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- SUBVIEW 2: PART 2 TOPIC DEVELOPMENT -->
+          <div class="speaking-subview" id="viewSpeakingPart2" style="display:none;">
+            <!-- Topic Pills Selector -->
+            <div class="speaking-topic-selector" id="speakingP2TopicSelector">
+              <!-- Dynamically populated: 5 topics -->
+            </div>
+
+            <!-- Topic Detail Card -->
+            <div class="speaking-card" id="speakingP2Card">
+              <div class="speaking-card-header">
+                <div class="speaking-header-left">
+                  <span class="speaking-badge-topic" id="speakingP2TopicBadge">👩‍👧 Chủ đề 4</span>
+                  <span class="speaking-badge-qnum" id="speakingP2TimeBadge">⏱️ Nói: 1.5 - 2 phút</span>
+                </div>
+                <div class="speaking-header-right">
+                  <button class="btn btn-sm btn-outline" id="btnP2ListenTopic" title="Nghe đề bài">🔊 Nghe Đề Bài</button>
+                </div>
+              </div>
+
+              <!-- Prompt Title -->
+              <div class="speaking-prompt-box">
+                <h3 class="speaking-question-text" id="speakingP2TitleEn">Describe a person who has a great influence on you</h3>
+                <div class="speaking-question-vi" id="speakingP2TitleVi">Mô tả một người có ảnh hưởng lớn đến bạn</div>
+              </div>
+
+              <!-- Cues Breakdown Cards -->
+              <div class="speaking-cues-section">
+                <div class="cues-section-title">🎯 Dàn ý 4 câu hỏi định hướng (Cues):</div>
+                <div class="cues-grid" id="p2CuesGrid"></div>
+              </div>
+
+              <!-- Live Voice Recording Zone -->
+              <div class="speaking-record-zone">
+                <div class="speaking-mic-controls">
+                  <button class="speaking-record-btn" id="btnP2RecordToggle">
+                    <span class="mic-icon">🎤</span>
+                    <span class="mic-text" id="p2RecordBtnText">Bắt Đầu Nói Độc Thoại</span>
+                  </button>
+                  <div class="speaking-record-timer" id="p2RecordTimer" style="display:none;">
+                    <span class="recording-pulse"></span>
+                    <span class="timer-text" id="p2RecordTimerText">00:00</span>
+                  </div>
+                </div>
+
+                <div class="speaking-transcript-box">
+                  <div class="transcript-header">
+                    <span class="transcript-title">📝 Lời bạn nói (Nhận diện giọng nói):</span>
+                    <span class="transcript-wordcount" id="p2TranscriptWordCount">0 từ</span>
+                  </div>
+                  <div class="speaking-transcript-text" id="p2TranscriptText">Nhấn nút "Bắt Đầu Nói Độc Thoại" để luyện nói bài thuyết trình...</div>
+                  <div class="speaking-user-audio-wrap" id="p2UserAudioWrap" style="display:none;">
+                    <span class="audio-label">🎧 Nghe lại bài nói của bạn:</span>
+                    <audio id="p2UserAudioPlayer" controls></audio>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Full Speech Model Toggle -->
+              <div class="speaking-model-toggle-wrap">
+                <button class="btn btn-primary-light" id="btnToggleP2Sample">
+                  👁️ Xem Bài Nói Mẫu Hoàn Chỉnh (Full Speech) & Dịch Nghĩa
+                </button>
+              </div>
+
+              <div class="speaking-sample-box" id="p2SampleBox" style="display:none;">
+                <div class="sample-box-header">
+                  <span class="sample-label">🗣️ Bài Nói Mẫu Hoàn Chỉnh:</span>
+                  <button class="btn btn-sm btn-success" id="btnP2ListenFullSpeech">🔊 Nghe Bài Mẫu Giọng Chuẩn</button>
+                </div>
+                <div class="sample-en-text" id="p2SpeechEn" style="white-space: pre-wrap; line-height:1.7;"></div>
+                <div class="sample-vi-text" id="p2SpeechVi" style="white-space: pre-wrap; line-height:1.6;"></div>
+
+                <div class="speaking-helpers-grid">
+                  <div class="helper-col">
+                    <div class="helper-title">📚 Từ vựng ăn điểm:</div>
+                    <ul class="speaking-vocab-list" id="p2VocabList"></ul>
+                  </div>
+                  <div class="helper-col">
+                    <div class="helper-title">✨ Cụm từ nối mạch lạc:</div>
+                    <ul class="speaking-template-list" id="p2TransitionList"></ul>
+                  </div>
+                </div>
+              </div>
+
+              <!-- P2 Footer Navigation -->
+              <div class="speaking-card-footer">
+                <button class="btn btn-outline" id="btnP2PrevTopic">⬅️ Chủ đề trước</button>
+                <span class="speaking-nav-info" id="p2NavInfo">Chủ đề 1 / 5</span>
+                <button class="btn btn-primary" id="btnP2NextTopic">Chủ đề tiếp ➡️</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- SUBVIEW 3: PART 3 SIMULATED SPEAKING EXAM -->
+          <div class="speaking-subview" id="viewSpeakingExam" style="display:none;">
+            <!-- EXAM SETUP CARD -->
+            <div class="speaking-exam-setup" id="speakingExamSetup">
+              <div class="exam-setup-header">
+                <h3>⏱️ Phòng Thi Thử Nói B1 / TOEIC Speaking</h3>
+                <p>Mô phỏng trải nghiệm thi thật với đồng hồ đếm ngược thời gian chuẩn và tự động ghi âm bài nói.</p>
+              </div>
+
+              <div class="exam-types-grid">
+                <div class="exam-type-card active" data-exam-type="p1" id="examTypeP1">
+                  <div class="exam-type-icon">💬</div>
+                  <h4>Thi Phần 1: Tương Tác Xã Hội</h4>
+                  <p>3 câu hỏi phỏng vấn ngẫu nhiên</p>
+                  <div class="exam-type-meta">⏱️ 30s chuẩn bị + 45s nói / câu</div>
+                </div>
+                <div class="exam-type-card" data-exam-type="p2" id="examTypeP2">
+                  <div class="exam-type-icon">🎙️</div>
+                  <h4>Thi Phần 2: Phát Triển Chủ Đề</h4>
+                  <p>1 chủ đề mô tả ngẫu nhiên kèm 4 cues</p>
+                  <div class="exam-type-meta">⏱️ 1 phút chuẩn bị + 2 phút nói</div>
+                </div>
+                <div class="exam-type-card" data-exam-type="full" id="examTypeFull">
+                  <div class="exam-type-icon">🏆</div>
+                  <h4>Thi Toàn Diện (Full Test)</h4>
+                  <p>3 câu Part 1 + 1 chủ đề Part 2</p>
+                  <div class="exam-type-meta">⏱️ Đầy đủ 2 phần thi như thi thật</div>
+                </div>
+              </div>
+
+              <div class="exam-start-actions">
+                <button class="btn btn-primary btn-lg" id="btnStartSpeakingExam">🚀 Bắt Đầu Làm Bài Thi Nói</button>
+              </div>
+            </div>
+
+            <!-- EXAM IN-PROGRESS INTERFACE -->
+            <div class="speaking-exam-active" id="speakingExamActive" style="display:none;">
+              <div class="exam-active-header">
+                <div class="exam-progress-info">
+                  <span class="exam-step-badge" id="examStepBadge">Câu 1 / 3 (Phần 1)</span>
+                  <span class="exam-phase-badge prep" id="examPhaseBadge">⏳ Thời gian chuẩn bị</span>
+                </div>
+                <button class="btn btn-outline btn-sm" id="btnQuitSpeakingExam">Thoát thi</button>
+              </div>
+
+              <!-- Huge Exam Timer Clock -->
+              <div class="exam-clock-container">
+                <div class="exam-clock-ring" id="examClockRing">
+                  <div class="exam-clock-number" id="examClockNumber">30</div>
+                  <div class="exam-clock-label" id="examClockLabel">giây chuẩn bị</div>
+                </div>
+              </div>
+
+              <!-- Question / Topic Content Box -->
+              <div class="exam-question-display">
+                <h3 class="exam-q-text" id="examQText">Question will appear here...</h3>
+                <div class="exam-q-cues" id="examQCues" style="display:none;"></div>
+              </div>
+
+              <!-- Exam Voice Recording Box -->
+              <div class="exam-recording-box">
+                <div class="exam-rec-status" id="examRecStatus">
+                  <span class="recording-pulse" id="examRecPulse" style="display:none;"></span>
+                  <span id="examRecStatusText">Micro sẽ tự động bật khi hết thời gian chuẩn bị</span>
+                </div>
+                <div class="exam-transcript-preview" id="examTranscriptPreview"></div>
+              </div>
+
+              <!-- Control Footer -->
+              <div class="exam-active-footer">
+                <button class="btn btn-secondary" id="btnSkipExamPrep">Bỏ qua chuẩn bị & Nói ngay ⏩</button>
+                <button class="btn btn-primary" id="btnNextExamItem">Hoàn thành câu này ➡️</button>
+              </div>
+            </div>
+
+            <!-- EXAM REVIEW / RESULT INTERFACE -->
+            <div class="speaking-exam-result" id="speakingExamResult" style="display:none;">
+              <div class="exam-result-card">
+                <div class="exam-result-icon">🎉</div>
+                <h3>Hoàn Thành Bài Thi Thử Nói!</h3>
+                <p>Dưới đây là phần ghi âm và nội dung nhận diện giọng nói cho từng câu bạn đã trả lời:</p>
+
+                <div class="exam-answers-review-list" id="examReviewList"></div>
+
+                <div class="exam-result-actions">
+                  <button class="btn btn-primary" id="btnRetakeSpeakingExam">🔄 Thi Thử Lại</button>
+                  <button class="btn btn-outline" id="btnBackToSpeakingPractice">Quay Về Luyện Tập</button>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 6. QUESTION SEARCH & ANSWER EDITOR SCREEN -->
+    <section class="screen-view" id="screenEditor">
+      <div class="editor-workspace-layout">
+        <div class="editor-main-panel">
+          
+          <!-- Top Hero & Search Controls -->
+          <div class="editor-top-controls">
+            <div class="editor-hero-header">
+              <div class="editor-hero-text">
+                <h2>🛠️ Tìm Kiếm & Chỉnh Sửa Đáp Án Câu Hỏi</h2>
+                <p>Tìm kiếm bất kỳ câu hỏi nào trong hệ thống, cập nhật đáp án đúng (A, B, C, D) hoặc chỉnh sửa lời giải thích. Đáp án mới sẽ lập tức được áp dụng vào toàn bộ bài thi thử và chế độ luyện tập.</p>
+              </div>
+              <div class="editor-global-actions">
+                <button class="btn btn-outline btn-sm" id="btnExportCustomData" title="Tải file dữ liệu toeic_app_data.js đã cập nhật về máy">
+                  📥 Xuất File Dữ Liệu
+                </button>
+                <button class="btn btn-outline btn-sm btn-danger-text" id="btnResetAllOverrides" title="Khôi phục toàn bộ câu hỏi về đáp án ban đầu">
+                  🔄 Khôi Phục Gốc
+                </button>
+              </div>
+            </div>
+
+            <!-- Search & Filters Toolbar -->
+            <div class="editor-search-bar-row">
+              <div class="editor-search-input-wrap">
+                <span class="search-input-icon">🔍</span>
+                <input type="text" id="editorSearchInput" placeholder="Nhập từ khóa tìm kiếm (VD: fireplace, bicycles, expect, shopping...) hoặc số câu...">
+                <button class="btn-clear-search" id="btnClearEditorSearch" title="Xóa từ khóa">✕</button>
+              </div>
+
+              <div class="editor-filter-selects">
+                <select id="editorFilterSkill">
+                  <option value="all">Tất cả Kỹ Năng (480 câu)</option>
+                  <option value="listening">🎧 Listening (280 câu)</option>
+                  <option value="reading">📖 Reading B1 (200 câu)</option>
+                </select>
+
+                <select id="editorFilterTest">
+                  <option value="all">Tất cả Test (1 - 4)</option>
+                  <option value="1">Test 1</option>
+                  <option value="2">Test 2</option>
+                  <option value="3">Test 3</option>
+                  <option value="4">Test 4</option>
+                </select>
+
+                <select id="editorFilterPart">
+                  <option value="all">Tất cả Part</option>
+                  <option value="1">Part 1</option>
+                  <option value="2">Part 2</option>
+                  <option value="3">Part 3</option>
+                </select>
+
+                <select id="editorFilterEdited">
+                  <option value="all">Tất cả câu</option>
+                  <option value="edited">Chỉ câu đã sửa</option>
+                </select>
+              </div>
+            </div>
+
+            <!-- Stats Bar -->
+            <div class="editor-stats-bar">
+              <span id="editorResultsCount">Đang tìm thấy <strong>0</strong> câu hỏi</span>
+              <span class="editor-edited-badge" id="editorEditedCountBadge">0 câu đã chỉnh sửa</span>
+            </div>
+          </div>
+
+          <!-- Questions Cards List Container -->
+          <div class="editor-questions-grid" id="editorQuestionsContainer">
+            <!-- Dynamically populated by JS -->
+          </div>
+
+          <!-- Pagination / Load more -->
+          <div class="editor-pagination-bar" id="editorPaginationBar">
+            <button class="btn btn-outline" id="btnEditorLoadMore">Xem thêm câu hỏi...</button>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- PRE-TEST SETUP MODAL (BẬT / TẮT ĐẢO ĐÁP ÁN & CHỌN CHẾ ĐỘ TRƯỚC KHI LÀM BÀI) -->
+  <div class="modal-overlay" id="preTestModal">
+    <div class="modal-content pretest-modal-content">
+      <div class="modal-icon" id="preTestIcon">📖</div>
+      <h3 id="preTestTitle">TOEIC Reading Test 1</h3>
+      <p id="preTestDesc">Chuẩn bị làm bài kiểm tra 50 câu đọc hiểu B1 (45 phút).</p>
+
+      <div class="pretest-config-box">
+        <!-- Chế độ làm bài -->
+        <div class="pretest-config-row">
+          <label class="pretest-config-label">Chế độ làm bài:</label>
+          <div class="pretest-mode-toggle">
+            <button type="button" class="pretest-mode-btn" id="preTestModeStudy" data-mode="study">
+              📚 Học Trước (Xem đáp án & giải thích)
+            </button>
+            <button type="button" class="pretest-mode-btn active" id="preTestModeExam" data-mode="exam">
+              ⏱️ Thi Thử (Tính giờ 45m)
+            </button>
+            <button type="button" class="pretest-mode-btn" id="preTestModePractice" data-mode="practice">
+              💡 Luyện Tập (Tự làm & xem kết quả)
+            </button>
+          </div>
+        </div>
+
+        <!-- Tùy chọn đảo đáp án (A, B, C, D) cho Reading -->
+        <div class="pretest-config-row" id="preTestShuffleRow">
+          <label class="switch-control pretest-switch" title="Đảo ngẫu nhiên vị trí các đáp án (A, B, C, D) mỗi khi làm bài để tránh học vẹt">
+            <input type="checkbox" id="chkPreTestShuffle" checked>
+            <span class="switch-slider"></span>
+            <div class="switch-label-col">
+              <span class="switch-label-main">🔀 <strong>Đảo ngẫu nhiên đáp án (A, B, C, D)</strong></span>
+              <span class="switch-label-sub">Chống nhớ vẹt vị trí đáp án, rèn luyện tư duy thực tế</span>
+            </div>
+          </label>
+        </div>
+
+        <!-- Tùy chọn ẩn chữ đáp án cho Listening -->
+        <div class="pretest-config-row" id="preTestListeningHideRow" style="display: none;">
+          <label class="switch-control pretest-switch" title="Ẩn nội dung chữ của đáp án, chỉ để lại A, B, C, D chuẩn đề thi ETS thực tế">
+            <input type="checkbox" id="chkPreTestListeningHide">
+            <span class="switch-slider"></span>
+            <div class="switch-label-col">
+              <span class="switch-label-main">🙈 <strong>Ẩn chữ đáp án (Chỉ để lại A, B, C, D)</strong></span>
+              <span class="switch-label-sub">Chuẩn format đề thi ETS, rèn phản xạ nghe thay vì đọc trước lời thoại</span>
+            </div>
+          </label>
+        </div>
+      </div>
+
+      <div class="modal-buttons">
+        <button class="btn btn-outline" id="btnCancelPreTest">Hủy</button>
+        <button class="btn btn-primary" id="btnConfirmStartTest">🚀 Bắt Đầu Làm Bài</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- CONFIRM SUBMISSION MODAL -->
+  <div class="modal-overlay" id="confirmModal">
+    <div class="modal-content">
+      <div class="modal-icon">⚠️</div>
+      <h3>Xác nhận nộp bài thi?</h3>
+      <p id="modalWarningText">Bạn vẫn còn <strong>12</strong> câu chưa làm. Bạn có chắc chắn muốn nộp bài để xem điểm số ngay bây giờ?</p>
+      <div class="modal-buttons">
+        <button class="btn btn-outline" id="btnCancelSubmit">Tiếp tục làm bài</button>
+        <button class="btn btn-primary" id="btnConfirmSubmit">Đồng ý nộp bài</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- LAN / WI-FI CONNECTION MODAL -->
+  <div class="modal-overlay" id="lanModal">
+    <div class="modal-content lan-modal-box">
+      <div class="modal-icon">📱</div>
+      <h3>Kết Nối Điện Thoại / Máy Khác (Cùng Wi-Fi)</h3>
+      <p>Mở ứng dụng Máy ảnh (Camera) trên điện thoại để quét mã QR bên dưới hoặc gõ trực tiếp địa chỉ vào trình duyệt:</p>
+
+      <div class="lan-modal-qr-wrap">
+        <img id="modalQrImg" src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&margin=4&data=http%3A%2F%2F192.168.2.6%3A8000%2Findex.html" alt="Mã QR mạng nội bộ">
+      </div>
+
+      <div class="lan-modal-url-row">
+        <span class="lan-modal-url" id="modalLanUrlText">http://192.168.2.6:8000/index.html</span>
+        <button type="button" class="btn btn-sm btn-primary" id="btnModalCopyLanUrl">📋 Sao Chép</button>
+      </div>
+
+      <div class="lan-modal-hints">
+        <div class="lan-hint-item">
+          <span>1️⃣</span> <span>Điện thoại và máy tính cần kết nối <strong>cùng mạng Wi-Fi</strong>.</span>
+        </div>
+        <div class="lan-hint-item">
+          <span>2️⃣</span> <span>Dùng Camera điện thoại quét mã QR để mở và làm bài thi ngay!</span>
+        </div>
+      </div>
+
+      <div class="modal-buttons" style="margin-top:20px;">
+        <button type="button" class="btn btn-outline" id="btnModalCloseLan">Đóng</button>
+        <a href="lan.html" target="_blank" class="btn btn-success" id="btnModalOpenLanPage" style="display:inline-flex; align-items:center; gap:6px;">🌐 Xem Trang Chi Tiết ↗</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- LOAD APPLICATION DATA & SCRIPT -->
+  <script src="toeic_app_data.js"></script>
+  <script src="toeic_reading_data.js"></script>
+  <script src="toeic_translation_data.js"></script>
+  <script src="toeic_writing_data.js"></script>
+  <script src="toeic_speaking_data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

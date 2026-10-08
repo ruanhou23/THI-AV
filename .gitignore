@@ -1,0 +1,22 @@
+# Python cache & temporary
+__pycache__/
+*.py[cod]
+*.class
+.venv/
+env/
+
+# Intermediate duplicate media folders (all app media is located in media/)
+anki_media/
+audio/
+tach_theo_part/
+test2_media/
+test3_media/
+test4_media/
+Listening practice test */*.mp3
+Listening practice test */audio_split/
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

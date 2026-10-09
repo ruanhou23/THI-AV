@@ -9,7 +9,7 @@
   <meta name="theme-color" content="#1e293b">
   <meta name="format-detection" content="telephone=no">
   <title>TOEIC Master - Ôn Luyện Listening & Reading B1 Toàn Diện</title>
-  <link rel="stylesheet" href="style.css?v=20261009_m2">
+  <link rel="stylesheet" href="style.css?v=20261009_v3">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
@@ -18,21 +18,48 @@
   <!-- TOP NAVBAR -->
   <header class="top-nav">
     <div class="nav-left">
-      <div class="app-logo">
-        <span class="logo-icon">🎯</span>
+      <div class="app-logo" id="appLogoBtn" role="button" tabindex="0" title="Về trang chủ TOEIC Master">
+        <span class="logo-icon-wrap">🎯</span>
         <div class="logo-text">
-          <span class="logo-title">TOEIC Master B1</span>
-          <span class="logo-sub">Thi thử & Chấm điểm (Listening + Reading)</span>
+          <div class="logo-title-row">
+            <span class="logo-title">TOEIC Master</span>
+            <span class="logo-badge">B1 PRO</span>
+          </div>
+          <span class="logo-sub">Luyện thi 4 Kỹ Năng & Chấm Điểm Chuẩn</span>
         </div>
       </div>
-      <div class="nav-tabs-group">
-        <button class="nav-tab-btn active" id="tabNavListening">🎧 Listening (280c)</button>
-        <button class="nav-tab-btn" id="tabNavReading">📖 Reading B1 (200c)</button>
-        <button class="nav-tab-btn" id="tabNavTranslation">🌐 Luyện Dịch (480c)</button>
-        <button class="nav-tab-btn" id="tabNavWriting">✍️ Luyện Viết B1</button>
-        <button class="nav-tab-btn" id="tabNavSpeaking">🗣️ Luyện & Thi Nói B1</button>
-        <button class="nav-tab-btn" id="tabNavEditor">🛠️ Sửa Đáp Án</button>
-      </div>
+
+      <nav class="nav-tabs-group" id="navTabsGroup" aria-label="Kỹ năng luyện thi">
+        <button type="button" class="nav-tab-btn active" id="tabNavListening" title="Luyện nghe 280 câu">
+          <span class="tab-icon">🎧</span>
+          <span class="tab-text">Listening</span>
+          <span class="tab-badge">280c</span>
+        </button>
+        <button type="button" class="nav-tab-btn" id="tabNavReading" title="Luyện đọc B1 200 câu">
+          <span class="tab-icon">📖</span>
+          <span class="tab-text">Reading</span>
+          <span class="tab-badge">200c</span>
+        </button>
+        <button type="button" class="nav-tab-btn" id="tabNavTranslation" title="Luyện dịch 480 câu">
+          <span class="tab-icon">🌐</span>
+          <span class="tab-text">Luyện Dịch</span>
+          <span class="tab-badge">480c</span>
+        </button>
+        <button type="button" class="nav-tab-btn" id="tabNavWriting" title="Luyện viết B1 câu & thư">
+          <span class="tab-icon">✍️</span>
+          <span class="tab-text">Viết B1</span>
+          <span class="tab-badge-pill">Hot</span>
+        </button>
+        <button type="button" class="nav-tab-btn" id="tabNavSpeaking" title="Luyện & thi nói B1">
+          <span class="tab-icon">🗣️</span>
+          <span class="tab-text">Nói B1</span>
+          <span class="tab-badge-pill">Hot</span>
+        </button>
+        <button type="button" class="nav-tab-btn" id="tabNavEditor" title="Quản lý & sửa đáp án">
+          <span class="tab-icon">🛠️</span>
+          <span class="tab-text">Sửa Đề</span>
+        </button>
+      </nav>
     </div>
 
     <!-- Active Test Info & Timer in Exam Mode -->
@@ -48,16 +75,21 @@
     </div>
 
     <div class="nav-right">
-      <button class="nav-btn theme-toggle" id="btnThemeToggle" title="Chuyển giao diện Sáng / Tối">
+      <button type="button" class="nav-btn btn-nav-home" id="btnNavHome" title="Quay lại trang chủ">
+        <span>🏠</span>
+        <span class="btn-text">Trang Chủ</span>
+      </button>
+      <button type="button" class="nav-btn theme-toggle" id="btnThemeToggle" title="Chuyển giao diện Sáng / Tối">
         <span id="themeIcon">☀️</span>
       </button>
-      <button class="nav-btn btn-lan-modal" id="btnLanModal" title="Xem mã QR & link truy cập trên điện thoại / máy khác">
-        <span>📱 Mạng LAN</span>
+      <button type="button" class="nav-btn btn-lan-modal" id="btnLanModal" title="Xem mã QR & link truy cập trên điện thoại / máy khác">
+        <span>📱</span>
+        <span class="btn-text">Mạng LAN</span>
       </button>
-      <button class="nav-btn btn-exit" id="btnExitTest" title="Chọn đề thi khác">
-        <span>Đổi Đề / Kỹ Năng</span>
+      <button type="button" class="nav-btn btn-exit" id="btnExitTest" title="Đổi đề hoặc kỹ năng khác">
+        <span>Đổi Đề</span>
       </button>
-      <button class="btn btn-submit-exam" id="btnTopSubmit">
+      <button type="button" class="btn btn-submit-exam" id="btnTopSubmit">
         <span>Nộp Bài</span> 🚀
       </button>
     </div>
@@ -1458,11 +1490,11 @@
   </div>
 
   <!-- LOAD APPLICATION DATA & SCRIPT -->
-  <script src="toeic_app_data.js?v=20261009_m2"></script>
-  <script src="toeic_reading_data.js?v=20261009_m2"></script>
-  <script src="toeic_translation_data.js?v=20261009_m2"></script>
-  <script src="toeic_writing_data.js?v=20261009_m2"></script>
-  <script src="toeic_speaking_data.js?v=20261009_m2"></script>
-  <script src="app.js?v=20261009_m2"></script>
+  <script src="toeic_app_data.js?v=20261009_v3"></script>
+  <script src="toeic_reading_data.js?v=20261009_v3"></script>
+  <script src="toeic_translation_data.js?v=20261009_v3"></script>
+  <script src="toeic_writing_data.js?v=20261009_v3"></script>
+  <script src="toeic_speaking_data.js?v=20261009_v3"></script>
+  <script src="app.js?v=20261009_v3"></script>
 </body>
 </html>

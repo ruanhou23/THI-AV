@@ -95,6 +95,9 @@
     screenWriting: document.getElementById('screenWriting'),
 
     // Nav
+    appLogoBtn: document.getElementById('appLogoBtn'),
+    btnNavHome: document.getElementById('btnNavHome'),
+    navTabsGroup: document.getElementById('navTabsGroup'),
     tabNavListening: document.getElementById('tabNavListening'),
     tabNavReading: document.getElementById('tabNavReading'),
     tabNavTranslation: document.getElementById('tabNavTranslation'),
@@ -555,7 +558,43 @@
   // =========================================================================
   // EVENT BINDINGS
   // =========================================================================
+  function scrollActiveNavTab(tabEl) {
+    if (!tabEl || !el.navTabsGroup) return;
+    try {
+      tabEl.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+    } catch (e) {}
+  }
+
+  function goBackToHome() {
+    if (state.activeScreen === 'exam') {
+      if (!confirm('Bạn có chắc muốn thoát bài thi hiện tại và quay về màn hình chính?')) return;
+      stopTimer();
+    }
+    stopAudio();
+    stopTransAudio();
+    stopEditorAudio();
+    if (typeof stopAllSpeakingAudio === 'function') {
+      stopAllSpeakingAudio();
+    }
+    showScreen('home');
+  }
+
   function bindEvents() {
+    // Logo & Home shortcut
+    if (el.appLogoBtn) {
+      el.appLogoBtn.addEventListener('click', goBackToHome);
+      el.appLogoBtn.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter' || e.key === ' ') {
+          e.preventDefault();
+          goBackToHome();
+        }
+      });
+    }
+
+    if (el.btnNavHome) {
+      el.btnNavHome.addEventListener('click', goBackToHome);
+    }
+
     // Theme toggle
     el.btnThemeToggle.addEventListener('click', toggleTheme);
 
@@ -951,6 +990,7 @@
       el.tabNavWriting.classList.remove('active');
       el.skillToggleListening.classList.add('active');
       el.skillToggleReading.classList.remove('active');
+      scrollActiveNavTab(el.tabNavListening);
     } else {
       el.tabNavReading.classList.add('active');
       el.tabNavListening.classList.remove('active');
@@ -958,6 +998,7 @@
       el.tabNavWriting.classList.remove('active');
       el.skillToggleReading.classList.add('active');
       el.skillToggleListening.classList.remove('active');
+      scrollActiveNavTab(el.tabNavReading);
     }
 
     renderHomeScreenSkill(skill);
@@ -1075,9 +1116,11 @@
       if (state.currentSkill === 'listening') {
         el.tabNavListening.classList.add('active');
         el.tabNavReading.classList.remove('active');
+        scrollActiveNavTab(el.tabNavListening);
       } else {
         el.tabNavReading.classList.add('active');
         el.tabNavListening.classList.remove('active');
+        scrollActiveNavTab(el.tabNavReading);
       }
       el.tabNavTranslation.classList.remove('active');
       el.tabNavWriting.classList.remove('active');
@@ -1115,6 +1158,7 @@
       el.tabNavWriting.classList.remove('active');
       if (el.tabNavSpeaking) el.tabNavSpeaking.classList.remove('active');
       if (el.tabNavEditor) el.tabNavEditor.classList.remove('active');
+      scrollActiveNavTab(el.tabNavTranslation);
       el.navCenterInfo.style.display = 'none';
       el.btnTopSubmit.style.display = 'none';
       el.btnExitTest.style.display = 'flex';
@@ -1126,6 +1170,7 @@
       el.tabNavTranslation.classList.remove('active');
       if (el.tabNavSpeaking) el.tabNavSpeaking.classList.remove('active');
       if (el.tabNavEditor) el.tabNavEditor.classList.remove('active');
+      scrollActiveNavTab(el.tabNavWriting);
       el.navCenterInfo.style.display = 'none';
       el.btnTopSubmit.style.display = 'none';
       el.btnExitTest.style.display = 'flex';
@@ -1137,6 +1182,7 @@
       el.tabNavTranslation.classList.remove('active');
       el.tabNavWriting.classList.remove('active');
       if (el.tabNavEditor) el.tabNavEditor.classList.remove('active');
+      scrollActiveNavTab(el.tabNavSpeaking);
       el.navCenterInfo.style.display = 'none';
       el.btnTopSubmit.style.display = 'none';
       el.btnExitTest.style.display = 'flex';
@@ -1148,6 +1194,7 @@
       el.tabNavTranslation.classList.remove('active');
       el.tabNavWriting.classList.remove('active');
       if (el.tabNavSpeaking) el.tabNavSpeaking.classList.remove('active');
+      scrollActiveNavTab(el.tabNavEditor);
       el.navCenterInfo.style.display = 'none';
       el.btnTopSubmit.style.display = 'none';
       el.btnExitTest.style.display = 'flex';

@@ -4732,3 +4732,232 @@ button, input, select {
   .lan-quick-banner { flex-direction: column; text-align: center; }
   .lan-banner-content { flex-direction: column; }
 }
+
+/* ==========================================================================
+   MOBILE & TABLET (IPHONE / ANDROID / IPAD) OPTIMIZATIONS
+   ========================================================================== */
+
+/* Universal Mobile Form Input Zoom Fix (Prevents iOS Safari auto-zoom on input tap) */
+@media screen and (max-width: 768px) {
+  input, select, textarea {
+    font-size: 16px !important;
+  }
+}
+
+/* Tablet & iPad Responsive (max-width: 1024px) */
+@media (max-width: 1024px) {
+  .exam-workspace-layout {
+    flex-direction: column;
+  }
+  .palette-sidebar {
+    width: 100%;
+    max-height: 280px;
+    border-left: none;
+    border-top: 1px solid var(--border-color);
+  }
+  .cues-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .writing-layout {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Mobile Devices (iPhone & Android Phones: max-width: 768px) */
+@media (max-width: 768px) {
+  /* Safe Area Insets for iPhone X-16 (Notch & Home Bar) */
+  body {
+    padding-bottom: max(16px, env(safe-area-inset-bottom));
+  }
+
+  /* Top Navigation Bar on Mobile */
+  .top-nav {
+    height: auto !important;
+    min-height: 56px;
+    padding: 8px 12px !important;
+    flex-wrap: wrap;
+    gap: 8px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  .nav-left {
+    width: auto;
+    display: flex;
+    align-items: center;
+  }
+  .nav-left .app-logo {
+    gap: 8px;
+  }
+  .logo-icon {
+    font-size: 22px;
+  }
+  .logo-title {
+    font-size: 15px;
+  }
+  .logo-sub {
+    display: none;
+  }
+  .nav-center {
+    display: flex;
+    order: 2;
+    margin-left: auto;
+  }
+  .nav-right {
+    order: 3;
+    display: flex;
+    gap: 6px;
+  }
+  .nav-btn, .btn-submit-exam {
+    padding: 6px 10px !important;
+    font-size: 12.5px !important;
+  }
+  .btn-lan-modal span, .btn-exit span {
+    font-size: 12px;
+  }
+
+  /* Scrollable Tab Bar for Mobile */
+  .nav-tabs-group {
+    order: 4;
+    width: 100% !important;
+    margin-left: 0 !important;
+    margin-top: 4px;
+    overflow-x: auto !important;
+    white-space: nowrap !important;
+    -webkit-overflow-scrolling: touch !important;
+    display: flex !important;
+    gap: 6px !important;
+    padding: 4px 6px !important;
+    scrollbar-width: none !important;
+  }
+  .nav-tabs-group::-webkit-scrollbar {
+    display: none !important;
+  }
+  .nav-tab-btn {
+    flex-shrink: 0;
+    font-size: 13px !important;
+    padding: 6px 12px !important;
+    border-radius: 20px !important;
+  }
+
+  /* Home Screen Hero & Cards */
+  .hero-section {
+    padding: 24px 16px !important;
+  }
+  .hero-title {
+    font-size: 22px !important;
+  }
+  .hero-subtitle {
+    font-size: 14px !important;
+  }
+  .mode-selection-grid, .test-list-grid {
+    grid-template-columns: 1fr !important;
+    gap: 14px !important;
+  }
+  .test-card-actions {
+    flex-direction: column !important;
+  }
+  .test-card-actions .btn {
+    width: 100% !important;
+  }
+
+  /* Speaking Section on Mobile */
+  .speaking-subnav-tabs {
+    overflow-x: auto !important;
+    white-space: nowrap !important;
+    -webkit-overflow-scrolling: touch !important;
+    scrollbar-width: none !important;
+    display: flex !important;
+    gap: 8px !important;
+    padding: 4px 0 !important;
+  }
+  .speaking-subnav-tabs::-webkit-scrollbar {
+    display: none !important;
+  }
+  .speaking-subtab-btn {
+    flex-shrink: 0;
+    font-size: 13.5px !important;
+    padding: 8px 14px !important;
+  }
+  .study-filter-pills {
+    overflow-x: auto !important;
+    white-space: nowrap !important;
+    -webkit-overflow-scrolling: touch !important;
+    scrollbar-width: none !important;
+    display: flex !important;
+    gap: 6px !important;
+    padding: 4px 0 !important;
+  }
+  .study-filter-pills::-webkit-scrollbar {
+    display: none !important;
+  }
+  .study-pill {
+    flex-shrink: 0;
+    font-size: 12.5px !important;
+  }
+
+  /* Cue Cards on Mobile (Single Column, Large Touch Cards) */
+  .cues-grid {
+    grid-template-columns: 1fr !important;
+    gap: 10px !important;
+  }
+  .cue-card-item {
+    padding: 14px !important;
+    border-radius: 10px !important;
+  }
+  .cue-card-en {
+    font-size: 14.5px !important;
+  }
+  .cue-card-ans {
+    font-size: 13.5px !important;
+  }
+
+  /* Speaking Action Controls on Mobile */
+  .speaking-controls-row, .speaking-nav-bar {
+    flex-direction: column !important;
+    align-items: stretch !important;
+    gap: 10px !important;
+  }
+  .btn-record-main, .btn-listen-sample, .btn-toggle-sample {
+    width: 100% !important;
+    min-height: 48px !important;
+    font-size: 14.5px !important;
+    justify-content: center !important;
+    border-radius: 10px !important;
+  }
+  .study-card-footer {
+    justify-content: stretch !important;
+  }
+  .btn-jump-practice {
+    width: 100% !important;
+    justify-content: center !important;
+    min-height: 44px !important;
+  }
+
+  /* Audio player full width on mobile */
+  audio {
+    width: 100% !important;
+  }
+
+  /* Question options in Exam / Practice */
+  .options-grid {
+    grid-template-columns: 1fr !important;
+  }
+  .option-item {
+    padding: 12px 14px !important;
+    min-height: 48px !important;
+    font-size: 14.5px !important;
+  }
+
+  /* Exam Controls Bottom Bar */
+  .exam-bottom-bar {
+    padding: 10px 12px !important;
+    flex-wrap: wrap !important;
+    gap: 8px !important;
+  }
+  .exam-bottom-bar .btn {
+    flex: 1 1 auto !important;
+    min-height: 44px !important;
+    justify-content: center !important;
+  }
+}

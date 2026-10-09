@@ -3398,37 +3398,72 @@
     }
   }
 
+  function getSupportedAudioMimeType() {
+    if (typeof MediaRecorder === 'undefined') return '';
+    const candidates = [
+      'audio/webm;codecs=opus',
+      'audio/webm',
+      'audio/mp4;codecs=aac',
+      'audio/mp4',
+      'audio/aac',
+      'audio/ogg;codecs=opus'
+    ];
+    for (const t of candidates) {
+      if (typeof MediaRecorder.isTypeSupported === 'function' && MediaRecorder.isTypeSupported(t)) {
+        return t;
+      }
+    }
+    return '';
+  }
+
   function speakEnglish(text, customRate) {
     if (!('speechSynthesis' in window)) {
       showToast('⚠️ Trình duyệt của bạn không hỗ trợ phát âm Web Speech API.');
       return;
     }
-    window.speechSynthesis.cancel();
-    const utterance = new SpeechSynthesisUtterance(text);
-    utterance.lang = 'en-US';
-    utterance.rate = customRate || state.speakingStudySpeed || 0.95;
-    utterance.pitch = 1.0;
+    try {
+      window.speechSynthesis.cancel();
+      if (window.speechSynthesis.paused) {
+        window.speechSynthesis.resume();
+      }
+      const utterance = new SpeechSynthesisUtterance(text);
+      utterance.lang = 'en-US';
+      utterance.rate = customRate || state.speakingStudySpeed || 0.95;
+      utterance.pitch = 1.0;
 
-    const voices = window.speechSynthesis.getVoices();
-    const enVoice = voices.find(v => v.lang === 'en-US' || v.lang === 'en_US') ||
-                    voices.find(v => v.lang && v.lang.startsWith('en'));
-    if (enVoice) {
-      utterance.voice = enVoice;
-    }
+      const voices = window.speechSynthesis.getVoices();
+      if (voices && voices.length > 0) {
+        const enVoice = voices.find(v => v.lang === 'en-US' || v.lang === 'en_US') ||
+                        voices.find(v => v.lang && v.lang.startsWith('en'));
+        if (enVoice) {
+          utterance.voice = enVoice;
+        }
+      }
 
-    if (el.speakingStatusBadge) {
-      el.speakingStatusBadge.className = 'speaking-status-badge';
-      el.speakingStatusBadge.textContent = '🔊 Đang phát âm bài mẫu...';
-    }
-
-    utterance.onend = () => {
       if (el.speakingStatusBadge) {
         el.speakingStatusBadge.className = 'speaking-status-badge';
-        el.speakingStatusBadge.textContent = '🎙️ Sẵn sàng luyện nói';
+        el.speakingStatusBadge.textContent = '🔊 Đang phát âm bài mẫu...';
       }
-    };
 
-    window.speechSynthesis.speak(utterance);
+      utterance.onend = () => {
+        if (el.speakingStatusBadge) {
+          el.speakingStatusBadge.className = 'speaking-status-badge';
+          el.speakingStatusBadge.textContent = '🎙️ Sẵn sàng luyện nói';
+        }
+      };
+
+      utterance.onerror = (e) => {
+        console.warn('Speech synthesis utterance error:', e);
+        if (el.speakingStatusBadge) {
+          el.speakingStatusBadge.className = 'speaking-status-badge';
+          el.speakingStatusBadge.textContent = '🎙️ Sẵn sàng luyện nói';
+        }
+      };
+
+      window.speechSynthesis.speak(utterance);
+    } catch (err) {
+      console.warn('Speech synthesis error:', err);
+    }
   }
 
   function playExamBeep(isHigh) {
@@ -4129,14 +4164,18 @@ let speakingInitialized = false;
     // 1. Microphone recording via MediaRecorder
     try {
       const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
-      state.speakingMediaRecorder = new MediaRecorder(stream);
+      const mimeType = getSupportedAudioMimeType();
+      const options = mimeType ? { mimeType } : {};
+      state.speakingMediaRecorder = new MediaRecorder(stream, options);
+      state.speakingAudioChunks = [];
       state.speakingMediaRecorder.ondataavailable = (e) => {
         if (e.data && e.data.size > 0) {
           state.speakingAudioChunks.push(e.data);
         }
       };
       state.speakingMediaRecorder.onstop = () => {
-        const audioBlob = new Blob(state.speakingAudioChunks, { type: 'audio/webm' });
+        const actualMime = state.speakingMediaRecorder.mimeType || mimeType || 'audio/mp4';
+        const audioBlob = new Blob(state.speakingAudioChunks, { type: actualMime });
         const audioUrl = URL.createObjectURL(audioBlob);
         audioPlayer.src = audioUrl;
         audioWrap.style.display = 'flex';
@@ -4145,6 +4184,7 @@ let speakingInitialized = false;
       state.speakingMediaRecorder.start();
     } catch (err) {
       console.warn("Could not access microphone for audio recording:", err);
+      showToast('⚠️ Vui lòng cho phép quyền truy cập Micro trên trình duyệt để ghi âm.');
     }
 
     // 2. Speech to Text via Web Speech Recognition
@@ -4420,12 +4460,15 @@ let speakingInitialized = false;
 
     try {
       const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
-      state.speakingMediaRecorder = new MediaRecorder(stream);
+      const mimeType = getSupportedAudioMimeType();
+      const options = mimeType ? { mimeType } : {};
+      state.speakingMediaRecorder = new MediaRecorder(stream, options);
       state.speakingMediaRecorder.ondataavailable = e => {
         if (e.data && e.data.size > 0) state.speakingAudioChunks.push(e.data);
       };
       state.speakingMediaRecorder.onstop = () => {
-        currentExamAudioBlob = new Blob(state.speakingAudioChunks, { type: 'audio/webm' });
+        const actualMime = state.speakingMediaRecorder.mimeType || mimeType || 'audio/mp4';
+        currentExamAudioBlob = new Blob(state.speakingAudioChunks, { type: actualMime });
         const blobUrl = URL.createObjectURL(currentExamAudioBlob);
         state.speakingExamAnswers.push({
           item: item,

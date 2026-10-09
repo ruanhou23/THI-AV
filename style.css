@@ -3757,6 +3757,24 @@ button, input, select {
   color: var(--text-muted);
 }
 
+.cue-card-ans {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--primary);
+  margin-top: 6px;
+  line-height: 1.45;
+  background: rgba(37, 99, 235, 0.08);
+  padding: 6px 8px;
+  border-radius: 6px;
+}
+
+.cue-card-ans-vi {
+  font-size: 12px;
+  color: var(--text-muted);
+  line-height: 1.4;
+  margin-top: 3px;
+}
+
 /* Part 3 Exam Interface */
 .speaking-exam-setup {
   background: var(--bg-surface);

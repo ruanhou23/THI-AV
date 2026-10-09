@@ -4067,6 +4067,8 @@ let speakingInitialized = false;
         <span class="cue-card-num">Gợi ý ${idx + 1}</span>
         <span class="cue-card-en">${c.cue}</span>
         <span class="cue-card-vi">${c.cueVi}</span>
+        <div class="cue-card-ans">💬 ${c.answer}</div>
+        <div class="cue-card-ans-vi">→ ${c.answerVi}</div>
       </div>
     `).join('');
 
